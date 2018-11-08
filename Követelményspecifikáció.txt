@@ -1,5 +1,14 @@
 ﻿1. Jelenlegi helyzet
+
 2. Követelménylista
+
+A riport alapján a megrendelő elvárásai a következők:
+
+ID			NÉV			KIFEJTÉS
+Kov_001		Egyszerű, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
+Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetőbb legyen a tanulás folyamata
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhető, tanulható
+
 3. Törvények
 Felhasználó által generált tartalom. Minden olyan alkalmazásnak, amely tartalmazza a felhasználó által generált tartalmat (UGC), vagy tartalmaznia kell, további óvintézkedéseket kell tennie, például a jelentési rendszert, a helyes kategorizálást és az IARC-minősítéseket.
 
@@ -12,4 +21,6 @@ Rögzítő. Mindig fennáll annak a lehetősége, hogy az alkalmazás nem indul 
 
 Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
 Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
+Az alapvető elképzelés az, hogy a gyerekek megtanuljanak csoportokban dolgozni.
+4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.
 5.Fogalomszótár
