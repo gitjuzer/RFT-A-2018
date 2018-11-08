@@ -11,6 +11,15 @@ Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes
 Kov_004         Felület                         Legyen online felülete és android felülete
 
 3. Törvények
+
+A legfontosabbak változások röviden:
+
+    mielőtt bármilyen adatot bekér tőlünk egy szervezet, pontos tájékoztatást kell adnia, hogy mi az adatkezelés célja, hogyan kezeli az adatokat vagy például kik férhetnek hozzá
+    egy adatbázisból kérésünk esetén például e-mail-címünk törlésének elmaradása az eddigieknél jobban számonkérhető, szankcionálható lesz
+    az új jogszabályok magas bírságokkal kényszerítik ki a biztonságos adatkezelést, vagyis azt, hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bíró gyakorlat még hiányzik, de a bírság akár 20 millió euró vagy az éves árbevétel 4 %- a is lehet
+    olyan eseteket is szabályoz és szankcionál a rendelkezés, amikor például egy hackertámadás következtében személyes adataink kikerülnek az adatkezelő rendszeréből, ellopják azokat vagy ha egy rendszerhiba miatt megsemmisülnek. Nagyobb lesz a felelősség az adatkezelőkön
+
+
 Felhasználó által generált tartalom. Minden olyan alkalmazásnak, amely tartalmazza a felhasználó által generált tartalmat (UGC), vagy tartalmaznia kell, további óvintézkedéseket kell tennie, például a jelentési rendszert, a helyes kategorizálást és az IARC-minősítéseket.
 
 DMCA. Míg az alkalmazásboltok kötelezik arra, hogy az alkalmazásában "erkölcsi alapot" teremtsenek, létezik a Digital Millennium Copyright Act (az online szerzői jogi kötelezettség megsértéséről szóló törvény), amely mentesíti az internetszolgáltatók és más közvetítők közvetlen és közvetett felelősségét.
