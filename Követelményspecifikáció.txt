@@ -12,8 +12,18 @@ ID			NÉV			KIFEJTÉS
 Kov_001		Egyszerű, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
 Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetőbb legyen a tanulás folyamata
 Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhető, tanulható
+Kov_004         Felület                         Legyen online felülete és android felülete
 
 3. Törvények
+
+A legfontosabbak változások röviden:
+
+    mielőtt bármilyen adatot bekér tőlünk egy szervezet, pontos tájékoztatást kell adnia, hogy mi az adatkezelés célja, hogyan kezeli az adatokat vagy például kik férhetnek hozzá
+    egy adatbázisból kérésünk esetén például e-mail-címünk törlésének elmaradása az eddigieknél jobban számonkérhető, szankcionálható lesz
+    az új jogszabályok magas bírságokkal kényszerítik ki a biztonságos adatkezelést, vagyis azt, hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bíró gyakorlat még hiányzik, de a bírság akár 20 millió euró vagy az éves árbevétel 4 %- a is lehet
+    olyan eseteket is szabályoz és szankcionál a rendelkezés, amikor például egy hackertámadás következtében személyes adataink kikerülnek az adatkezelő rendszeréből, ellopják azokat vagy ha egy rendszerhiba miatt megsemmisülnek. Nagyobb lesz a felelősség az adatkezelőkön
+
+
 Felhasználó által generált tartalom. Minden olyan alkalmazásnak, amely tartalmazza a felhasználó által generált tartalmat (UGC), vagy tartalmaznia kell, további óvintézkedéseket kell tennie, például a jelentési rendszert, a helyes kategorizálást és az IARC-minősítéseket.
 
 DMCA. Míg az alkalmazásboltok kötelezik arra, hogy az alkalmazásában "erkölcsi alapot" teremtsenek, létezik a Digital Millennium Copyright Act (az online szerzői jogi kötelezettség megsértéséről szóló törvény), amely mentesíti az internetszolgáltatók és más közvetítők közvetlen és közvetett felelősségét.
@@ -21,11 +31,17 @@ DMCA. Míg az alkalmazásboltok kötelezik arra, hogy az alkalmazásában "erkö
 Ez azt jelenti, hogy nem felelős a szerzői joggal védett vagy nem megfelelő tartalmak terjesztéséért a médiatartományban, ha Ön kijelölt ügynökként van bejegyezve, tegyen lépéseket a jogsértő tartalmak eltávolítására és tiltsák meg a jogsértőket.
 
 Rögzítő. Mindig fennáll annak a lehetősége, hogy az alkalmazás nem indul el először. Általában ezek a problémák könnyen megoldhatók. Ilyen esetekben az utószolgálat karbantartását végezzük annak érdekében, hogy segítségünkre legyenek a regisztrálási folyamat során, és módosítsunk a felhasználó felhasználói és tárolja a visszajelzést.
+<<<<<<< HEAD
 >>>>>>> 957f2a7d9197d9ee1332e1138ce81446728ee8f1
+=======
+
+>>>>>>> a5a0df618b986670ce7b111d31c2bd6f8392d2a6
 4.Vágyálom rendszer leírása:
 
 Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
 Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
 Az alapvető elképzelés az, hogy a gyerekek megtanuljanak csoportokban dolgozni.
 4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.
+A csoportos feladatok mellett egyéni feladatokat is kapnának, ezeket mind a tanár állítaná össze az adott tantárgynak megfelelően. 
+
 5.Fogalomszótár
