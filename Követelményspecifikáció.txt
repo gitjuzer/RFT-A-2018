@@ -1,6 +1,7 @@
 ﻿1. Jelenlegi helyzet
 2. Követelménylista
 3. Törvények, pályázatok, szabványok
+	Pályázatfigyelő oldalon találtam egy számunkra megfelelő pályázati lehetőséget visszanemtérintendő támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg. 
 4.Vágyálom rendszer leírása:
 
 Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
