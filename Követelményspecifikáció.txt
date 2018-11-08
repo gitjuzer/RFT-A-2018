@@ -5,4 +5,6 @@
 
 Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
 Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
+Az alapvető elképzelés az, hogy a gyerekek megtanuljanak csoportokban dolgozni.
+4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.
 5.Fogalomszótár
