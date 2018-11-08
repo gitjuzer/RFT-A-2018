@@ -40,5 +40,5 @@ Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és 
 Az alapvető elképzelés az, hogy a gyerekek megtanuljanak csoportokban dolgozni.
 4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.
 A csoportos feladatok mellett egyéni feladatokat is kapnának, ezeket mind a tanár állítaná össze az adott tantárgynak megfelelően. 
-
+A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz az optimális terhelés elérését kívánjuk megvalósítani.
 5.Fogalomszótár
