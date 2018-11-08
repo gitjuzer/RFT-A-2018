@@ -1,5 +1,9 @@
 ﻿1. Jelenlegi helyzet
 
+Meghatározásra kerültek a követelmény specifikáció részei.
+Megadtuk a feladatok határidejét
+Csoportokba szerveződtünk és felosztottuk a feladatokat.
+
 2. Követelménylista
 
 A riport alapján a megrendelő elvárásai a következők:
