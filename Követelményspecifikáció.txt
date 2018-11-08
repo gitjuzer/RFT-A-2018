@@ -12,7 +12,7 @@ Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában tö
 Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhető, tanulható
 Kov_004		Felület				Legyen online felülete és android felülete
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
-Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni
+Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
 3. Törvények
 
 A legfontosabbak változások röviden:
