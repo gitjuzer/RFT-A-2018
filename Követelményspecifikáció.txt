@@ -1,5 +1,7 @@
-1. Jelenlegi helyzet
+﻿1. Jelenlegi helyzet
 2. Követelménylista
 3. Törvények
-4.Vágyálomrendszer
+4.Vágyálom rendszer leírása:
+
+Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk. Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
 5.Fogalomszótár
