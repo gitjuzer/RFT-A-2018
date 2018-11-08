@@ -1,10 +1,7 @@
 ﻿1. Jelenlegi helyzet
 
 2. Követelménylista
-<<<<<<< HEAD
-3. Törvények, pályázatok, szabványok
-	Pályázatfigyelő oldalon találtam egy számunkra megfelelő pályázati lehetőséget visszanemtérintendő támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg. 
-=======
+
 
 A riport alapján a megrendelő elvárásai a következők:
 
@@ -34,7 +31,7 @@ Rögzítő. Mindig fennáll annak a lehetősége, hogy az alkalmazás nem indul 
 <<<<<<< HEAD
 >>>>>>> 957f2a7d9197d9ee1332e1138ce81446728ee8f1
 =======
-
+Pályázatfigyelő oldalon találtam egy számunkra megfelelő pályázati lehetőséget visszanemtérintendő támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg.
 >>>>>>> a5a0df618b986670ce7b111d31c2bd6f8392d2a6
 4.Vágyálom rendszer leírása:
 
