@@ -1,3 +1,4 @@
 4. Vágyálom rendszer leírása:
 
-Szeretnénk egy olyan online elérhetõ felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk. Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
+Szeretnénk egy olyan online elérhetõ felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
+Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
