@@ -1,9 +1,31 @@
 ﻿1. Jelenlegi helyzet
+
 2. Követelménylista
+<<<<<<< HEAD
 3. Törvények, pályázatok, szabványok
 	Pályázatfigyelő oldalon találtam egy számunkra megfelelő pályázati lehetőséget visszanemtérintendő támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg. 
+=======
+
+A riport alapján a megrendelő elvárásai a következők:
+
+ID			NÉV			KIFEJTÉS
+Kov_001		Egyszerű, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
+Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetőbb legyen a tanulás folyamata
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhető, tanulható
+
+3. Törvények
+Felhasználó által generált tartalom. Minden olyan alkalmazásnak, amely tartalmazza a felhasználó által generált tartalmat (UGC), vagy tartalmaznia kell, további óvintézkedéseket kell tennie, például a jelentési rendszert, a helyes kategorizálást és az IARC-minősítéseket.
+
+DMCA. Míg az alkalmazásboltok kötelezik arra, hogy az alkalmazásában "erkölcsi alapot" teremtsenek, létezik a Digital Millennium Copyright Act (az online szerzői jogi kötelezettség megsértéséről szóló törvény), amely mentesíti az internetszolgáltatók és más közvetítők közvetlen és közvetett felelősségét.
+
+Ez azt jelenti, hogy nem felelős a szerzői joggal védett vagy nem megfelelő tartalmak terjesztéséért a médiatartományban, ha Ön kijelölt ügynökként van bejegyezve, tegyen lépéseket a jogsértő tartalmak eltávolítására és tiltsák meg a jogsértőket.
+
+Rögzítő. Mindig fennáll annak a lehetősége, hogy az alkalmazás nem indul el először. Általában ezek a problémák könnyen megoldhatók. Ilyen esetekben az utószolgálat karbantartását végezzük annak érdekében, hogy segítségünkre legyenek a regisztrálási folyamat során, és módosítsunk a felhasználó felhasználói és tárolja a visszajelzést.
+>>>>>>> 957f2a7d9197d9ee1332e1138ce81446728ee8f1
 4.Vágyálom rendszer leírása:
 
 Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
 Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
+Az alapvető elképzelés az, hogy a gyerekek megtanuljanak csoportokban dolgozni.
+4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.
 5.Fogalomszótár
