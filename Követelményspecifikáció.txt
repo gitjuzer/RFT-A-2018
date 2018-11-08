@@ -1,6 +1,8 @@
 ﻿1. Jelenlegi helyzet
 
-
+Voltam a régi általános iskolámban, beszélgettem a régi tanáraimmal és mondták, hogy jó lenne egy tanulás segítő program.
+Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
+Jelenleg nincs ilyen rendszer a környező iskolákban, ezért máshova is el tudnánk adni.
 
 2. Követelménylista
 
