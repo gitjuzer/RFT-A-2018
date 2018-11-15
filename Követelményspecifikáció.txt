@@ -75,3 +75,7 @@ A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelve
     Integritás és bizalmas jelleg
     Elszámoltathatóság
     Bizalom
+
+6.Jelenlegi üzleti folyamatok modellje
+
+7.Igényelt üzleti folyamatok modellje
