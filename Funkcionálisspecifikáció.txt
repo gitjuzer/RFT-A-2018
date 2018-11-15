@@ -39,7 +39,7 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 		Tanárok. A tanárok fõleg a tanítás megkönnyítésére és arra hogy felkeltség a diákok érdeklõdését, és ösztönözzék õket a tanulásra.
 		
 
-	rendszert mire akarják majd használni:
+	rendszert mire akarják majd használni:A rendszert tanulási és tanítási szempontokra is lehessen használni.
 	egyéb feltételeknek kell teljesülniük:
 
 Használati eset diagram: 
