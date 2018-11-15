@@ -42,6 +42,6 @@ A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, 
 (A második mérföldő elképzelése az lenne, hogy a gyerekek megtanuljanak csoportokban is dolgozni.
 4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.)
 A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg. 
-(Ötletek: virtuális matricák gyűjtése, piros pontok stb., amelyekkel később akár jegyeket is szerezhetnek)
+(Ötletek: virtuális matricák gyűjtése, piros pontok stb.,ezeknek a legnagyobb gyűjtőformája lenne a kupák vagy serlegek, amelyekkel később akár jegyeket is szerezhetnek)
 
 5.Fogalomszótár
