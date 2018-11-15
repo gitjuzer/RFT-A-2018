@@ -31,33 +31,19 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 5.Fogalomszótár
 
 
-6. Használati esetek
-=======
-
 6.Használati eset
 
 	kik, és mire akarják használni a rendszert:
-
 		A tanulni vágyó diákok használhatják majd a rendszert. A fõleg arra, hogy fejlesszék a tudásukat, egy olyan formában ami játékos módon teszi mindeszt.
 		Olyan felnõttek  akik szeretnék szinten tartani a tudásukat miközben egy jó szórakozást is látnak a dologban.
 		Tanárok. A tanárok fõleg a tanítás megkönnyítésére és arra hogy felkeltség a diákok érdeklõdését, és ösztönözzék õket a tanulásra.
 		
 
-
 	rendszert mire akarják majd használni:A rendszert tanulási és tanítási szempontokra is lehessen használni.
 	egyéb feltételeknek kell teljesülniük:
 
 Használati eset diagram: 
-=======
-	rendszert mire akarják majd használni:
 
-		A különbözõ tantárgyak játékosformában történõ elsajátítására akarják használni ezt az általános iskolákban.
-		A tanárok úgy gondolják, hogy fõként az alsó tagozatos gyerekek jobban tanulnak, ha mindezt játékkal kapcsolatosan
-		történik. Ezen program által a tanárok minden diáknak egyedi képességeihez illõ feladatokat tud adni és ellenõrizni
-		tudja a házifeladatokat is ezáltal a saját munkáját is meggyorsítja. A program közvetlen visszajelzést tud adni a diákoknak
-		a házifeladatuk helyességérõl és ezeket a válaszokat elmentve késõbb vissza tudják saját magukat ellenõrizni a késõbbiekben.
+A használati eset-modell leírása:
 
-	egyéb feltételeknek kell teljesülniük:
-
-Használati eset diagram:
-
+A jellemzõ forgatókönyvek leírásait:
