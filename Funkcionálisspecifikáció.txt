@@ -5,6 +5,11 @@
 
 Szeretnénk egy olyan online elérhetõ felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
 Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
-Az alapvetõ elképzelés az, hogy a gyerekek megtanuljanak csoportokban dolgozni.
-4-5 fõs csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.
+Egyéni feladatokat kapnának, ezeket mind a tanár állítaná össze az adott tantárgynak megfelelõen. 
+A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz az optimális terhelés elérését kívánjuk megvalósítani.
+(A második mérföldõ elképzelése az lenne, hogy a gyerekek megtanuljanak csoportokban is dolgozni.
+4-5 fõs csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.)
+A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg. 
+(Ötletek: virtuális matricák gyûjtése, piros pontok stb., amelyekkel késõbb akár jegyeket is szerezhetnek)
+
 5.Fogalomszótár
