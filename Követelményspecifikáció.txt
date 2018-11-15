@@ -52,4 +52,6 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, a
 (Ötletek: virtuális matricák gyűjtése, piros pontok stb.,ezeknek a legnagyobb gyűjtőformája lenne a kupák vagy serlegek, amelyekkel később akár jegyeket is szerezhetnek)
 
 5.Fogalomszótár
-
+-GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
+-UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
+-DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzői jogok megsértése elleni fellépés. 
