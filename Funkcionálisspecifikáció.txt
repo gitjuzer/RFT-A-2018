@@ -32,6 +32,11 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 6.Használati eset
 
 	kik, és mire akarják használni a rendszert:
+		A tanulni vágyó diákok használhatják majd a rendszert. A fõleg arra, hogy fejlesszék a tudásukat, egy olyan formában ami játékos módon teszi mindeszt.
+		Olyan felnõttek  akik szeretnék szinten tartani a tudásukat miközben egy jó szórakozást is látnak a dologban.
+		Tanárok. A tanárok fõleg a tanítás megkönnyítésére és arra hogy felkeltség a diákok érdeklõdését, és ösztönözzék õket a tanulásra.
+		
+
 	rendszert mire akarják majd használni:
 	egyéb feltételeknek kell teljesülniük:
 
