@@ -63,9 +63,7 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 
 
 
-A használati eset-modell leírása:
 
-A jellemzõ forgatókönyvek leírásait:
 
 Használati eset diagram:
 
@@ -83,5 +81,26 @@ Diák ------>	|	Barátkövetés	 |
 Diák ------>	|	Barátmeghívás	 |
 		|			 |
 		--------------------------
+
+A használati eset-modell leírása:
+
+A jellemzõ forgatókönyvek leírásait:
+
+Forgatókönyv regisztrációhoz:
+1.regisztrációs ûrlap megjelenítése
+2.ûrlap adatainak tárolása
+3.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
+4.regisztráció megerõsítõ email küldése
+5.megerõsítés fogadása
+6.regisztráció aktiválása
+
+Lecke felvitel:
+1.Profil megjelenítése
+2.Saját leckék megjelenítése
+3.Új lecke felvétele gomb
+4.Kiválasztani a feltoltendõ fájlt
+5.Feltöltés
+6.Dönteni hogy publicus vagy privat legyen e a lecke
+
 
 
