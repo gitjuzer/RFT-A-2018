@@ -19,6 +19,9 @@ Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás k
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
 Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelően kell kezelni.
 Kov_008		Feladatok			A felület alkalmas legyen különböző témájú feladatok összeállítására.
+Kov_009		Helyesség
+Kov_010		Megbízhatóság			
+Kov_011		Hatékonyság/magas teljesítmény 
 3. Törvények
 
 GDPR
