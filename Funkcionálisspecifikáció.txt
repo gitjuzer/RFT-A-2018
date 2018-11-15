@@ -18,3 +18,12 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 (Ötletek: virtuális matricák gyûjtése, piros pontok stb., amelyekkel késõbb akár jegyeket is szerezhetnek)
 
 5.Fogalomszótár
+
+
+6.Használati eset
+
+	kik, és mire akarják használni a rendszert:
+	rendszert mire akarják majd használni:
+	egyéb feltételeknek kell teljesülniük:
+
+Használati eset diagram:
