@@ -17,6 +17,7 @@ Kov_004		Felület				Legyen online felülete és android felülete
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
 Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelően kell kezelni.
+Kov_008		Feladatok			A felület alkalmas legyen különböző témájú feladatok összeállítására.
 3. Törvények
 
 GDPR
