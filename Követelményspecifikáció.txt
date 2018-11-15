@@ -20,7 +20,7 @@ Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricáka
 Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelően kell kezelni.
 Kov_008		Feladatok			A felület alkalmas legyen különböző témájú feladatok összeállítására.
 Kov_009		Helyesség
-Kov_010		Megbízhatóság			
+Kov_010		Megbízhatóság			Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen akkor,amikor nagy mennyiségű user használja egyszerre
 Kov_011		Hatékonyság/magas teljesítmény 
 3. Törvények
 
