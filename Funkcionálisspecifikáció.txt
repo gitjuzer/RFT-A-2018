@@ -54,4 +54,18 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 	egyéb feltételeknek kell teljesülniük:
 
 Használati eset diagram:
+		__________________________
+		|			 |
+		|			 |
+Diák ------>	|   Lecke megtekintés	 |
+		|			 |
+		|     Lecke felvitel	 |<----- Oktató
+		|			 |  
+Diák ------>	|	Regisztráció	 |<----- Oktató
+		|			 |
+Diák ------>	|	Barátkövetés	 |
+		|			 |
+Diák ------>	|	Barátmeghívás	 |
+		|			 |
+		--------------------------
 >>>>>>> 77e035c8687d92602ed3289789cb141cb5458ce5
