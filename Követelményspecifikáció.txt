@@ -61,3 +61,13 @@ Sz06	 Adatkezelés: A személyes adatokon vagy adatállományokon automatizált 
 Sz07	 Adatkezelő: Az a természetes vagy jogi személy, közhatalmi szerv, ügynökség vagy bármely egyéb szerv, amely a személyes adatok kezelésének céljait és eszközeit önállóan vagy másokkal együtt meghatározza; ha az adatkezelés céljait és eszközeit az uniós vagy a tagállami jog határozza meg, az adatkezelőt vagy az adatkezelő kijelölésére vonatkozó különös szempontokat az uniós vagy a tagállami jog is meghatározhatja. 
 Sz08 	Adatfeldolgozó: Az a természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki vagy amely szerződés alapján - beleértve a jogszabály rendelkezése alapján kötött szerződést is - adatok feldolgozását végzi.
 Sz09	Érintett: Az adatkezelés alanya, bármely meghatározott, személyes adat alapján azonosított vagy - közvetlenül vagy közvetve - azonosítható természetes személy. 
+A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelvet fogalmaz meg, melyek a következők:
+
+    Jogszerűség, tisztességes eljárás és átláthatóság
+    Célhoz kötöttség
+    Adattakarékosság
+    Pontosság
+    Korlátozott tárolhatóság
+    Integritás és bizalmas jelleg
+    Elszámoltathatóság
+    Bizalom
