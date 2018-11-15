@@ -17,6 +17,8 @@ Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás k
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
 3. Törvények
 
+GDPR
+
 A legfontosabbak változások röviden:
 
     mielőtt bármilyen adatot bekér tőlünk egy szervezet, pontos tájékoztatást kell adnia, hogy mi az adatkezelés célja, hogyan kezeli az adatokat vagy például kik férhetnek hozzá
