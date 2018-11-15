@@ -7,6 +7,7 @@ Jelenleg nincs ilyen rendszer a környező iskolákban, ezért máshova is el tu
 
 2. Követelménylista
 
+
 A riport alapján a megrendelő elvárásai a következők:
 
 ID			NÉV			KIFEJTÉS
@@ -34,7 +35,11 @@ Felhasználó által generált tartalom. Minden olyan alkalmazásnak, amely tart
 DMCA. Míg az alkalmazásboltok kötelezik arra, hogy az alkalmazásában "erkölcsi alapot" teremtsenek, létezik a Digital Millennium Copyright Act (az online szerzői jogi kötelezettség megsértéséről szóló törvény), amely mentesíti az internetszolgáltatók és más közvetítők közvetlen és közvetett felelősségét.
 Ez azt jelenti, hogy nem felelős a szerzői joggal védett vagy nem megfelelő tartalmak terjesztéséért a médiatartományban, ha Ön kijelölt ügynökként van bejegyezve, tegyen lépéseket a jogsértő tartalmak eltávolítására és tiltsák meg a jogsértőket.
 Rögzítő. Mindig fennáll annak a lehetősége, hogy az alkalmazás nem indul el először. Általában ezek a problémák könnyen megoldhatók. Ilyen esetekben az utószolgálat karbantartását végezzük annak érdekében, hogy segítségünkre legyenek a regisztrálási folyamat során, és módosítsunk a felhasználó felhasználói és tárolja a visszajelzést.
-
+<<<<<<< HEAD
+>>>>>>> 957f2a7d9197d9ee1332e1138ce81446728ee8f1
+=======
+Pályázatfigyelő oldalon találtam egy számunkra megfelelő pályázati lehetőséget visszanemtérintendő támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg.
+>>>>>>> a5a0df618b986670ce7b111d31c2bd6f8392d2a6
 4.Vágyálom rendszer leírása:
 
 Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
@@ -47,7 +52,8 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, a
 (Ötletek: virtuális matricák gyűjtése, piros pontok stb.,ezeknek a legnagyobb gyűjtőformája lenne a kupák vagy serlegek, amelyekkel később akár jegyeket is szerezhetnek)
 
 5.Fogalomszótár
-Sz01: GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
-Sz02: UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
-Sz03: DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzői jogok megsértése elleni fellépés. 
-Sz04:Személyes adat: Azonosított vagy azonosítható természetes személyre (Érintett) vonatkozó bármely információ. Azonosítható az a természetes személy, aki közvetlen vagy közvetett módon, különösen valamely azonosító, például név, szám, helymeghatározó adat, online azonosító vagy a természetes személy testi, fiziológiai, genetikai, szellemi, gazdasági, kulturális vagy szociális azonosságára vonatkozó egy vagy több tényező alapján azonosítható. 
+Sz01	 GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
+Sz02	 UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
+Sz03	 DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzői jogok megsértése elleni fellépés. 
+Sz04	 Személyes adat: Azonosított vagy azonosítható természetes személyre (Érintett) vonatkozó bármely információ. Azonosítható az a természetes személy, aki közvetlen vagy közvetett módon, különösen valamely azonosító, például név, szám, helymeghatározó adat, online azonosító vagy a természetes személy testi, fiziológiai, genetikai, szellemi, gazdasági, kulturális vagy szociális azonosságára vonatkozó egy vagy több tényező alapján azonosítható. 
+Sz05	 Különleges személyes adat: A faji vagy etnikai származásra, politikai véleményre, vallási vagy világnézeti meggyőződésre vagy szakszervezeti tagságra utaló személyes adatok, valamint a természetes személyek egyedi azonosítását célzó genetikai és biometrikus adatok, az egészségügyi adatok és a természetes személyek szexuális életére vagy szexuális irányultságára vonatkozó személyes adatok. 
