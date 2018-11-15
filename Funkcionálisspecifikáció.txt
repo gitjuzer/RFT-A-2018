@@ -14,9 +14,8 @@ Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes okta
 Kov_004		Felület				Legyen online felülete és android felülete
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
-Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék.
-Kov_008		Feladatok			A felület alkalmas legyen különbözõ témájú feladatok összeállítására.
- 
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék. 
+
 3. Törvények
 4. Vágyálom rendszer leírása:
 
@@ -31,7 +30,7 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 
 5.Fogalomszótár
 
-<<<<<<< HEAD
+
 6. Használati esetek
 =======
 
@@ -43,6 +42,13 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 		Olyan felnõttek  akik szeretnék szinten tartani a tudásukat miközben egy jó szórakozást is látnak a dologban.
 		Tanárok. A tanárok fõleg a tanítás megkönnyítésére és arra hogy felkeltség a diákok érdeklõdését, és ösztönözzék õket a tanulásra.
 		
+
+
+	rendszert mire akarják majd használni:A rendszert tanulási és tanítási szempontokra is lehessen használni.
+	egyéb feltételeknek kell teljesülniük:
+
+Használati eset diagram: 
+=======
 	rendszert mire akarják majd használni:
 
 		A különbözõ tantárgyak játékosformában történõ elsajátítására akarják használni ezt az általános iskolákban.
@@ -54,4 +60,4 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 	egyéb feltételeknek kell teljesülniük:
 
 Használati eset diagram:
->>>>>>> 77e035c8687d92602ed3289789cb141cb5458ce5
+
