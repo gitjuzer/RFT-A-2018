@@ -52,6 +52,12 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 		a házifeladatuk helyességérõl és ezeket a válaszokat elmentve késõbb vissza tudják saját magukat ellenõrizni a késõbbiekben.
 
 	egyéb feltételeknek kell teljesülniük:
+		
+		Egyéb feltételek között teljesülnie kéne, hogy csoportmunkát támogassa amit a tanár nyomon tud követni és minden lépest/elvégzett
+		dolgot naplóz így, ha a tanár esetleg nem elérhetõ akkor késõbb vissza tudja ellenõrizni, hogy tanítványai mit dolgoztak.
+		A tanárnak tudnia kell jutalmazni a diákokat virtuális matricákkal vagy pirospontokkal és ezek alapján egy rangsort állíthatna a rendszer
+		és a legjobb három diákot az év végén jutalmazná a tanár valami személyes kis aprósággal vagy 5-10 pirospont után lehetne egy naplóba beírt 5ös szerezni,
+		de ugyan így mûködne a büntetés rész is. Esetleges egyéb feltétel lehet az e-naplo hozzákapcsolása a tanári felülethez. 
 
 Használati eset diagram:
 >>>>>>> 77e035c8687d92602ed3289789cb141cb5458ce5
