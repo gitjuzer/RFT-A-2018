@@ -4,6 +4,7 @@ Voltam a régi általános iskolámban, beszélgettem a régi tanáraimmal és m
 Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
 Jelenleg nincs ilyen rendszer a környező iskolákban, ezért máshova is el tudnánk adni.
 
+
 2. Követelménylista
 
 
@@ -16,6 +17,7 @@ Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes
 Kov_004		Felület				Legyen online felülete és android felülete
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelően kell kezelni.
 3. Törvények
 
 GDPR
@@ -46,7 +48,7 @@ A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, 
 (A második mérföldő elképzelése az lenne, hogy a gyerekek megtanuljanak csoportokban is dolgozni.
 4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.)
 A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg. 
-(Ötletek: virtuális matricák gyűjtése, piros pontok stb., amelyekkel később akár jegyeket is szerezhetnek)
+(Ötletek: virtuális matricák gyűjtése, piros pontok stb.,ezeknek a legnagyobb gyűjtőformája lenne a kupák vagy serlegek, amelyekkel később akár jegyeket is szerezhetnek)
 
 5.Fogalomszótár
 
