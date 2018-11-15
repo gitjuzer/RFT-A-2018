@@ -34,12 +34,17 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 -DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzõi jogok megsértése elleni fellépés. 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3b42e4ed0428a724d1c32cf291bc2886d43653a
 6.Használati eset
 
 	kik, és mire akarják használni a rendszert:
 		A tanulni vágyó diákok használhatják majd a rendszert. A fõleg arra, hogy fejlesszék a tudásukat, egy olyan formában ami játékos módon teszi mindeszt.
 		Olyan felnõttek  akik szeretnék szinten tartani a tudásukat miközben egy jó szórakozást is látnak a dologban.
 		Tanárok. A tanárok fõleg a tanítás megkönnyítésére és arra hogy felkeltség a diákok érdeklõdését, és ösztönözzék õket a tanulásra.
+<<<<<<< HEAD
 		
 
 	rendszert mire akarják majd használni:A rendszert tanulási és tanítási szempontokra is lehessen használni.
@@ -49,6 +54,11 @@ Használati eset diagram:
 <<<<<<< HEAD
 =======
 =======
+=======
+			
+
+
+>>>>>>> d3b42e4ed0428a724d1c32cf291bc2886d43653a
 	rendszert mire akarják majd használni:
 
 		A különbözõ tantárgyak játékosformában történõ elsajátítására akarják használni ezt az általános iskolákban.
@@ -72,7 +82,7 @@ A használati eset-modell leírása:
 A jellemzõ forgatókönyvek leírásait:
 =======
 Használati eset diagram:
-<<<<<<< HEAD
+
 		__________________________
 		|			 |
 		|			 |
@@ -87,8 +97,9 @@ Diák ------>	|	Barátkövetés	 |
 Diák ------>	|	Barátmeghívás	 |
 		|			 |
 		--------------------------
->>>>>>> 77e035c8687d92602ed3289789cb141cb5458ce5
-=======
 
+<<<<<<< HEAD
 >>>>>>> 3965c754bbc9d94101cff73e3c991e5fe26c8a19
 >>>>>>> d4f6319849315cb24367a189c8c92707333e7630
+=======
+>>>>>>> d3b42e4ed0428a724d1c32cf291bc2886d43653a
