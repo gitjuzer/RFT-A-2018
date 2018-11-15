@@ -42,6 +42,10 @@ A legfontosabbak változások röviden:
 
 Pályázatfigyelő oldalon találtam egy számunkra megfelelő pályázati lehetőséget visszanemtérintendő támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg.
 
+Szellemi tulajdon
+	A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona.
+	A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet.
+        (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
 
 4.Vágyálom rendszer leírása:
 
