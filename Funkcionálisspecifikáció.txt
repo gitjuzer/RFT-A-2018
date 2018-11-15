@@ -12,7 +12,8 @@ Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes okta
 Kov_004		Felület				Legyen online felülete és android felülete
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
-Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék. 
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék.
+Kov_008		Feladatok			A felület alkalmas legyen különbözõ témájú feladatok összeállítására.
 
 3. Törvények
 4. Vágyálom rendszer leírása:
