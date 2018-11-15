@@ -5,6 +5,15 @@ Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
 Jelenleg nincs ilyen rendszer a környezõ iskolákban, ezért máshova is el tudnánk adni.
 
 2. Követelménylista
+ID			NÉV			KIFEJTÉS
+Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
+Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetõbb legyen a tanulás folyamata
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhetõ, tanulható
+Kov_004		Felület				Legyen online felülete és android felülete
+Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
+Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék. 
+
 3. Törvények
 4. Vágyálom rendszer leírása:
 
@@ -19,4 +28,20 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 
 5.Fogalomszótár
 
+<<<<<<< HEAD
 6. Használati esetek
+=======
+
+6.Használati eset
+
+	kik, és mire akarják használni a rendszert:
+	rendszert mire akarják majd használni:
+		A különbözõ tantárgyak játékosformában történõ elsajátítására akarják használni ezt az általános iskolákban.
+		A tanárok úgy gondolják, hogy fõként az alsó tagozatos gyerekek jobban tanulnak, ha mindezt játékkal kapcsolatosan
+		történik. Ezen program által a tanárok minden diáknak egyedi képességeihez illõ feladatokat tud adni és ellenõrizni
+		tudja a házifeladatokat is ezáltal a saját munkáját is meggyorsítja. A program közvetlen visszajelzést tud adni a diákoknak
+		a házifeladatuk helyességérõl és ezeket a válaszokat elmentve késõbb vissza tudják saját magukat ellenõrizni a késõbbiekben.
+	egyéb feltételeknek kell teljesülniük:
+
+Használati eset diagram:
+>>>>>>> 77e035c8687d92602ed3289789cb141cb5458ce5
