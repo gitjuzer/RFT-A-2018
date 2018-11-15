@@ -7,6 +7,16 @@ Megnéztünk hasonló programokat, ezekbõl ötleteket merítettünk és így létre tudun
 amin esetlegesen az igényeknek megfelelõen személyre tudnánk szabni.
 
 2. Követelménylista
+ID			NÉV			KIFEJTÉS
+Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
+Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetõbb legyen a tanulás folyamata
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhetõ, tanulható
+Kov_004		Felület				Legyen online felülete és android felülete
+Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
+Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék.
+Kov_008		Feladatok			A felület alkalmas legyen különbözõ témájú feladatok összeállítására.
+ 
 3. Törvények
 4. Vágyálom rendszer leírása:
 
@@ -20,3 +30,16 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 (Ötletek: virtuális matricák gyûjtése, piros pontok stb., amelyekkel késõbb akár jegyeket is szerezhetnek)
 
 5.Fogalomszótár
+
+
+6.Használati eset
+
+	kik, és mire akarják használni a rendszert:
+		A tanulni vágyó diákok használhatják majd a rendszert. A fõleg arra, hogy fejlesszék a tudásukat, egy olyan formában ami játékos módon teszi mindeszt.
+		Olyan felnõttek  akik szeretnék szinten tartani a tudásukat miközben egy jó szórakozást is látnak a dologban.
+		Tanárok. A tanárok fõleg a tanítás megkönnyítésére és arra hogy felkeltség a diákok érdeklõdését, és ösztönözzék õket a tanulásra.
+		
+	rendszert mire akarják majd használni:
+	egyéb feltételeknek kell teljesülniük:
+
+Használati eset diagram:

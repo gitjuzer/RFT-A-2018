@@ -17,6 +17,7 @@ Kov_004		Felület				Legyen online felülete és android felülete
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
 Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelően kell kezelni.
+Kov_008		Feladatok			A felület alkalmas legyen különböző témájú feladatok összeállítására.
 3. Törvények
 
 GDPR
@@ -43,7 +44,9 @@ A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, 
 (A második mérföldő elképzelése az lenne, hogy a gyerekek megtanuljanak csoportokban is dolgozni.
 4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.)
 A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg. 
-(Ötletek: virtuális matricák gyűjtése, piros pontok stb., amelyekkel később akár jegyeket is szerezhetnek)
+(Ötletek: virtuális matricák gyűjtése, piros pontok stb.,ezeknek a legnagyobb gyűjtőformája lenne a kupák vagy serlegek, amelyekkel később akár jegyeket is szerezhetnek)
 
 5.Fogalomszótár
-
+-GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
+-UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
+-DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzői jogok megsértése elleni fellépés. 
