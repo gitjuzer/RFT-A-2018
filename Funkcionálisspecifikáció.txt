@@ -1,4 +1,9 @@
 1. Jelenlegi helyzet
+
+Voltam a régi általános iskolámban, beszélgettem a régi tanáraimmal és mondták, hogy jó lenne egy tanulás segítõ program.
+Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
+Jelenleg nincs ilyen rendszer a környezõ iskolákban, ezért máshova is el tudnánk adni.
+
 2. Követelménylista
 ID			NÉV			KIFEJTÉS
 Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
