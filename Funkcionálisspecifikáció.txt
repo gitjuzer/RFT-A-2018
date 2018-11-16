@@ -107,7 +107,11 @@ Leckék megtekintése:
 2.Keresés részen lehet témák és szint szerint rendezni
 3.Találatokra ráklikkelve már kezdhetjük is vagy akár késõbbre menthetjük is
 
-
+Barát meghívás:
+1.Profil ikonra kattintunk
+2.Kiválasztjuk a barátok menüpontot
+3.Új barát ikonra kattintunk
+4.Kiválasztjuk hogy keresni szeretnénk vagy korábbiakkal akikkel játszottunk azok közül kiválasztani valakit
 
 
 
