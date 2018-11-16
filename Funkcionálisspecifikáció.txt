@@ -102,5 +102,15 @@ Lecke felvitel:
 5.Feltöltés
 6.Dönteni hogy publicus vagy privat legyen e a lecke
 
+Leckék megtekintése:
+1.Kiválasztani az összes leckék gombot vagy a mentett leckéket 
+2.Keresés részen lehet témák és szint szerint rendezni
+3.Találatokra ráklikkelve már kezdhetjük is vagy akár késõbbre menthetjük is
+
+
+
+
+
+
 
 
