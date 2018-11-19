@@ -53,6 +53,12 @@ A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely 
 		tudja a házifeladatokat is ezáltal a saját munkáját is meggyorsítja. A program közvetlen visszajelzést tud adni a diákoknak
 		a házifeladatuk helyességérõl és ezeket a válaszokat elmentve késõbb vissza tudják saját magukat ellenõrizni a késõbbiekben.
 
+	elõfeltételek:
+		
+		Csak regisztrációt követõen lehessen használni a programot. Ez azért szükséges, hogy kiküszöbölhetõ legyen az illetéktelen használat.
+		Valamint, hogy a diákok akár otthonról is tudják használni a programot, ne csak az iskolai gépeken, ennek megfelelõen saját maguk is ellenõrizhetik 
+		munkájukat, amit az Oktató is megtehet diákonként.
+
 	egyéb feltételeknek kell teljesülniük:
 		
 		Egyéb feltételek között teljesülnie kéne, hogy csoportmunkát támogassa amit a tanár nyomon tud követni és minden lépest/elvégzett
@@ -70,7 +76,7 @@ Használati eset diagram:
 		__________________________
 		|			 |
 		|			 |
-Diák ------>	|   Lecke megtekintés	 |
+Diák ------>	|   Lecke megtekintés	 |<----- Oktató
 		|			 |
 		|     Lecke felvitel	 |<----- Oktató
 		|			 |  
@@ -85,7 +91,18 @@ Diák ------>	|	Barátmeghívás	 |
 A használati eset-modell leírása:
 Elsõdleges szereplõk: Diákok
 Másodlagos szereplõ/k (adminisztrátor): Oktató/k
-
+Szerepkörök:
+A diákoknak legyen lehetõsége:
+- regisztrálni
+- megtekinteni a leckéket (új/megoldott leckék)
+- barátot meghívni
+- barátot követni
+Az Oktatónak legyen lehetõsége:
+- regisztrálni
+- leckét feltölteni
+- leckét megtekinteni
+Elõfeltétel:
+- az említett funkciók csak regisztrálás után legyenek használhatóak.
 
 A jellemzõ forgatókönyvek leírásai:
 
