@@ -83,8 +83,11 @@ Diák ------>	|	Barátmeghívás	 |
 		--------------------------
 
 A használati eset-modell leírása:
+Elsõdleges szereplõk: Diákok
+Másodlagos szereplõ/k (adminisztrátor): Oktató/k
 
-A jellemzõ forgatókönyvek leírásait:
+
+A jellemzõ forgatókönyvek leírásai:
 
 Forgatókönyv regisztrációhoz:
 1.regisztrációs ûrlap megjelenítése
