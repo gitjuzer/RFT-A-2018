@@ -88,6 +88,7 @@ A jellemzõ forgatókönyvek leírásait:
 
 Forgatókönyv regisztrációhoz:
 1.regisztrációs ûrlap megjelenítése
+2.regisztrációs ûrlaphoz tartozó adatok kitöltése
 2.ûrlap adatainak tárolása
 3.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
 4.regisztráció megerõsítõ email küldése
