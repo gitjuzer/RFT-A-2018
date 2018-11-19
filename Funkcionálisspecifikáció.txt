@@ -89,11 +89,11 @@ A jellemzõ forgatókönyvek leírásait:
 Forgatókönyv regisztrációhoz:
 1.regisztrációs ûrlap megjelenítése
 2.regisztrációs ûrlaphoz tartozó adatok kitöltése
-2.ûrlap adatainak tárolása
 3.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
-4.regisztráció megerõsítõ email küldése
-5.megerõsítés fogadása
-6.regisztráció aktiválása
+4.ûrlap adatainak tárolása
+5.regisztráció megerõsítõ email küldése
+6.megerõsítés fogadása
+7.regisztráció aktiválása
 
 Lecke felvitel:
 1.Profil megjelenítése
