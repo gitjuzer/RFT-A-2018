@@ -3,3 +3,12 @@ body {
     background-image: url("Képek/Evening_English_1-1200x675.jpg") ;
     background-size: cover;
 }
+.bg-color{
+    background-color: #46505af5
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
