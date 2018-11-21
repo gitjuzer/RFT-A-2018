@@ -159,4 +159,4 @@ Célok:
  - Egyszerû navigálás a tananyagok között.
 Nem célok:
  - A tananyag túlbonyolítása, hosszadalmas részletezése.
- - 
+ - Tananyag túlságosan szájbarágása a diákoknak.
