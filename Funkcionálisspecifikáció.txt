@@ -154,6 +154,7 @@ Célok:
  - A tananyag könnyebben feldolgozhatóvá tétele, leegyszerûsítése.
  - A diákoknak azonnali értékelést nyújtson.
  - A felület ne csak kritérium-orientáltan, hanem norma-oriantáltan is mûködjön.
+ - Egyszerû, átlátható feladatok és kérdéssorok.
  - Szummatív- és normatív értékelés.
  - Egyszerû navigálás a tananyagok között.
 Nem célok:
