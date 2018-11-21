@@ -153,6 +153,8 @@ Célok:
  - A tananyag elsajátításához való segítség, példák szemléltetésével, feladatokkal (esetleg az oktató saját példáival, feladataival).
  - A tananyag könnyebben feldolgozhatóvá tétele, leegyszerûsítése.
  - A diákoknak azonnali értékelést nyújtson.
+ - A felület ne csak kritérium-orientáltan, hanem norma-oriantáltan is mûködjön.
+ - Szummatív- és normatív értékelés.
 Nem célok:
  - A tananyag túlbonyolítása, hosszú részletezése.
  - 
