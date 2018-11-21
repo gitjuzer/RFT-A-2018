@@ -25,6 +25,7 @@ Kov_008		Feladatok			A felület alkalmas legyen különböző témájú feladato
 Kov_009		Helyesség
 Kov_010		Megbízhatóság			Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen akkor,amikor nagy mennyiségű user használja egyszerre
 Kov_011		Hatékonyság/magas teljesítmény  A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszerkövetelmény, a gyenge gépeken is jól muzsikáljon
+Kov_012		Visszejelzés			A diákoknak lehetőséget ad az aktuális témakörről visszajelzést írni.
 
 3. Törvények
 
