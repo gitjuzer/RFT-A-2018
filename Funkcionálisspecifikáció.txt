@@ -147,8 +147,7 @@ Barát meghívás:
 4.Kiválasztjuk hogy keresni szeretnénk vagy korábbiakkal akikkel játszottunk azok közül kiválasztani valakit
 
 7. A rendszer céljai és nem céljai:
-
-
-
-
-
+Célok:
+ - A diákok számára a tananyagot online felületen elérhetõvé tenni.
+ - 
+Nem célok:
