@@ -88,5 +88,19 @@ A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelve
     Bizalom
 
 6.Jelenlegi üzleti folyamatok modellje
+Jelenleg nincs üzleti modell, más meglévőkből tudunk ötletet venni. A weblapoknál általában a bejelentkező felületet követően lehet tanulni.
+A tananyagot részekre bontva tálalja. Minden részben egy feladatsor van, sok különböző egyszerű játékos feladattal.
+Minden megoldott feladatsorral tudjuk bővíteni a tudásunkat, illetve bizonyos feladatsoroknak, más feladatsor megoldása az előfeltétel.
+Vannak szintugró feladatsorok is, amivel akár több fejezetet is le lehet egyszerre tudni.
+Egy jó kis versenyzés sem maradhat ki egy ilyen rendszerből, ezért a feladatsorok pontszámát összevetheted a barátaidéval.
+A program nem megy máshogy mobilon sem, a bejelentkezési adatok azonosak, a felület azonban egyszerűbb, a könyebb átláthatóság érdekében.
 
 7.Igényelt üzleti folyamatok modellje
+A fő oldalon lehetne bejelentkezni (felhasználónév, jelszó), valamit a regisztrációt megkezdeni, mely egy új oldalon folytatódna (felh., jelszó, e-mail), illetve lehetőség lenne vendégként belépni.
+Bejelentkezést követően lehetőség lenne felhasználói jogtól függően, hogy csatlakozzunk egy osztályhoz, vagy akár létrehozzunk egyet. Az osztályokon belül lehetne csapatokhoz csatlakozni, vagy létrehozni.
+A tanár dönthet úgy, hogy órán egy feladatsor ad ki a diákok között, melyet minden diák megkap, és ugyan olyan, vagy mivel az osztály, az ülésrendet is tartalmazhatja, így A, B csoportos feladatot kiadni, akár padsoronként, így egy páros munkát kiosztva, vagy mint egy röpdolgozat oszloponként.
+Azonban lenne olyan opció is, amely az egyéni csoportoknak adna ki feladatot. Mivel a tanár nyomn tudná követni, hogy melyik diák mennyit adott bele az adott csoport teljesítményéhez, úgy azokat tudná szerkeszteni, hogy a gyengébben teljesítő csoportokat vegyíti a jobban teljesítőkkkel.
+A feladatokat a tanárnő állíthatja össze, ezért ezeket részekre kell szedni. Kvíz mely konkrét választ vár. Kvíz, mely több válasz közüli lehetőséget kínál, ezen belül 1 vagy több helyes válasszal. Rajz feladat, és ezek tetszőleges kombinációja lenne egy feladatsor.
+A konkrét feladatok, például egy beadandó is lehetne, vagy a csoportokban felváltva feldobálódó kérdés is. Jogkörből 3 lenne, admin, tanár, és diák. Az admin feladata a rendszer karbantartás, feltéve, hogy a feladatsorokat tárolnánk, ha új feladat sor van ő fogadná el. A tanár osztályoakt, csoportokat hozhat létre. A diákok pedig csatlakozhatnak az osztályokhoz és a csoportokhoz.
+Egy diákhoz csak egy osztály tartozhat, viszont több csoport. A diákok vissza nézhetik a megoldott feladatokat, hogy tudjanak belőle javítani, tanulni.
+Ezeken felül lenne egy aktuális feladat(ok) menü, valamint egy beadandós menü, valamint egy kijelentkezés menü is.
