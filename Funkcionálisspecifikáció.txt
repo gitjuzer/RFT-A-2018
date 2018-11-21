@@ -155,6 +155,7 @@ Célok:
  - A diákoknak azonnali értékelést nyújtson.
  - A felület ne csak kritérium-orientáltan, hanem norma-oriantáltan is mûködjön.
  - Szummatív- és normatív értékelés.
+ - Egyszerû navigálás a tananyagok között.
 Nem célok:
  - A tananyag túlbonyolítása, hosszú részletezése.
  - 
