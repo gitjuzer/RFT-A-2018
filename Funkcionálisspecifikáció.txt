@@ -5,6 +5,7 @@ Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
 Jelenleg nincs ilyen rendszer a környezõ iskolákban, ezért máshova is el tudnánk adni.
 Megnéztünk hasonló programokat, ezekbõl ötleteket merítettünk és így létre tudunk hozni egy egyedi programot, 
 amin esetlegesen az igényeknek megfelelõen személyre tudnánk szabni.
+Tovább kutakodtunk és számos fejlesztési ötletet tudunk felkínálni a megrendelõnek.
 
 2. Követelménylista
 ID			NÉV			KIFEJTÉS
