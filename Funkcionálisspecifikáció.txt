@@ -157,5 +157,5 @@ Célok:
  - Szummatív- és normatív értékelés.
  - Egyszerû navigálás a tananyagok között.
 Nem célok:
- - A tananyag túlbonyolítása, hosszú részletezése.
+ - A tananyag túlbonyolítása, hosszadalmas részletezése.
  - 
