@@ -6,6 +6,7 @@ Jelenleg nincs ilyen rendszer a környezõ iskolákban, ezért máshova is el tudnánk
 Megnéztünk hasonló programokat, ezekbõl ötleteket merítettünk és így létre tudunk hozni egy egyedi programot, 
 amin esetlegesen az igényeknek megfelelõen személyre tudnánk szabni.
 Tovább kutakodtunk és számos fejlesztési ötletet tudunk felkínálni a megrendelõnek.
+A könnyebb felhasználás érdekében, egy letisztult egyszerû felhasználói felületet ajánlunk fel.
 
 2. Követelménylista
 ID			NÉV			KIFEJTÉS
