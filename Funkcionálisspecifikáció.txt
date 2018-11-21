@@ -149,5 +149,6 @@ Barát meghívás:
 7. A rendszer céljai és nem céljai:
 Célok:
  - A diákok számára a tananyagot online felületen elérhetõvé tenni.
- - 
+ - A tananyag szemléltetése mozgó ábrákkal ha szükséges.
+ - A tananyag elsajátításához való segítség, példák szemléltetésével, feladatokkal.
 Nem célok:
