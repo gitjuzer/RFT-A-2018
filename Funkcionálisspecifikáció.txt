@@ -150,7 +150,7 @@ Barát meghívás:
 Célok:
  - A diákok számára a tananyagot online felületen elérhetõvé tenni.
  - A tananyag szemléltetése (esetleg mozgó) ábrákkal, ha szükséges.
- - A tananyag elsajátításához való segítség, példák szemléltetésével, feladatokkal (esetleg az oktató saját példáival, feladataival).
+ - A tananyag elsajátításához való segítség, érdekes példák, feladatok szemléltetésével (esetleg az oktató saját példáival, feladataival).
  - A tananyag könnyebben feldolgozhatóvá tétele, leegyszerûsítése.
  - A diákoknak azonnali értékelést nyújtson.
  - A felület ne csak kritérium-orientáltan, hanem norma-oriantáltan is mûködjön.
