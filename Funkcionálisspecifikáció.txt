@@ -146,6 +146,7 @@ Barát meghívás:
 3.Új barát ikonra kattintunk
 4.Kiválasztjuk hogy keresni szeretnénk vagy korábbiakkal akikkel játszottunk azok közül kiválasztani valakit
 
+7. A rendszer céljai és nem céljai:
 
 
 
