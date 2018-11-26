@@ -1,0 +1,1 @@
+Ez a mappa az asztali alkalmazásnak készült.
