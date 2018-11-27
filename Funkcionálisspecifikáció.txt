@@ -19,7 +19,7 @@ Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat 
 Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék.
 Kov_008		Jogosultság			Olyan jogosultsági rendszert tartalmazzon, ami nem engedi a diákoknak a tanároknak szánt funkció alkalmazását.
 Kov_009		Könnyû megfogalmazás		Lehetõleg kerüljék a szakmai kifejezéseket, egyszerû mindenki számára érthetõen fogalmazzanak.
-Kov_010		Vizualizáltság			Képek könnyítsék meg a megértést.
+Kov_010		Vizualitás			Képek könnyítsék meg a megértést.
 Kov_011		Leckék				Otthoni feladatok kiosztására legyen képes a program.
 Kov_012		Web				Otthonról könnyen elérhetõnek kell lennie.
 Kov_013		Lecke megtekintése		A tanárnak legyen lehetõsége megtekinteni otthonról a diákok leadott leckéit.
