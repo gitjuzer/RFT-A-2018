@@ -19,7 +19,7 @@ Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat 
 Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék.
 Kov_008		Jogosultság			Olyan jogosultsági rendszert tartalmazzon, ami nem engedi a diákoknak a tanároknak szánt funkció alkalmazását.
 Kov_009		Könnyû megfogalmazás		Lehetõleg kerüljék a szakmai kifejezéseket, egyszerû mindenki számára érthetõen fogalmazzanak.
-Kov_010		Vizualizáltság			Képek könnyítsék meg a megértést.
+Kov_010		Vizualitás			Képek könnyítsék meg a megértést.
 Kov_011		Leckék				Otthoni feladatok kiosztására legyen képes a program.
 Kov_012		Web				Otthonról könnyen elérhetõnek kell lennie.
 Kov_013		Lecke megtekintése		A tanárnak legyen lehetõsége megtekinteni otthonról a diákok leadott leckéit.
@@ -52,23 +52,35 @@ Szellemi tulajdon
 
 4. Vágyálom rendszer leírása:
 
-Szeretnénk egy olyan online elérhetõ felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
+Szeretnénk egy olyan online elérhetõ felületet és asztali alkalmazást létrehozni, melyen a kisiskolásokat játékos formában oktatnánk az angol nyelv elsajátítására.
 Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
-Egyéni feladatokat kapnának, ezeket mind a tanár állítaná össze az adott tantárgynak megfelelõen. 
+Az elõre meghatározott tananyag alapján kapnának játékos feladatokat.
 A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz az optimális terhelés elérését kívánjuk megvalósítani.
-(A második mérföldõ elképzelése az lenne, hogy a gyerekek megtanuljanak csoportokban is dolgozni.
-4-5 fõs csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.)
-A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg.
-(Ötletek: virtuális matricák gyûjtése, piros pontok stb.,ezeknek a legnagyobb gyûjtõformája lenne a kupák vagy serlegek, amelyekkel késõbb akár jegyeket is szerezhetnek)
-Különbözõ leckéket szeretnénk elkülöníteni. Minden részben különféle módon tehetik magukat majd próbára a gyerekek.
-Azonnali értékelést kívánunk bevezetni.A diákok rögtön tudják meg, hogy helyesen válaszoltak-e.
+Az adott játékokkal szeretnénk elérni, hogy a gyerekek minél közelebb kerüljenek az angol nyelvhez és játékos formában sajátítsák el az angol nyelvi alapokat.
+A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg a gyerekek, ilyen lesz a jó eredmény elérése után egy felugró ablak ami megdicséri a játékost.
+Különbözõ szintû játékokkal sajátíthatják el az angol nyelvtudás alapjait a képességeikhez mérten.
+Minden részben különféle módon tehetik magukat majd próbára a gyerekek. A két szint lesz elérhetõ, a kezdõ, amely egyszerû szavakat használ, és egy haladó, ami bonyolultabbakat tartalmaz.
+Így mindenki a saját szintjéhez megfelelõ játékot játszhatja.
+Azonnali értékelést kívánunk bevezetni. Jó válaszok után egy ablak jelenik meg a fentiekben megfogalmazott képpen. A diákok rögtön meg fogják tudni, hogy helyesen válaszoltak-e.
 Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikációt, barátságos kinézetet szeretnénk adni az egész rendszernek.
 
 5.Fogalomszótár
+
+-Functional Specification: A funkcionális specifikáció a felhasznáó szemszögébõl írja le a rendszert.
+-USE CASE: Központi eleme a funkcionális specifikációnak, azaz a használati eset(egyszerû ábra ami a megrendelõ számára egy könnyû megértést biztosít informatikai háttér nélkül is).
 -GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
 -UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
 -DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzõi jogok megsértése elleni fellépés. 
-
+-GINOP-3.1.2-8.2.4-16: Az infokommunikációs ágazatban mûködõ mikro-, kis- és középvállalkozások által elõállított termékek és szolgáltatások piacosításának, nemzetközi piacokra való belépésének támogatása.
+-Jogosultság: Hivatalos engedéllyel rendelkezõ fél akit megillet egy lehetõség, tulajdon, másokkal ellentétben elõnnyel felruházott fél aki engedélyt kapott egy cselekvésre.
+-Vizualitás:Láthatóság, láttatás a tárgyak, események, érzések, gondolatok, fogalmak képi megjelenítése. Lényege a képlátás, ami optikai és vizuális természetû egyszerre.
+-Szankcionál:szentesít, jóváhagy, megerõsít, törvényerõre emel; (vmely cselekményt) büntet, büntetõ rendelkezéssel sújt.
+-IARC-minõsítések: Az IARC Besorolási eszköz az International Age Rating Coalition, Inc. („IARC”) tulajdonában van. Ezek a Használati feltételek szabályozzák a Besorolási eszköz Ön általi elérését és használatát, ezért kérjük, olvassa el figyelmesen. 
+-Kritériumorientált értékelés:Teljesítményt a követelményekbõl kiindulva és ahhoz viszonyítva határozhatjuk meg.
+-Normaorientált értékelés:Teljesítményeket egymáshoz vagy egy referenciacsoport átlagához viszonyíthatjuk.
+-Kognitív probléma megoldás: A problémamegoldás, mint alkalmazott gondolkodás – komplex kognitív folyamatként jellemezhetõ, melyben a korábban megszerzett tudás szervezése és az újhoz való alkalmazkodás egyaránt hangsúlyos és fontos
+-Szummatív értékelés: Minõsítjük a tanuló tudásszintjét, és elhelyezzük egy rangsorban, amelynek jelentõsége van az elõmenetele szempontjából. Ennek neve minõsítõ értékelés.
+-Normatív értékelés:Tanulói teljesítmény viszonyításának alapja egy meghatározott norma.A követelmények tagolása, a lényeges minimum megadása, objektív mérések alkalmazása.
 
 
 6.Használati eset
@@ -177,10 +189,14 @@ Célok:
  - A tananyag elsajátításához való segítség, érdekes példák, feladatok szemléltetésével (esetleg az oktató saját példáival, feladataival).
  - A tananyag könnyebben feldolgozhatóvá tétele, leegyszerûsítése.
  - A diákoknak azonnali értékelést nyújtson.
- - A felület ne csak kritérium-orientáltan, hanem norma-oriantáltan is mûködjön.
+ - A felület ne csak kritériumorientáltan, hanem normaoriantáltan is mûködjön.
  - Egyszerû, átlátható feladatok és kérdéssorok.
  - Szummatív- és normatív értékelés.
  - Egyszerû navigálás a tananyagok között.
+ - A feladatoknak játékosnak kell lennie, hogy ne utáltassuk meg a tárgyat a diákokkal.
+ - Törekedni kell arra, hogy új tudás megszerzése közben a diákok jól érezzék magukat.
+ - A megoldandó feladat jelentsen kihívást a diákok számára.
+ - Kognitív problémamegoldásra törekedjenek a játékok.
 Nem célok:
  - A tananyag túlbonyolítása, hosszadalmas részletezése.
  - Tananyag túlságosan szájbarágása a diákoknak.
