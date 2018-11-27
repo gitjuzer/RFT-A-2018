@@ -59,8 +59,9 @@ A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz 
 Az adott játékokkal szeretnénk elérni, hogy a gyerekek minél közelebb kerüljenek az angol nyelvhez és játékos formában sajátítsák el az angol nyelvi alapokat.
 A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg a gyerekek, ilyen lesz a jó eredmény elérése után egy felugró ablak ami megdicséri a játékost.
 Különbözõ szintû játékokkal sajátíthatják el az angol nyelvtudás alapjait a képességeikhez mérten.
-Minden részben különféle módon tehetik magukat majd próbára a gyerekek.
-Azonnali értékelést kívánunk bevezetni.A diákok rögtön tudják meg, hogy helyesen válaszoltak-e.
+Minden részben különféle módon tehetik magukat majd próbára a gyerekek. A két szint lesz elérhetõ, a kezdõ, amely egyszerû szavakat használ, és egy haladó, ami bonyolultabbakat tartalmaz.
+Így mindenki a saját szintjéhez megfelelõ játékot játszhatja.
+Azonnali értékelést kívánunk bevezetni. Jó válaszok után egy ablak jelenik meg a fentiekben megfogalmazott képpen. A diákok rögtön meg fogják tudni, hogy helyesen válaszoltak-e.
 Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikációt, barátságos kinézetet szeretnénk adni az egész rendszernek.
 
 5.Fogalomszótár
