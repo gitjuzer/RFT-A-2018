@@ -204,6 +204,7 @@ Nem célok:
 8. Megfeleltetés
 
 Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára.
+
 	A követelmény specifikácóban feltültetett követelménynek megfelelõen, letisztult felületet valósítunk meg a programban,
 	mégpedig webes és asztali felületen egyaránt. A kért szoftverben minden fõbb funkció egér klikkelésre fog mûködni, billenyûzetet
 	csak a játékoknál kell használni, ott is csak a szavak mondatbavaló behelyettesítésénél. Az egyes grafikus felületeken csak néhány
@@ -232,4 +233,3 @@ Kov_004		Felület				Legyen online felülete és android felülete
 			  -van galéria a játékokról 
 			  -itt lehet letölteni az asztali alkalmazást
 	Asztali alkalmazás: gyakorló feladatokat tartalmaz, minden típusból hármat.
-	
