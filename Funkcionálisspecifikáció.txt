@@ -182,6 +182,9 @@ Célok:
  - Szummatív- és normatív értékelés.
  - Egyszerû navigálás a tananyagok között.
  - A feladatoknak játékosnak kell lennie, hogy ne utáltassuk meg a tárgyat a diákokkal.
+ - Törekedni kell arra, hogy új tudás megszerzése közben a diákok jól érezzék magukat.
+ - A megoldandó feladat jelentsen kihívást a diákok számára.
+ - Kognitív problémamegoldásra törekedjenek a játékok.
 Nem célok:
  - A tananyag túlbonyolítása, hosszadalmas részletezése.
  - Tananyag túlságosan szájbarágása a diákoknak.
