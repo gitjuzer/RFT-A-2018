@@ -181,6 +181,7 @@ Célok:
  - Egyszerû, átlátható feladatok és kérdéssorok.
  - Szummatív- és normatív értékelés.
  - Egyszerû navigálás a tananyagok között.
+ - A feladatoknak játékosnak kell lennie, hogy ne utáltassuk meg a tárgyat a diákokkal.
 Nem célok:
  - A tananyag túlbonyolítása, hosszadalmas részletezése.
  - Tananyag túlságosan szájbarágása a diákoknak.
