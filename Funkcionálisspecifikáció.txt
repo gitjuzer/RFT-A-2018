@@ -68,7 +68,18 @@ Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikációt, bar
 -GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
 -UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
 -DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzõi jogok megsértése elleni fellépés. 
-
+-Functional Specification: A funkcionális specifikáció a felhasznáó szemszögébõl írja le a rendszert.
+-USE CASE: Központi eleme a funkcionális specifikációnak, azaz a használati eset(egyszerû ábra ami a megrendelõ számára egy könnyû megértést biztosít informatikai háttér nélkül is).
+-GINOP-3.1.2-8.2.4-16: Az infokommunikációs ágazatban mûködõ mikro-, kis- és középvállalkozások által elõállított termékek és szolgáltatások piacosításának, nemzetközi piacokra való belépésének támogatása.
+-Jogosultság: hivatalos engedéllyel rendelkezõ fél akit megillet egy lehetõség, tulajdon, másokkal ellentétben elõnnyel felruházott fél aki engedélyt kapott egy cselekvésre.
+-Vizualizáltság: azaz láthatóság, láttatás a tárgyak, események, érzések, gondolatok, fogalmak képi megjelenítése. Lényege a képlátás, ami optikai és vizuális természetû egyszerre.
+-Szankcionál:szentesít, jóváhagy, megerõsít, törvényerõre emel; (vmely cselekményt) büntet, büntetõ rendelkezéssel sújt.
+-IARC-minõsítések: Az IARC Besorolási eszköz az International Age Rating Coalition, Inc. („IARC”) tulajdonában van. Ezek a Használati feltételek szabályozzák a Besorolási eszköz Ön általi elérését és használatát, ezért kérjük, olvassa el figyelmesen. 
+-
+-GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
+-UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
+-DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzõi jogok megsértése elleni fellépés. 
+-Szummatív- és normatív értékelés:
 
 
 6.Használati eset
