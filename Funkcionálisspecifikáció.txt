@@ -184,3 +184,36 @@ Célok:
 Nem célok:
  - A tananyag túlbonyolítása, hosszadalmas részletezése.
  - Tananyag túlságosan szájbarágása a diákoknak.
+
+8. Megfeleltetés
+
+Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára.
+	A követelmény specifikácóban feltültetett követelménynek megfelelõen, letisztult felületet valósítunk meg a programban,
+	mégpedig webes és asztali felületen egyaránt. A kért szoftverben minden fõbb funkció egér klikkelésre fog mûködni, billenyûzetet
+	csak a játékoknál kell használni, ott is csak a szavak mondatbavaló behelyettesítésénél. Az egyes grafikus felületeken csak néhány
+	lesz elérhetõ pl.: "visszalépés" gomb, "ok" gomb.
+
+Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetõbb legyen a 	tanulás folyamata
+
+	A követelmény specifikácóban feltültetett követelménynek megfelelõen, az oktatást játékokon kersztül valósítjuk meg a szoftverben. 
+	3 típusú játék van a szoftverben megvalósítva: akasztófa, képfelismerõ, és szó behelyettesítõs
+	Játékok mûködése:
+		-Akasztófa: mint az eredeti akasztófa játékban, itt is a rendszer által feldobott szónak a betûit kell kitalálni.
+		-Képfelismerõ:
+		-szó behelyettesítõs: az adott mondatokba az igének a megfelelõ alakját kell beírni.
+		
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhetõ, tanulható
+
+	A követelmény specifikációban lefektetett követelménynek csak egy részére van funkció a szoftverben. A szoftverben csak 
+	az angol nyelv lesz elérhetõ oktatás céljából.
+
+Kov_004		Felület				Legyen online felülete és android felülete
+	
+	A szoftver az androidos felületet nem foglalja magában, mivel kevés a rendelkezésre álló idõ és erõforrás. A szoftver két részbõl fog áll,
+	egy webes és egy asztali alkalmazásból.
+	Webes alkalmazás: -itt lehet regisztrálni 
+			  -minden játékból található rajta egy demó 
+			  -van galéria a játékokról 
+			  -itt lehet letölteni az asztali alkalmazást
+	Asztali alkalmazás: gyakorló feladatokat tartalmaz, minden típusból hármat.
+	
