@@ -52,7 +52,7 @@ Szellemi tulajdon
 
 4. Vágyálom rendszer leírása:
 
-Szeretnénk egy olyan online elérhetõ felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
+Szeretnénk egy olyan online elérhetõ felületet és asztali alkalmazást létrehozni, melyen a kisiskolásokat játékos formában oktat az angol nyelv elsajátítására.
 Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
 Egyéni feladatokat kapnának, ezeket mind a tanár állítaná össze az adott tantárgynak megfelelõen. 
 A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz az optimális terhelés elérését kívánjuk megvalósítani.
