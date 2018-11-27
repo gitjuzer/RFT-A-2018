@@ -57,8 +57,9 @@ Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredmén
 Az elõre meghatározott tananyag alapján kapnának játékos feladatokat.
 A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz az optimális terhelés elérését kívánjuk megvalósítani.
 Az adott játékokkal szeretnénk elérni, hogy a gyerekek minél közelebb kerüljenek az angol nyelvhez és játékos formában sajátítsák el az angol nyelvi alapokat.
-A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg.
-Különbözõ leckéket szeretnénk elkülöníteni. Minden részben különféle módon tehetik magukat majd próbára a gyerekek.
+A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg a gyerekek, ilyen lesz a jó eredmény elérése után egy felugró ablak ami megdicséri a játékost.
+Különbözõ szintû játékokkal sajátíthatják el az angol nyelvtudás alapjait a képességeikhez mérten.
+Minden részben különféle módon tehetik magukat majd próbára a gyerekek.
 Azonnali értékelést kívánunk bevezetni.A diákok rögtön tudják meg, hogy helyesen válaszoltak-e.
 Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikációt, barátságos kinézetet szeretnénk adni az egész rendszernek.
 
