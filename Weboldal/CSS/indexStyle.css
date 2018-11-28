@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
+
+html,body{
+height: 100%;
+background-color: #222222;
+background-position: center;
+background-size: cover;
+margin: 0;
+display: flex;
+flex-direction: column;
+font-family: arial;
+}
+.flexContainer{
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    font-family: 'Work sans';
+    font-size: 20px;
+    color: #D4D4D2;
+    border: 10px;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+a:hover{
+    background-color:#484846;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D4D4D2;
+    margin: 1em 0;
+}
