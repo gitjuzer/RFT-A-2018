@@ -46,7 +46,16 @@ public class mainFXMLController implements Initializable {
                  
         mainStage.show();
     }
-    
+    @FXML
+    private void ToSzintfelmero(ActionEvent event) throws IOException{
+        
+        Stage mainStage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("szintfelmeroFXML.fxml"));
+        Scene scene = new Scene(root);
+        mainStage.setScene(scene);
+                 
+        mainStage.show();
+    }
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
