@@ -200,6 +200,11 @@ Célok:
 Nem célok:
  - A tananyag túlbonyolítása, hosszadalmas részletezése.
  - Tananyag túlságosan szájbarágása a diákoknak.
+ - Elvonni a tanuló figyelmét a megtanulandó anyagról.
+ - Megutáltatni az adott tantárgyat a diákkal.
+ - Felesleges ismeretek átadása.
+ - Unalmas szoftverek létrehozása.
+
 
 8. Megfeleltetés
 
