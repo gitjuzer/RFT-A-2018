@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -124,7 +124,16 @@ public class jatek1 extends javax.swing.JFrame {
         BufferedReader br=new BufferedReader(fr);
     }
  
-    
+    private static String readLines(File f) throws IOException
+    {
+        FileReader fr=new FileReader(f);
+        BufferedReader br=new BufferedReader(fr);
+        String line;
+        line =br.readLine();
+        br.close();
+        fr.close();
+        return line;
+    }
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
        
   
