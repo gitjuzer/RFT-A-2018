@@ -249,3 +249,7 @@ A követelmény specifikácóban feltültetett követelménynek megfelelõen, ahogyan má
 A kért szoftverben minden fõbb funkció egér klikkelésre fog mûködni, billenyûzetet, a gombokon a feliratok jól olvashatóak a betûtípusnak köszönhetõen. Minden utasítás magyarul fog megjelenni, hogy az igazán kezdõk is könnyen megértsék, hogy mi a feladat. Csak a játékok feladatai lesznek angolul.
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
 A követelmény specifikációban lefektetett követelménynek csak egy részére van funkció a szoftverben. Azonnali visszajelzést fognak kapni arról, hogy hogyan sikerült a feladat, viszont csak az elért százalékot írja majd ki.
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezelni.
+A követelmény specifikációban lefektetett követelménynek nem felel meg, mivel regisztrációt és adatbekérést nem tartalmaz a szoftver, így nem kell megfelelni a GDPR-nak. 
+Kov_008		Feladatok			A felület alkalmas legyen különbözõ témájú feladatok összeállítására.
+A szoftver nem alkalmazkodik különbözõ témákhoz, és nem állít össze ennek megfelelõen feladatokat. Csak elõre meghatározott feladatokat tartalmaz. 
