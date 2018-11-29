@@ -118,7 +118,11 @@ public class jatek1 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-   
+    private static  String[] readLines2(File f) throws IOException
+    {
+        FileReader fr=new FileReader(f);
+        BufferedReader br=new BufferedReader(fr);
+    }
  
     
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
