@@ -256,3 +256,16 @@ Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezelni.
 A követelmény specifikációban lefektetett követelménynek nem felel meg, mivel regisztrációt és adatbekérést nem tartalmaz a szoftver, így nem kell megfelelni a GDPR-nak. 
 Kov_008		Feladatok			A felület alkalmas legyen különbözõ témájú feladatok összeállítására.
 A szoftver nem alkalmazkodik különbözõ témákhoz, és nem állít össze ennek megfelelõen feladatokat. Csak elõre meghatározott feladatokat tartalmaz. 
+Kov_009		Helyesség
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program 
+Kov_010		Megbízhatóság			
+				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen akkor,amikor nagy mennyiségû user használja egyszerre
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megbíztahtó és stabil lesz.
+Kov_011		
+		Hatékonyság/magas teljesítmény  
+				A korlátozott iskolai erõforrásokhoz alkalmazkodva ne legyen magas a rendszerkövetelmény, a gyenge gépeken is jól muzsikáljon
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megfelelõen fog futni a gyengébb teljesítményû gépeken is.
+Kov_012		Visszejelzés			
+				A diákoknak lehetõséget ad az aktuális témakörrõl visszajelzést írni.
+				A program nem fog lehetõséget adni a diákoknak visszajelzés adására.
+				
