@@ -86,6 +86,9 @@ A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelve
     Integritás és bizalmas jelleg
     Elszámoltathatóság
     Bizalom
+Sz10	Követelmény specifikácó: A követelmény specifikáció (angolul: requirement specification), alapja a megrendelővel készített riportok. Ezek segítségével pontos képet alkotunk a megrendelő igényeiről és egyeztetünk ennek megvalósításával kapcsolatban.
+Sz11	Szoftver: (angol: software) alatt a legszűkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedő, azokat működtető programokat értjük.
+Sz12	Android felület:Az Android Linux kernelt használó mobil operációs rendszer, elsősorban érintőképernyős mobil eszközökre (okostelefon, táblagép) tervezve.  A fejlesztők Java nyelven írhatnak rá menedzselt kódot, az eszközt a Google által fejlesztett Java programkönyvtárakon keresztül vezérelve.
 
 6.Jelenlegi üzleti folyamatok modellje
 Jelenleg nincs üzleti modell, más meglévőkből tudunk ötletet venni. A weblapoknál általában a bejelentkező felületet követően lehet tanulni.

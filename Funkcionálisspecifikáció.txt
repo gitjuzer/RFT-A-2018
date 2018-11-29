@@ -88,6 +88,9 @@ Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikációt, bar
 -Adatfeldolgozó: Az a természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkezõ szervezet, aki vagy amely szerzõdés alapján - beleértve a jogszabály rendelkezése alapján kötött szerzõdést is - adatok feldolgozását végzi.
 -Érintett: Az adatkezelés alanya, bármely meghatározott, személyes adat alapján azonosított vagy - közvetlenül vagy közvetve - azonosítható természetes személy. 
 A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelvet fogalmaz meg, melyek a következõk:Jogszerûség, tisztességes eljárás és átláthatóság, célhoz kötöttség, adattakarékosság, pontosság, korlátozott tárolhatóság, integritás és bizalmas jelleg, elszámoltathatóság, bizalom.
+-Követelmény specifikácó: A követelmény specifikáció (angolul: requirement specification), alapja a megrendelõvel készített riportok. Ezek segítségével pontos képet alkotunk a megrendelõ igényeirõl és egyeztetünk ennek megvalósításával kapcsolatban.
+-Szoftver: (angol: software) alatt a legszûkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedõ, azokat mûködtetõ programokat értjük.
+-Android felület:Az Android Linux kernelt használó mobil operációs rendszer, elsõsorban érintõképernyõs mobil eszközökre (okostelefon, táblagép) tervezve.  A fejlesztõk Java nyelven írhatnak rá menedzselt kódot, az eszközt a Google által fejlesztett Java programkönyvtárakon keresztül vezérelve.
 
 6.Használati eset
 
