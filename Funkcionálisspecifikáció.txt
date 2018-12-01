@@ -269,3 +269,110 @@ Kov_012		Visszejelzés
 				A diákoknak lehetõséget ad az aktuális témakörrõl visszajelzést írni.
 				A program nem fog lehetõséget adni a diákoknak visszajelzés adására.
 				
+
+UML ábra
+
+Felhasználó						Program
+	 _______
+	 |start|
+	 |_____|
+	    |
+	    |
+	    V
+	______________
+	|Szintfelmérõ|
+	|   írása    |
+	|____________|
+	    |
+	    |
+	    |						_______________
+	   /\						|	      |
+	  /  \____igen--------------------------------->| Kiértékelés |
+	  \  /						|_____________|
+	   \/							|
+	    |							|
+	nem |							|
+	    |							|
+	    v 							v
+	_________________				_________________
+	|Nehézségi szint|				|Nehézségi szint|
+	| kiválasztása  |				| kiválasztása  |
+	|_______________|				|_______________|
+	    |							|
+	    |							|
+	    |							|
+	    v							|
+	____________						|
+	|          |<--------------------------------------------
+	|  Játék   |					_______________
+	|választás |----------------------------------->|             |
+	|__________|<--------------------		| Kiértékelés |
+	    |				|		|_____________|
+	    |				|
+	    |				|
+	   /\				|
+	  /  \másik játék------igen-----|
+	  \  /választása
+	   \/
+	    |
+	nem |
+	    |
+	    v
+	 ________
+	 | vége |
+	 |______|
+
+
+Szereplõk: Tanárok és diákok
+
+ÜZLETI FOLYAMATOK MODELLJE
+__________________________
+
+Üzleti szereplõk
+
+üzleti partnerek: ide tartoznak a vevõk, szállítók, megrendelõk. A partnerek a szerzõdés erejéig bírnak befolyással a vállalatra
+beosztottak: vállalat alkalmazottjai, fejlesztõk. A vezetõktõl kapják az utasításokat, és feléjük beszámolási kötelezettséggel tartoznak.
+felettesek: olyan vezetõk akik alá beosztottak tartoznak.
+vezetõtársak: munkamegosztásban dolgoznak, a feladataik elosztását a szervezeti és mûködési szabályzat írja le.
+
+Folyamatok
+
+1. Megrendelõk: termékeket rendelnek.
+2. Szellemi termék elkészítése. (olyan tartós nem anyagi javak amelyek felhasználásával hasznosítható anyagi és nem anyagi javak
+				 állíthatóak elõ)
+3. Értékesítés
+4. Fizetés, számlázás
+5. További javítások, fejlesztések
+
+
+Üzleti feladat ábra:
+
+	______________			________________________
+	| Megrendelõ |----------------->| Program megrendelése |
+	|____________|			|______________________|
+					________________________
+					| A termék megvásárlása|
+					|______________________|
+
+
+	______________			_________________
+	| Üzletvezetõ|----------------->| Áru rendelése |
+	|____________|			|_______________|
+
+
+	______________			_________________	________________
+	| Fejlesztõk |----------------->|    Termék     |------>| Specifikáció |
+	|____________|			|  elkészítése  |	| Tervezés     |
+					|_______________|	| Kódolás      |
+								| Tesztelés    |
+								| Hibajavítás  |
+								| Dokumentálás |
+								|______________|
+
+	______________			_________________
+	| Értékesítõ |----------------->|    Eladás     |
+	|____________|			|_______________|
+					________________	_________________
+					|  Számlázás   |------->| Készpénz vagy |
+					|______________|	| Banki átutalás|
+								|_______________|
