@@ -22,7 +22,7 @@ if(isset($_POST['btn-signup'])) {
   $query = "INSERT INTO users(teljes,username,password, role) VALUES('$teljes','$uname','$password', '$role')";
 
   if ($con->query($query)) {
-   $msg = "<p>Sikeresen regisztráltál !</p>";
+   $msg = "<p>Sikeresen regisztráltál ! </p><a href=\"login.php\">Belépés!</a>";
   }else {
    $msg = "<p>Hiba a Regisztráció közben</p>";
   }
@@ -59,7 +59,7 @@ if(isset($_POST['btn-signup'])) {
 	<input type="password" class="form-control" placeholder="Password" name="password" required  />
 	<button type="submit" name="btn-signup">Felhasználó létrehozása</button>   
 	</form>
-	
+
 
 
 </body>
