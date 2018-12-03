@@ -1,0 +1,30 @@
+Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjnét!
+--------------------------------------------------------------------------------------------
+
+
+A funkcionális és követelmény specifikációban lejegyzett vágyálomrendszert megvalósíthatónak találtuk. Azonban néhány kompromisszumra szükség van a sikeres fejlesztés érdekében, a rövid határidő miatt.
+
+Sikeres lefejlesztés feltételei_1
+
+		A követelmény specifikációban lejegyzett 003-as követelmény, csak részben fog megvalósulni, mivel a szoftver
+		csak az angol gyakorló feladatokat fogja tartalmazni.
+
+Sikeres lefejlesztés feltételei_2	
+		
+		
+		A követelmény specifikációban lejegyzett 004-es követelmény, csak részben valósul meg. A tanulást
+		segítő szoftvernek nem készíthető el az androidos alkalmazása, mivel az egyetlen adroid fejlesztőnk
+		túlterhelt. Ezen program helyettesítésére elkészítünk egy grafikus felülettel rendelkező asztali alkalmazást.
+		Az asztali alkalmazást MVC programozási modellben valósítanánk meg, mivel ez az egyik legnépszerűbb programozási
+		modell manapság. Az asztali alkalmazás JavaFX FXML Application felülettel készíthető el a legegyszerűbben. 
+		Ez biztosítaná a gyerekek számára a letisztult, könnyen kezelhető felületet. Az asztali alkalmazás letöltése webes felületről lenne elérhető.
+		
+		A 004-es követelmény első feltétele megvalósítható. Van rendelkezésre álló erőforrás, hogy egy 8-10 weboldalból álló webes felületet megvalósítsunk. Ennek megvalósítására rendszerint HTML, CSS és JavaScript áll rendelkezésünkre. 
+		A webes alkalmazás tartalmazna egy regisztrációs felületet, bejelentkezési felületet, és a hozzá szükséges adatbázist, az egyértelmű azonosításhoz. Az adatbázis MSSQL, MySQL vagy TMSQL lehetne. Ezen felül tartalmazna 3 játéktípusból 1-1 demót. Mindezek mellett a webes felület tartalmazna egy letöltésre szolgáló felületet és egy
+		galériát is. A galériában az asztali alkalmaz játékos feladatairól lennének képek.
+		Eddigi elképzeléseink alapján a bejelentkezési felületet adat hitelesítéssel működne.
+		
+Sikeres lefejlesztés feltételei_3
+		
+			
+		
