@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="485.0" prefWidth="862.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basic.witp.FXML2controller">
+   <children>
+      <Button layoutX="109.0" layoutY="390.0" mnemonicParsing="false" text="Dog" />
+      <Button layoutX="285.0" layoutY="390.0" mnemonicParsing="false" text="Tiger" />
+      <Button layoutX="554.0" layoutY="390.0" mnemonicParsing="false" text="Mouse" />
+      <Button layoutX="735.0" layoutY="390.0" mnemonicParsing="false" onAction="#load_third" text="Mice" />
+      <ImageView fitHeight="289.0" fitWidth="719.0" layoutX="183.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/2.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
