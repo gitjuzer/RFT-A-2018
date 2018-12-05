@@ -91,6 +91,15 @@ A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelvet fog
 -Követelmény specifikácó: A követelmény specifikáció (angolul: requirement specification), alapja a megrendelõvel készített riportok. Ezek segítségével pontos képet alkotunk a megrendelõ igényeirõl és egyeztetünk ennek megvalósításával kapcsolatban.
 -Szoftver: (angol: software) alatt a legszûkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedõ, azokat mûködtetõ programokat értjük.
 -Android felület:Az Android Linux kernelt használó mobil operációs rendszer, elsõsorban érintõképernyõs mobil eszközökre (okostelefon, táblagép) tervezve.  A fejlesztõk Java nyelven írhatnak rá menedzselt kódot, az eszközt a Google által fejlesztett Java programkönyvtárakon keresztül vezérelve.
+-Jutalomrendszer:A gamifikáció – vagy más néven játékosítás – a játékok és játékelemek alkalmazását jelenti az élet játékon kívüli területein, célja pedig, hogy az ott zajló folyamatokat érdekesebbé és eredményesebbé tegye. Kiválóan alkalmazható az oktatásban, az egészségügyben, kulturális területeken és a munkahelyi környezetben is – mindenütt minõségi javulást eredményezhet.
+-Adatvédelem:Az adatvédelem a személyes adatok gyûjtésének, feldolgozásának és felhasználásának korlátozásával, az érintett személyek védelmével foglalkozik. Nevével ellentétben tehát nem elsõsorban az adatokat védjük, hanem azokat a személyeket, akikkel az adatok összeköthetõk. Ennek eszközei lehetnek jogi szabályok, eljárások, de akár technológiai eszközök is.
+-Implementált feladat: Egy komplex rendszer mûködése során különféle feladatokat old meg, ezek egymással összefüggnek, általában kölcsönhatásban vannak.
+-User: A felhasználó aza személy,, aki egy számítógépes szolgáltatás használója. A felhasználóhoz gyakran felhasználói fiók tartozik, amit felhasználói név azonosít.
+-Rendszerkövetelmény: A szolgáltatások és megszorítások leírásai a rendszerkövetelményei.
+-Szellemi termék(immateriális): A szakirodalom szerint a szellemi termékek olyan tartós, nem anyagi (materiális) javak, amelyek felhasználásával, vagy alkalmazásával hasznosítható anyagi- és nem anyagi javak állíthatóak elõ.
+-Értékesítés: Azt a munkamûveletet, amivel az árut közvetlenül a vásárlónak adjuk, értékesítésnek nevezzük.
+-Specifikáció: Részletezés, felsorolás az egyedi különbségek meghatározása. 
+-DEMO(demonstráció): Reklámelõzetes egy termék vagy szolgáltatás (szoftver, videojáték) kipróbálására.
 
 6.Használati eset
 
