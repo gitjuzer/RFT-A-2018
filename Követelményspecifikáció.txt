@@ -89,6 +89,13 @@ A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelve
 Sz10	Követelmény specifikácó: A követelmény specifikáció (angolul: requirement specification), alapja a megrendelővel készített riportok. Ezek segítségével pontos képet alkotunk a megrendelő igényeiről és egyeztetünk ennek megvalósításával kapcsolatban.
 Sz11	Szoftver: (angol: software) alatt a legszűkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedő, azokat működtető programokat értjük.
 Sz12	Android felület:Az Android Linux kernelt használó mobil operációs rendszer, elsősorban érintőképernyős mobil eszközökre (okostelefon, táblagép) tervezve.  A fejlesztők Java nyelven írhatnak rá menedzselt kódot, az eszközt a Google által fejlesztett Java programkönyvtárakon keresztül vezérelve.
+Sz13	Üzleti modell: Az üzleti modell egy olyan koncepcionális eszköz, mely egy adott vállalat üzleti logikáját – értsd: értékteremtését – leíró elemeket és az azok közötti kapcsolatot írja le.
+Sz14	Előfeltétel:Vminek a létrejöttét, megvalósulását lehetővé tevő körülmény, adottság, feltétel, amely nélkül vmi nem lehetséges, nem történhetik meg.
+Sz15	Felhasználói jog: Felhasználói támogatás a program fejlesztőitől, lehetőség a jogtiszta felhasználásra.
+Sz16	Opció:választási lehetőség
+Sz17	Jogkör:Törvényes hatáskör; meghatározott illetékességi terület, amelynek ügyeiben egy személy vagy szervezet kötelező érvényű döntéseket hozhat.
+Sz18	Rendszer karbantartás: Adott berendezés azon képessége, hogy a használni kívánt időtartamhoz képest, mennyit volt képes valójában üzemelni hiba/leállás nélkül és ezt optimális szinten tartásához szükséges karbantartási munkálatok összessége.
+
 
 6.Jelenlegi üzleti folyamatok modellje
 Jelenleg nincs üzleti modell, más meglévőkből tudunk ötletet venni. A weblapoknál általában a bejelentkező felületet követően lehet tanulni.
@@ -104,6 +111,6 @@ Bejelentkezést követően lehetőség lenne felhasználói jogtól függően, h
 A tanár dönthet úgy, hogy órán egy feladatsor ad ki a diákok között, melyet minden diák megkap, és ugyan olyan, vagy mivel az osztály, az ülésrendet is tartalmazhatja, így A, B csoportos feladatot kiadni, akár padsoronként, így egy páros munkát kiosztva, vagy mint egy röpdolgozat oszloponként.
 Azonban lenne olyan opció is, amely az egyéni csoportoknak adna ki feladatot. Mivel a tanár nyomn tudná követni, hogy melyik diák mennyit adott bele az adott csoport teljesítményéhez, úgy azokat tudná szerkeszteni, hogy a gyengébben teljesítő csoportokat vegyíti a jobban teljesítőkkkel.
 A feladatokat a tanárnő állíthatja össze, ezért ezeket részekre kell szedni. Kvíz mely konkrét választ vár. Kvíz, mely több válasz közüli lehetőséget kínál, ezen belül 1 vagy több helyes válasszal. Rajz feladat, és ezek tetszőleges kombinációja lenne egy feladatsor.
-A konkrét feladatok, például egy beadandó is lehetne, vagy a csoportokban felváltva feldobálódó kérdés is. Jogkörből 3 lenne, admin, tanár, és diák. Az admin feladata a rendszer karbantartás, feltéve, hogy a feladatsorokat tárolnánk, ha új feladat sor van ő fogadná el. A tanár osztályoakt, csoportokat hozhat létre. A diákok pedig csatlakozhatnak az osztályokhoz és a csoportokhoz.
+A konkrét feladatok, például egy beadandó is lehetne, vagy a csoportokban felváltva feldobálódó kérdés is. Jogkörből 3 lenne, admin, tanár, és diák. Az admin feladata a rendszer karbantartás, feltéve, hogy a feladatsorokat tárolnánk, ha új feladat sor van ő fogadná el. A tanár osztályokat, csoportokat hozhat létre. A diákok pedig csatlakozhatnak az osztályokhoz és a csoportokhoz.
 Egy diákhoz csak egy osztály tartozhat, viszont több csoport. A diákok vissza nézhetik a megoldott feladatokat, hogy tudjanak belőle javítani, tanulni.
 Ezeken felül lenne egy aktuális feladat(ok) menü, valamint egy beadandós menü, valamint egy kijelentkezés menü is.
