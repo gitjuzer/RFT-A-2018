@@ -13,9 +13,11 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 /**
  *
@@ -27,6 +29,10 @@ public class FXMLDocumentController implements Initializable {
     private AnchorPane rootPane;
     @FXML
     private Button button;
+     @FXML
+    private AnchorPane button_wrong;
+
+
     
     
     @Override
@@ -39,6 +45,16 @@ public class FXMLDocumentController implements Initializable {
         AnchorPane pane = FXMLLoader.load(getClass().getResource("2FXML.fxml"));
         rootPane.getChildren().setAll(pane);
                 
+    }
+
+    @FXML
+    private void wrong_answer(ActionEvent event) throws IOException {
+        FXMLLoader load = new FXMLLoader (getClass().getResource("Wrong_answer.fxml"));
+        Parent root1 = (Parent) load.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root1));
+        stage.show();
+        
     }
     
 }

@@ -12,8 +12,11 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -26,6 +29,9 @@ public class FXML2controller implements Initializable {
     private AnchorPane rootPane;
     @FXML
     private Button button;
+     @FXML
+    private AnchorPane button_wrong;
+     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
@@ -33,8 +39,17 @@ public class FXML2controller implements Initializable {
 
     @FXML
     private void load_third(ActionEvent event) throws IOException {
-        AnchorPane pane2 = FXMLLoader.load(getClass().getResource("3FXML.fxml"));
-        rootPane.getChildren().setAll(pane2);
+        AnchorPane pane3 = FXMLLoader.load(getClass().getResource("3FXML.fxml"));
+        rootPane.getChildren().setAll(pane3);
+        
+    }
+    @FXML
+    private void wrong_answer2(ActionEvent event) throws IOException {
+        FXMLLoader load = new FXMLLoader (getClass().getResource("Wrong_answer.fxml"));
+        Parent root1 = (Parent) load.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root1));
+        stage.show();
     }
     
 }

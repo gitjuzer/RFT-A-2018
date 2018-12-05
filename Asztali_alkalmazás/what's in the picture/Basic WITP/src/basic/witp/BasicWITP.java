@@ -19,8 +19,8 @@ public class BasicWITP extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLStart.fxml"));
+        stage.setTitle("What can I see on the picture game");
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
