@@ -32,7 +32,7 @@
             <DropShadow color="#55160d" height="11.67" radius="7.6675" />
          </effect>
       </Button>
-      <Button fx:id="visszabtn" layoutX="1008.0" layoutY="716.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: f3c4b4 f3c4b4;" text="vissza" textFill="#55160d" underline="true">
+      <Button fx:id="visszabtn" layoutX="1008.0" layoutY="716.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#vissza" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: f3c4b4 f3c4b4;" text="vissza" textFill="#55160d" underline="true">
          <font>
             <Font name="Lucida Bright" size="24.0" />
          </font>

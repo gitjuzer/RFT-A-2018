@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package rft;
+package akasztofa;
 
 import java.io.IOException;
 import java.net.URL;
@@ -22,7 +22,7 @@ import javafx.stage.Stage;
  *
  * @author Alex
  */
-public class DifficultgameselectController implements Initializable {
+public class AkasztofaController implements Initializable {
 
     private Stage stage;
     @FXML
@@ -35,7 +35,7 @@ public class DifficultgameselectController implements Initializable {
         
         stage = (Stage) visszabtn.getScene().getWindow();
         AnchorPane root;
-        root = (AnchorPane) FXMLLoader.load(getClass().getResource("mainFXML.fxml"));
+        root = (AnchorPane) FXMLLoader.load(getClass().getResource("/rft/easygameselectFXML.fxml"));
         Scene scene = new Scene(root);
        
         stage.setScene(scene);

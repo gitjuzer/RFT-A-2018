@@ -21,7 +21,7 @@
             <Font name="Lucida Bright" size="27.0" />
          </font>
       </Label>
-      <Button fx:id="akasztofabtn" contentDisplay="TOP" layoutX="90.0" layoutY="318.0" mnemonicParsing="false" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Akasztófa" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn" contentDisplay="TOP" layoutX="90.0" layoutY="318.0" mnemonicParsing="false" onAction="#ToAkasztofa" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Akasztófa" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
@@ -39,7 +39,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="visszabtn" layoutX="1015.0" layoutY="715.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="131.0" style="-fx-background-color: f3c4b4 f3c4b4;" text="vissza" textFill="#55160d" underline="true">
+      <Button fx:id="visszabtn" layoutX="1015.0" layoutY="715.0" mnemonicParsing="false" onAction="#vissza" prefHeight="44.0" prefWidth="131.0" style="-fx-background-color: f3c4b4 f3c4b4;" text="vissza" textFill="#55160d" underline="true">
          <font>
             <Font name="Lucida Bright" size="24.0" />
          </font>
