@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.mainFXMLController">
+<AnchorPane id="AnchorPane" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.EasygameselectController">
    <children>
       <Label layoutX="398.0" layoutY="66.0" text="Könnyű játékok" textAlignment="CENTER" textFill="#55160d">
          <font>
@@ -65,7 +65,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="akasztofabtn2" contentDisplay="TOP" layoutX="621.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Matematika" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn2" contentDisplay="TOP" layoutX="621.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Puzzle" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
@@ -78,7 +78,7 @@
          <graphic>
             <ImageView fitHeight="127.0" fitWidth="200.0">
                <image>
-                  <Image url="@../folder/matek-e1423007914402.jpg" />
+                  <Image url="@../folder/puzzle.jpg" />
                </image>
             </ImageView>
          </graphic>
