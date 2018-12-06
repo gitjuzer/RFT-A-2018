@@ -173,32 +173,15 @@ Elõfeltétel:
 A jellemzõ forgatókönyvek leírásai:
 
 Forgatókönyv regisztrációhoz:
-1.regisztrációs ûrlap megjelenítése
-2.regisztrációs ûrlaphoz tartozó adatok kitöltése
-3.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
-4.ûrlap adatainak tárolása
-5.regisztráció megerõsítõ email küldése
-6.megerõsítés fogadása
-7.regisztráció aktiválása
+1.A kezdõlapon a navigációs sávból kiválasztjuk a regisztrációs panelt.
+2.regisztrációs ûrlap megjelenítése
+3.regisztrációs ûrlaphoz tartozó adatok kitöltése
+4.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
+5.ûrlap adatainak tárolása
+6.regisztráció megerõsítõ email küldése
+7.megerõsítés fogadása
+8.regisztráció aktiválása
 
-Lecke felvitel:
-1.Profil megjelenítése
-2.Saját leckék megjelenítése
-3.Új lecke felvétele gomb
-4.Kiválasztani a feltoltendõ fájlt
-5.Feltöltés
-6.Dönteni hogy publicus vagy privat legyen e a lecke
-
-Leckék megtekintése:
-1.Kiválasztani az összes leckék gombot vagy a mentett leckéket 
-2.Keresés részen lehet témák és szint szerint rendezni
-3.Találatokra ráklikkelve már kezdhetjük is vagy akár késõbbre menthetjük is
-
-Barát meghívás:
-1.Profil ikonra kattintunk
-2.Kiválasztjuk a barátok menüpontot
-3.Új barát ikonra kattintunk
-4.Kiválasztjuk hogy keresni szeretnénk vagy korábbiakkal akikkel játszottunk azok közül kiválasztani valakit
 
 7. A rendszer céljai és nem céljai:
 Célok:
