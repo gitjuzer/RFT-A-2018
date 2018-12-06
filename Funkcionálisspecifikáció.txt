@@ -263,15 +263,15 @@ Kov_009		Helyesség
 				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program 
 Kov_010		Megbízhatóság			
 				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen akkor,amikor nagy mennyiségû user használja egyszerre
-				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megbíztahtó és stabil.
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megbíztahtó és stabil lesz.
 Kov_011		
 		Hatékonyság/magas teljesítmény 
  
 				A korlátozott iskolai erõforrásokhoz alkalmazkodva ne legyen magas a rendszerkövetelmény, a gyenge gépeken is jól muzsikáljon
-				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megfelelõen fut a gyengébb teljesítményû gépeken is.
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megfelelõen fog futni a gyengébb teljesítményû gépeken is.
 Kov_012		Visszejelzés			
 				A diákoknak lehetõséget ad az aktuális témakörrõl visszajelzést írni.
-				A program nem ad lehetõséget a diákoknak visszajelzés adására.
+				A program nem fog lehetõséget adni a diákoknak visszajelzés adására.
 				
 
 UML ábra
