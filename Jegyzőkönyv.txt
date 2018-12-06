@@ -4,60 +4,89 @@ EKE C 108 terem.
 2018.11.22.
 Projekt: RFT A 2018 
 
-Az adott héten közös megbeszélés után szétosztottuk a csapatokat(összesen 4 csapat), mely csapatok a következõképpen alakultak ki:
+Az adott héten stand up meeting útján 08:30-kor közös megbeszélés után szétosztottuk a csapatokat(összesen 4 csapat), mely csapatok a következõképpen alakultak ki:
 
-Lányok csapata: (Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin)
-
-Fiúk csapata 1: (Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs)
-
-Fiúk csapata 2: (Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila)
-
-Fiúk csapata 3: (Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton)
+- Rózsaszín csapat: Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin
+- Zöld csapat: Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs
+- Lila csapat: Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila
+- Kék csapat: Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton
 
 Ezt követõen a csapatok szétosztottuk egymás között a projektre vonatkozó feladatokat nagyobb egységenként.
-- Lányok csapata: Asztali alkalmazáshoz fõoldal készítése, 1 játék, valamint egy szintfelmérõ elkészítése
-- Fiúk csapata 1: Asztali alkalmazáshoz történõ játékok fejlesztése (3 játék összesen)
-- Fiúk csapata 2: Asztali alkalmazáshoz még 3 játék készítése az angol nyelvtanulás megkönnyítéséhez
-- Fiúk csapata 3: A projekthez tartozó webes felület készítése
+- Rózsaszín csapat: Asztali alkalmazáshoz fõoldal készítése, 1 játék, valamint egy szintfelmérõ elkészítése
+- Zöld csapat: Asztali alkalmazáshoz történõ játékok fejlesztése (3 játék összesen)
+- Lila csapat: Asztali alkalmazáshoz még 3 játék készítése az angol nyelvtanulás megkönnyítéséhez
+- Kék csapat: A projekthez tartozó webes felület készítése
+
 A nagyobb egységenkénti feladatszétosztást részletezés követte. 
 Ennek megfelelõen szétosztásra kerültek a csapatok között a Követelményspecifikációhoz, illetve Funkcióspecifikációhoz tartozó részfeladatok. Ezek a következõképpen kerültek meghatározásra:
 
-Lányok csapata: (Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin)
+Rózsaszín csapat: (Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin)
 Feladatok: Vágyálom rendszer szerkesztése, Fogalomszótár, Képek feltöltése az asztali alkalmazásokhoz, Kezdõfelület elkészítése, Képernyõtervek, Üzleti foly. modellezése, Forgatókönyv, Controllerek szerkesztése, Követelmény megfeleltetés
 
-Fiúk csapata 1: (Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs)
+Zöld csapat: (Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs)
 Feladatok: Rendszer céljai és nem céljai, Fogalomszótár, Jelenlegi helyzet(Funk spec; Kov spec), Követelmény lista(Funk spec; Kov spec), Képernyõtervek, Asztali alkalmazások(3 játék)
 
-Fiúk csapata 2: (Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila)
+Lila csapat: (Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila)
 Feladatok: Jelenlegi helyzet, Jelenlegi üzleti folyamatok modellje(Kövspec), Igényelt üzleti folyamatok modellje(Kövspec), Asztali alkalmazás(Felelet választós játék - angol), Képernyõterv, Jelenlegi üzleti folyamatok modellje(Funkspec), Igényelt üzleti folyamatok modellje(Funcpec), Asztali alkalmazások(2 játék)
 
-Fiúk csapata 3: (Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton)
+Kék csapat: (Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton)
 Feladatok: Rendszer céljai és nem céljai(Funkspec), A rendszerre vonatkozó külsõ megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása(Funcpec), Fogalomszótár, Webes alkalmazás kezdõlap FrontEnd, Funkció-Követelménymegfeleltetés(Funkspec), Webes alkalmazás(Kép kitalálós), Login BackEnd
 
 ---Jegyzõkönyv vége 2018.11.22.---
 
 
+A csapat megbeszélést tartott 11.26.-án.
 
 
 EKE C 108 terem.
 2018.11.29.
 Projekt: RFT A 2018
 
+08:10-kor stand up meeting során a csapatokkal egymás között átnéztük azon feladatokat, amelyek már elkészültek, valamint tisztáztuk a hátralévõ feladatokat is.
 
-Lányok csapata: (Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin)
+Rózsaszín csapat: (Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin)
 Kész: Vágyálom szerk., Fogalomszótár, Képek feltöltése, Kezdõfelület elkészítése, Képernyõtervek, Üzleti foly. modellezése
 Folyamatban: Forgatókönyv, Controllerek szerkesztése, Követelmény megfeleltetés
 
-Fiúk csapata 1: (Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs)
+Zöld csapat: (Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs)
 Kész: Rendszer céljai és nem céljai, Fogalomszótár, Jelenlegi helyzet(Funk spec; Kov spec), Követelmény lista(Funk spec; Kov spec)
 Folyamatban: Képernyõtervek, Asztali alkalmazások(3 játék)
 
-Fiúk csapata 2: (Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila)
+Lila csapat: (Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila)
 Kész: Jelenlegi helyzet, Jelenlegi üzleti folyamatok modellje(Kövspec), Igényelt üzleti folyamatok modellje(Kövspec), Asztali alkalmazás(Felelet választós játék - angol), Képernyõterv
 Folyamatban: Jelenlegi üzleti folyamatok modellje(Funkspec), Igényelt üzleti folyamatok modellje(Funcpec), Asztali alkalmazások(2 játék)
 
-Fiúk csapata 3: (Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton)
+Kék csapat: (Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton)
 Kész: Rendszer céljai és nem céljai(Funkspec), A rendszerre vonatkozó külsõ megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása(Funcpec), Fogalomszótár
 Folyamatban: Wbes alkalmazás kezdõlap FrontEnd, Funkció-Követelménymegfeleltetés(Funkspec), Webes alkalmazás(Kép kitalálós), Login BackEnd
 
 ---Jegyzõkönyv vége 2018.11.29.---
+
+
+A csapat megbeszélést tartott 12.02.-án.
+
+
+EKE C 108 terem.
+2018.12.06.
+Projekt: RFT A 2018 
+
+08:15-kor a csapat stand up meetinget tartott, amely keretein belül megbeszéltük azokat a feladatokat, amelyek még elkészítésre várnak. A kész feladatokat ellenõriztük.
+
+Rózsaszín csapat: (Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin)
+A lányok csapata elkészült 2 játék alapfelületével, valamint a játékokhoz tartozó képernyõtervekkel.
+A játékok fejlesztése folyamatban van (szintfelmérõ, akasztófa), ezzel párhuzamosan a játékfejlesztésnek megfelelõen folyamatosan frissítésre, kiegészítésre kerül a forgatókönyv és fogalomszótár. 
+
+Zöld csapat: (Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs)
+A dokumentációt érintõ feladatokkal elkészült a csapat. Ezen kívül a 3 játékhoz tartozó képernyõterv is elkészült.
+A játékok fejlesztése folyamatban van, a képfelismerõ játékhoz elkészült a kezdõképernyõ valamint jelen pillanatban két körbõl áll (2 kérdés készült el).
+
+Lila csapat: (Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila)
+Elkészültek a játékokhoz tartozó képernyõtervek. Két játékot készített el a csapat, egy kvíz alapú játékot, melyben 4 válaszlehetõség közül kell választani, a másik játék pedig egy mondatösszeillesztõ. 
+A kattintás sorrendjében egy textboxba rakja a szavakat.
+A harmadik játék elkészítése még folyamatban van.
+
+Kék csapat: (Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton)
+Webes alkalmazáshoz a forgatókönyv folyamatban van, ezen kívül a rendszerjavaslat kidolgozása is folyamatban van. A csapat 3 játék fejlesztésén dolgozik.
+Az alkalmazáshoz a kezdõlap elkészült.
+
+---Jegyzõkönyv vége 2018.12.06.---
