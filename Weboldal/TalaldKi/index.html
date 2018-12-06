@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <style type="text/css">
@@ -32,11 +33,11 @@
 
 <div id="chooseDifficulty" style="display: block">
 
-    <h1>Guess a Word</h1>
-    <h5>Choose a difficulty</h5>
-    <button title="very easy" onclick="chooseDif1()">easy</button>
-    <button title="not difficult" onclick="chooseDif2()">normal</button>
-    <button title="a challenge" onclick="chooseDif3()">hard</button>
+    <h1></h1>
+    <h5>Válasz nehézséget</h5>
+    <button title="very easy" onclick="chooseDif1()">Könnyű</button>
+    <button title="not difficult" onclick="chooseDif2()">Közepes</button>
+    <button title="a challenge" onclick="chooseDif3()">Nehéz</button>
 
 </div>
 
@@ -53,9 +54,8 @@
 
 <div id="startButton" style="display: none">
 
-    <h1>Guess a Word</h1>
-    <button onclick="start()">Start</button>
-    <p>Note: Some words may contain a hyphen(-) ex: X-ray</p>
+    <h1>Találd ki a szót</h1>
+    <button onclick="start()">Kezdés</button>
 
 </div>
 
@@ -66,7 +66,7 @@
     <input type="text" id="guess" maxlength="1">
 
     <div>
-        <button onclick="enterGuess()">Enter Guess</button>
+        <button onclick="enterGuess()">Tipp</button>
     </div>
 
 </div>
@@ -84,7 +84,7 @@
     <h1>You Lose</h1>
 
     <div>
-        <button onclick="restart()">Play again?</button>
+        <button onclick="restart()">Új játék?</button>
     </div>
 
     <p id="correctWordWas"></p>
@@ -93,10 +93,10 @@
 
 <div id="youWin" style="display: none">
 
-    <h2>You Win</h2>
+    <h2>Nyertél</h2>
 
     <div>
-        <button onclick="restart()">Play again?</button>
+        <button onclick="restart()">Új játék?</button>
     </div>
 
 </div>
@@ -131,7 +131,23 @@
 
 
     function wordw() {
-        var randomWords = ["humor", "miniature", "amusing", "creepy", "fact", "risk", "verse", "land", "lumpy", "holiday", "glorious", "weigh", "brake", "pretty", "grin", "capricious", "bite-sized", "misty", "ignore", "certain", "sloppy", "dress", "true", "zonked", "observation", "action", "various", "want", "direful", "suck", "dress", "scarecrow", "judge", "madly", "quizzical", "consist", "fierce", "love", "arrest", "serve", "fit", "hug", "tan", "curve", "eatable", "tub", "race", "innocent", "open", "preach", "steady", "acoustics", "lock", "field", "arrange", "rifle", "learned", "toe", "flow", "competition", "ill-fated", "oatmeal", "match", "male", "measure", "loaf", "smile", "wrestle", "dull", "food", "locket", "bell", "beg", "strengthen", "responsible", "enchanting", "loutish", "switch", "idea", "nine", "squeamish", "pig", "bat", "dear", "trains", "owe", "frogs", "assorted", "lonely", "hurry", "natural", "sun", "snow", "obnoxious", "broken", "friend", "bright", "cake", "sour", "permit", "economic", "lovely", "quick", "van", "tempt", "apparel", "decay", "business", "adjustment", "blushing", "makeshift", "slippery", "load", "winter", "exist", "tongue", "country", "roll", "fast", "moor", "possess", "pat", "pass", "books", "impartial", "hospitable", "dust", "naughty", "extra-large", "tacky", "produce", "committee", "fuzzy", "judicious", "nebulous", "stick", "ear", "copy", "friendly", "press", "distinct", "vegetable", "upset", "venomous", "statement", "sulky", "spell", "x-ray", "square", "taste", "great", "thumb", "adjoining", "chilly", "test", "ancient", "green", "badge", "work", "repeat", "free", "elderly", "doctor", "difficult", "grubby", "approval", "turn", "vivacious", "thundering", "cherries", "rest", "plan", "crime", "sticks", "wealthy", "phone", "suspend", "gullible", "fence", "note", "wall", "interest", "coil", "jump", "enchanted", "funny", "racial", "greasy", "polish", "elbow", "smart", "bore", "crowd", "glistening", "oval", "eggs", "nauseating", "detailed", "veil", "coal"]
+        var randomWords = ["humor", "miniature", "amusing", "creepy", "fact", "risk", "verse", "land", "lumpy", "holiday",
+            "glorious", "weigh", "brake", "pretty", "grin", "capricious", "bite-sized", "misty", "ignore", "certain",
+            "sloppy", "dress", "true", "zonked", "observation", "action", "various", "want", "direful", "suck", "dress",
+            "scarecrow", "judge", "madly", "quizzical", "consist", "fierce", "love", "arrest", "serve", "fit", "hug", "tan",
+            "curve", "eatable", "tub", "race", "innocent", "open", "preach", "steady", "acoustics", "lock", "field", "arrange",
+            "rifle", "learned", "toe", "flow", "competition", "ill-fated", "oatmeal", "match", "male", "measure", "loaf", "smile",
+            "wrestle", "dull", "food", "locket", "bell", "beg", "strengthen", "responsible", "enchanting", "loutish", "switch", "idea",
+            "nine", "squeamish", "pig", "bat", "dear", "trains", "owe", "frogs", "assorted", "lonely", "hurry", "natural", "sun", "snow",
+            "obnoxious", "broken", "friend", "bright", "cake", "sour", "permit", "economic", "lovely", "quick", "van", "tempt", "apparel",
+            "decay", "business", "adjustment", "blushing", "makeshift", "slippery", "load", "winter", "exist", "tongue", "country", "roll",
+            "fast", "moor", "possess", "pat", "pass", "books", "impartial", "hospitable", "dust", "naughty", "extra-large", "tacky", "produce",
+            "committee", "fuzzy", "judicious", "nebulous", "stick", "ear", "copy", "friendly", "press", "distinct", "vegetable", "upset",
+            "venomous", "statement", "sulky", "spell", "x-ray", "square", "taste", "great", "thumb", "adjoining", "chilly", "test", "ancient",
+            "green", "badge", "work", "repeat", "free", "elderly", "doctor", "difficult", "grubby", "approval", "turn", "vivacious", "thundering",
+            "cherries", "rest", "plan", "crime", "sticks", "wealthy", "phone", "suspend", "gullible", "fence", "note", "wall", "interest",
+            "coil", "jump", "enchanted", "funny", "racial", "greasy", "polish", "elbow", "smart", "bore", "crowd", "glistening", "oval", "eggs",
+            "nauseating", "detailed", "veil", "coal"]
         var raNum = Math.floor(Math.random() * 70);
         return randomWords[raNum]
     }
@@ -195,14 +211,14 @@
         document.getElementById('mainGame').style.display='block';
         document.getElementById('startButton').style.display='none';
 
-        document.getElementById("question").innerHTML = "Enter your first guess";
+        document.getElementById("question").innerHTML = "Első tipp";
 
         wordStart();
 
         document.getElementById('RRguess').style.display='block';
-        document.getElementById("rightGuess").innerHTML = "word progress: " + wordGuess;
-        document.getElementById("wrongGuess").innerHTML = "Wrong guesses: " + wrongGuess;
-        document.getElementById("guessesLeft").innerHTML = "Guesses remaining: " + guessBomb;
+        document.getElementById("rightGuess").innerHTML = "Folyamat:" + wordGuess;
+        document.getElementById("wrongGuess").innerHTML = "Rossz tippek" + wrongGuess;
+        document.getElementById("guessesLeft").innerHTML = "Tippek hátra" + guessBomb;
 
         var x = document.getElementById("guess").maxLength;
         //document.getElementById("demo").innerHTML = x;
@@ -243,9 +259,9 @@
         if (winCount <= 0) {
             gameWin()
         }
-        document.getElementById("rightGuess").innerHTML = "word progress: " + wordGuess;
-        document.getElementById("wrongGuess").innerHTML = "Wrong guesses: " + wrongGuess;
-        document.getElementById("guessesLeft").innerHTML = "Guesses remaining: " + guessBomb;
+        document.getElementById("rightGuess").innerHTML = "Folyamatban: " + wordGuess;
+        document.getElementById("wrongGuess").innerHTML = "Rossz tippek: " + wrongGuess;
+        document.getElementById("guessesLeft").innerHTML = "Tippek hátra: " + guessBomb;
     }
 
     function isRightOnot(a) {
