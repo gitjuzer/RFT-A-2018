@@ -9,6 +9,7 @@ Tovább kutakodtunk és számos fejlesztési ötletet tudunk felkínálni a megrendelõn
 A könnyebb felhasználás érdekében, egy letisztult egyszerû felhasználói felületet ajánlunk fel.
 
 
+
 2. Követelménylista
 ID			NÉV			KIFEJTÉS
 Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
