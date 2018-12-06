@@ -1,11 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.akasztófa.AkasztofaController">
-    
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.akasztófa.AkasztofaController">
+   <children>
+      <Label alignment="CENTER" layoutX="507.0" layoutY="318.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="185.0" text="Válassz betűt" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="ellenorzobtn" alignment="CENTER" contentDisplay="TOP" layoutX="537.0" layoutY="436.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="39.0" prefWidth="126.0" style="-fx-background-color: ffffff;" text="Választ" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
+      <Button fx:id="visszabtn" layoutX="1008.0" layoutY="716.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: f3c4b4 f3c4b4;" text="vissza" textFill="#55160d" underline="true">
+         <font>
+            <Font name="Lucida Bright" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="486.0" layoutY="500.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="228.0" text="Maradék életek:" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kivalasztField" layoutX="556.0" layoutY="376.0" prefHeight="39.0" prefWidth="88.0" />
+      <Label fx:id="lifeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="578.0" layoutY="553.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="418.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="365.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="450.0" layoutY="624.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="301.0" text="Már választott betűk:" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="wordLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="337.0" layoutY="207.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="525.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
