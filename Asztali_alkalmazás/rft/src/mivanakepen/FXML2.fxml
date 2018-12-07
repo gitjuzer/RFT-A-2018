@@ -10,28 +10,28 @@
 
 <AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML2Controller">
    <children>
-      <Button layoutX="57.0" layoutY="397.0" mnemonicParsing="false" onAction="#wrong_answer2" prefHeight="38.0" prefWidth="90.0" text="Dog">
+      <Button layoutX="357.0" layoutY="597.0" mnemonicParsing="false" onAction="#wrong_answer2" prefHeight="38.0" prefWidth="90.0" text="Dog">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <Button layoutX="204.0" layoutY="397.0" mnemonicParsing="false" onAction="#wrong_answer2" prefHeight="38.0" prefWidth="90.0" text="Tiger">
+      <Button layoutX="504.0" layoutY="597.0" mnemonicParsing="false" onAction="#wrong_answer2" prefHeight="38.0" prefWidth="90.0" text="Tiger">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <Button layoutX="357.0" layoutY="397.0" mnemonicParsing="false" onAction="#wrong_answer2" prefHeight="38.0" prefWidth="90.0" text="Mouse">
+      <Button layoutX="657.0" layoutY="597.0" mnemonicParsing="false" onAction="#wrong_answer2" prefHeight="38.0" prefWidth="90.0" text="Mouse">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <Button layoutX="493.0" layoutY="397.0" mnemonicParsing="false" onAction="#load_third" prefHeight="38.0" prefWidth="90.0" text="Mice">
+      <Button layoutX="793.0" layoutY="597.0" mnemonicParsing="false" onAction="#load_third" prefHeight="38.0" prefWidth="90.0" text="Mice">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <ImageView fitHeight="296.0" fitWidth="541.0" layoutX="57.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="496.0" fitWidth="541.0" layoutX="357.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../folder/2.jpg" />
          </image>
       </ImageView>
-      <Text layoutX="119.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
+      <Text layoutX="459.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
          <font>
             <Font name="Jokerman" size="25.0" />
          </font>
