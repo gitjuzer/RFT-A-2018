@@ -12,7 +12,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -24,13 +27,22 @@ public class FXML3Controller implements Initializable {
     /**
      * Initializes the controller class.
      */
+    private Stage stage;
+    @FXML
+    Button button;
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
     @FXML
     private void vissza(ActionEvent event) throws IOException {
-        
+        stage = (Stage) button.getScene().getWindow();
+        AnchorPane root;
+        root = (AnchorPane) FXMLLoader.load(getClass().getResource("/rft/mainFXML.fxml"));
+        Scene scene = new Scene(root);
+       
+        stage.setScene(scene);
         
     }
 }

@@ -29,7 +29,7 @@
             <Font name="Jokerman" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="visszagomb" layoutX="822.0" layoutY="621.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Vissza" underline="true">
+      <Button fx:id="visszagomb" onAction="#vissza" layoutX="822.0" layoutY="621.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Vissza" underline="true">
          <font>
             <Font name="Jokerman" size="16.0" />
          </font>
