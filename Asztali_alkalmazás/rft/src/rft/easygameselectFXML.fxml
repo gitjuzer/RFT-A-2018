@@ -47,7 +47,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="akasztofabtn1" contentDisplay="TOP" layoutX="881.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Mi van a képen?" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn1" onAction="#Tomivanakepen" contentDisplay="TOP" layoutX="881.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Mi van a képen?" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>

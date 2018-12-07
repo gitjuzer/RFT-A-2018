@@ -52,6 +52,17 @@ public class EasygameselectController implements Initializable {
        
         stage.setScene(scene);
     }
+    @FXML
+    private void Tomivanakepen(ActionEvent event) throws IOException{
+        
+        stage = (Stage) akasztofabtn.getScene().getWindow();
+        AnchorPane root;
+        root = (AnchorPane) FXMLLoader.load(getClass().getResource("/mivanakepen/FXMLStart.fxml"));
+        Scene scene = new Scene(root);
+       
+        stage.setScene(scene);
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
