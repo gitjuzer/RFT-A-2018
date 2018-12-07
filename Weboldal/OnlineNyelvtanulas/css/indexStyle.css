@@ -71,10 +71,12 @@ header a:hover {
 
 #showcase{
     min-height: 300px;
-    background:
-        linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    background-image:
         url('../pic/bg.jpg') no-repeat -600px -4700;
-    
+
+
+
+
     text-align: center;
     color:#e5e5e5;
     border-bottom:#e8491d 2px solid;
