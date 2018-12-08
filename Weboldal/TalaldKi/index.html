@@ -24,7 +24,7 @@
         }
         .image {
             max-width: 800px;
-            max-height: 800px;
+            max-height: 300px;
 
         }
 
@@ -214,9 +214,9 @@
         wordStart();
 
         document.getElementById('RRguess').style.display = 'block';
-        document.getElementById("rightGuess").innerHTML = "Folyamat:" + wordGuess;
-        document.getElementById("wrongGuess").innerHTML = "Rossz tippek" + wrongGuess;
-        document.getElementById("guessesLeft").innerHTML = "Tippek hátra" + guessBomb;
+        document.getElementById("rightGuess").innerHTML = "Folyamat: " + wordGuess;
+        document.getElementById("wrongGuess").innerHTML = "Rossz tippek: " + wrongGuess;
+        document.getElementById("guessesLeft").innerHTML = "Tippek hátra: " + guessBomb;
 
         var x = document.getElementById("guess").maxLength;
         //document.getElementById("demo").innerHTML = x;
