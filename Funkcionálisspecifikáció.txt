@@ -91,6 +91,15 @@ A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelvet fog
 -Követelmény specifikácó: A követelmény specifikáció (angolul: requirement specification), alapja a megrendelõvel készített riportok. Ezek segítségével pontos képet alkotunk a megrendelõ igényeirõl és egyeztetünk ennek megvalósításával kapcsolatban.
 -Szoftver: (angol: software) alatt a legszûkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedõ, azokat mûködtetõ programokat értjük.
 -Android felület:Az Android Linux kernelt használó mobil operációs rendszer, elsõsorban érintõképernyõs mobil eszközökre (okostelefon, táblagép) tervezve.  A fejlesztõk Java nyelven írhatnak rá menedzselt kódot, az eszközt a Google által fejlesztett Java programkönyvtárakon keresztül vezérelve.
+-Jutalomrendszer:A gamifikáció – vagy más néven játékosítás – a játékok és játékelemek alkalmazását jelenti az élet játékon kívüli területein, célja pedig, hogy az ott zajló folyamatokat érdekesebbé és eredményesebbé tegye. Kiválóan alkalmazható az oktatásban, az egészségügyben, kulturális területeken és a munkahelyi környezetben is – mindenütt minõségi javulást eredményezhet.
+-Adatvédelem:Az adatvédelem a személyes adatok gyûjtésének, feldolgozásának és felhasználásának korlátozásával, az érintett személyek védelmével foglalkozik. Nevével ellentétben tehát nem elsõsorban az adatokat védjük, hanem azokat a személyeket, akikkel az adatok összeköthetõk. Ennek eszközei lehetnek jogi szabályok, eljárások, de akár technológiai eszközök is.
+-Implementált feladat: Egy komplex rendszer mûködése során különféle feladatokat old meg, ezek egymással összefüggnek, általában kölcsönhatásban vannak.
+-User: A felhasználó aza személy,, aki egy számítógépes szolgáltatás használója. A felhasználóhoz gyakran felhasználói fiók tartozik, amit felhasználói név azonosít.
+-Rendszerkövetelmény: A szolgáltatások és megszorítások leírásai a rendszerkövetelményei.
+-Szellemi termék(immateriális): A szakirodalom szerint a szellemi termékek olyan tartós, nem anyagi (materiális) javak, amelyek felhasználásával, vagy alkalmazásával hasznosítható anyagi- és nem anyagi javak állíthatóak elõ.
+-Értékesítés: Azt a munkamûveletet, amivel az árut közvetlenül a vásárlónak adjuk, értékesítésnek nevezzük.
+-Specifikáció: Részletezés, felsorolás az egyedi különbségek meghatározása. 
+-DEMO(demonstráció): Reklámelõzetes egy termék vagy szolgáltatás (szoftver, videojáték) kipróbálására.
 
 6.Használati eset
 
@@ -164,32 +173,15 @@ Elõfeltétel:
 A jellemzõ forgatókönyvek leírásai:
 
 Forgatókönyv regisztrációhoz:
-1.regisztrációs ûrlap megjelenítése
-2.regisztrációs ûrlaphoz tartozó adatok kitöltése
-3.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
-4.ûrlap adatainak tárolása
-5.regisztráció megerõsítõ email küldése
-6.megerõsítés fogadása
-7.regisztráció aktiválása
+1.A kezdõlapon a navigációs sávból kiválasztjuk a regisztrációs panelt.
+2.regisztrációs ûrlap megjelenítése
+3.regisztrációs ûrlaphoz tartozó adatok kitöltése
+4.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
+5.ûrlap adatainak tárolása
+6.regisztráció megerõsítõ email küldése
+7.megerõsítés fogadása
+8.regisztráció aktiválása
 
-Lecke felvitel:
-1.Profil megjelenítése
-2.Saját leckék megjelenítése
-3.Új lecke felvétele gomb
-4.Kiválasztani a feltoltendõ fájlt
-5.Feltöltés
-6.Dönteni hogy publicus vagy privat legyen e a lecke
-
-Leckék megtekintése:
-1.Kiválasztani az összes leckék gombot vagy a mentett leckéket 
-2.Keresés részen lehet témák és szint szerint rendezni
-3.Találatokra ráklikkelve már kezdhetjük is vagy akár késõbbre menthetjük is
-
-Barát meghívás:
-1.Profil ikonra kattintunk
-2.Kiválasztjuk a barátok menüpontot
-3.Új barát ikonra kattintunk
-4.Kiválasztjuk hogy keresni szeretnénk vagy korábbiakkal akikkel játszottunk azok közül kiválasztani valakit
 
 7. A rendszer céljai és nem céljai:
 Célok:
@@ -246,23 +238,35 @@ Kov_004		Felület				Legyen online felülete és android felülete
 			  -minden játékból található rajta egy demó 
 			  -van galéria a játékokról 
 			  -itt lehet letölteni az asztali alkalmazást
-	Asztali alkalmazás: gyakorló feladatokat tartalmaz, minden típusból hármat.
+	Asztali alkalmazás: gyakorló feladatokat tartalmaz.
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel.
-A követelmény specifikácóban feltültetett követelménynek megfelelõen, ahogyan már itt is szó volt róla, egy egyszerû és letisztult felületet valósítunk meg a programban, hogy a kisiskolások minél könnyebben kezelni tudják azt. 
-A kért szoftverben minden fõbb funkció egér klikkelésre fog mûködni, billenyûzetet, a gombokon a feliratok jól olvashatóak a betûtípusnak köszönhetõen. Minden utasítás magyarul fog megjelenni, hogy az igazán kezdõk is könnyen megértsék, hogy mi a feladat. Csak a játékok feladatai lesznek angolul.
+
+	A követelmény specifikácóban feltültetett követelménynek megfelelõen, ahogyan már itt is szó volt róla, egy egyszerû és letisztult felületet 
+	valósítunk meg a programban, hogy a kisiskolások minél könnyebben kezelni tudják azt. 
+	A kért szoftverben minden fõbb funkció egér klikkelésre fog mûködni, billenyûzetet, a gombokon a feliratok jól olvashatóak a betûtípusnak 		köszönhetõen. Minden utasítás magyarul fog megjelenni, hogy az legfiatalabbak is könnyen kezelhessék, hogy mi a feladat. Csak a játékok feladatai 		lesznek angolul.
+
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
-A követelmény specifikációban lefektetett követelménynek csak egy részére van funkció a szoftverben. Azonnali visszajelzést fognak kapni arról, hogy hogyan sikerült a feladat, viszont csak az elért százalékot írja majd ki.
+
+	A követelmény specifikációban lefektetett követelménynek csak egy részére van funkció a szoftverben. Azonnali visszajelzést fognak kapni arról, hogy 		hogyan sikerült a feladat, viszont csak az elért százalékot írja majd ki.
+
 Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezelni.
-A követelmény specifikációban lefektetett követelménynek nem felel meg, mivel regisztrációt és adatbekérést nem tartalmaz a szoftver, így nem kell megfelelni a GDPR-nak. 
+
+	A a webes alkalmazás a követelmény specifikációban lefektetett követelménynek 100%-ban megfel. Az asztali alkalmazás nem használ fel személyes 	adatokat, azért arra nem vonatkoznak a GDPR törvényei.
+
 Kov_008		Feladatok			A felület alkalmas legyen különbözõ témájú feladatok összeállítására.
-A szoftver nem alkalmazkodik különbözõ témákhoz, és nem állít össze ennek megfelelõen feladatokat. Csak elõre meghatározott feladatokat tartalmaz. 
+
+	A szoftver nem alkalmazkodik különbözõ témákhoz, és nem állít össze ennek megfelelõen feladatokat. Csak elõre meghatározott feladatokat tartalmaz.
+	A rövid határidõ miatt, csak az elõre implementált feladatokkal lehet gyakorolni.
+
 Kov_009		Helyesség
+
 				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program 
 Kov_010		Megbízhatóság			
 				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen akkor,amikor nagy mennyiségû user használja egyszerre
 				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megbíztahtó és stabil lesz.
 Kov_011		
-		Hatékonyság/magas teljesítmény  
+		Hatékonyság/magas teljesítmény 
+ 
 				A korlátozott iskolai erõforrásokhoz alkalmazkodva ne legyen magas a rendszerkövetelmény, a gyenge gépeken is jól muzsikáljon
 				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megfelelõen fog futni a gyengébb teljesítményû gépeken is.
 Kov_012		Visszejelzés			
@@ -324,6 +328,8 @@ Felhasználó						Program
 
 
 Szereplõk: Tanárok és diákok
+diákok: az iskolában szereplõ diákok, felettesük a tanár, feladatokat kell teljesíteniük
+tanárok: a feladatok kiosztásáért felelõ személy
 
 ÜZLETI FOLYAMATOK MODELLJE
 __________________________
