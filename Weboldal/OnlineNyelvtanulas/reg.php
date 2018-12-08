@@ -17,28 +17,32 @@ if(isset($_POST['btn-signup'])) {
     $uname = $con->real_escape_string($uname);
     $upass = $con->real_escape_string($upass);
     $email = $con->real_escape_string($email);
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $msg = "Invalid email format";
-    } else {
-        if ($upass != $upass2) {
-            $msg = "<div class=\"hiba\">Nem egyezik a két jelszó</div>";
+    if(!preg_match('/^[a-zA-Z0-9]{5,}$/', $uname)) {
+        $msg = "<div class=\"hiba\">Felhasználónév legalább 5 karakterből álljon és ne legyen benne ékezet</div>";
+    }
+    else {
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $msg = "<div class=\"hiba\">Nem megfelelő az email cím</div>";
         } else {
-            $password = md5($upass);
-            $hash = md5(rand(0, 1000));
+            if ($upass != $upass2 ) {
+                $msg = "<div class=\"hiba\">Nem egyezik a két jelszó</div>";
+            } else {
+                $password = md5($upass);
+                $hash = md5(rand(0, 1000));
 
-            $check_uname = $con->query("SELECT password FROM users WHERE username='$uname'");
-            $count = $check_uname->num_rows;
-            $role = "guest";
+                $check_uname = $con->query("SELECT password FROM users WHERE username='$uname'");
+                $count = $check_uname->num_rows;
+                $role = "guest";
 
-            if ($count == 0) {
+                if ($count == 0) {
 
-                $query = "INSERT INTO users(username,password, role,email, hash) VALUES('$uname','$password', '$role','$email','$hash')";
+                    $query = "INSERT INTO users(username,password, role,email, hash) VALUES('$uname','$password', '$role','$email','$hash')";
 
 
-                if ($con->query($query)) {
-                    $to = $email; // Send email to our user
-                    $subject = "Signup | Verification"; // Give the email a subject
-                    $message = '
+                    if ($con->query($query)) {
+                        $to = $email; // Send email to our user
+                        $subject = "Signup | Verification"; // Give the email a subject
+                        $message = '
          
         Thanks for signing up!
         Your account has been created, you can login with the following credentials after you have activated your account by pressing the url below.
@@ -54,38 +58,39 @@ if(isset($_POST['btn-signup'])) {
         ';
 
 
-                    $mail = new PHPMailer();
-                    $mail->isSMTP();
-                    $mail->SMTPDebug = 0;
-                    $mail->SMTPAuth = true;
-                    $mail->SMTPSecure = 'ssl';
-                    $mail->Host = 'smtp.gmail.com';
-                    $mail->Port = 465;
-                    $mail->isHTML(true);
-                    $mail->Username = "rft2018a@gmail.com";
-                    $mail->Password = "RfTa2018";
-                    $mail->setFrom('rft2018a@gmail.com');
-                    $mail->Subject = $subject;
-                    $mail->Body = $message;
-                    $mail->addAddress($email);
+                        $mail = new PHPMailer();
+                        $mail->isSMTP();
+                        $mail->SMTPDebug = 0;
+                        $mail->SMTPAuth = true;
+                        $mail->SMTPSecure = 'ssl';
+                        $mail->Host = 'smtp.gmail.com';
+                        $mail->Port = 465;
+                        $mail->isHTML(true);
+                        $mail->Username = "rft2018a@gmail.com";
+                        $mail->Password = "RfTa2018";
+                        $mail->setFrom('rft2018a@gmail.com');
+                        $mail->Subject = $subject;
+                        $mail->Body = $message;
+                        $mail->addAddress($email);
 
 
-                    if ($mail->send())
-                        $msg1 = "You have been registered! Please verify your email!";
-                    else
-                        echo $msg1 = "Hiba az aktiváló email küldése közben.";
+                        if ($mail->send())
+                            $msg = "You have been registered! Please verify your email!";
+                        else
+                            echo $msg = "Hiba az aktiváló email küldése közben.";
+                    } else {
+                        $msg = "<p>Hiba a Regisztráció közben</p>";
+                    }
+
                 } else {
-                    $msg = "<p>Hiba a Regisztráció közben</p>";
+
+
+                    $msg = "<div class=\"hiba\">Sajnos a név már foglalt.</div>";
+
                 }
 
-            } else {
-
-
-                $msg = "<div class=\"hiba\">Sajnos a név már foglalt.</div>";
-
+                $con->close();
             }
-
-            $con->close();
         }
     }
 }
@@ -148,10 +153,6 @@ if(isset($_POST['btn-signup'])) {
                     <?php
                     if (isset($msg)) {
                         echo $msg;
-
-                    }
-                    if (isset($msg1)) {
-                        echo $msg1;
 
                     }
                     ?>
