@@ -22,6 +22,11 @@
         h1 {
 
         }
+        .image {
+            max-width: 800px;
+            max-height: 300px;
+
+        }
 
         h2 {
 
@@ -31,7 +36,7 @@
 
 <body>
 
-<image href="" class="image" ></image>
+<img src="#" class="image" >
 
 <div id="chooseDifficulty" style="display: block">
 
@@ -136,13 +141,10 @@
         var randomWords = ["apple", "table", "chair", "Minecraft", "random", "risk", "car", "tree",  "holiday",
         ];
 
-        var img = document.querySelector('.img');
+        var img = document.querySelector('.image');
 
-
-        var raNum = Math.floor(Math.random() * 70);
-
-        // //TODO NEM mokodik megfagyasztja
-        // img.href=images[raNum ];
+        var raNum = Math.floor(Math.random() * 9);
+          img.src= images[raNum];
         return randomWords[raNum]
     }
 
@@ -212,9 +214,9 @@
         wordStart();
 
         document.getElementById('RRguess').style.display = 'block';
-        document.getElementById("rightGuess").innerHTML = "Folyamat:" + wordGuess;
-        document.getElementById("wrongGuess").innerHTML = "Rossz tippek" + wrongGuess;
-        document.getElementById("guessesLeft").innerHTML = "Tippek hátra" + guessBomb;
+        document.getElementById("rightGuess").innerHTML = "Folyamat: " + wordGuess;
+        document.getElementById("wrongGuess").innerHTML = "Rossz tippek: " + wrongGuess;
+        document.getElementById("guessesLeft").innerHTML = "Tippek hátra: " + guessBomb;
 
         var x = document.getElementById("guess").maxLength;
         //document.getElementById("demo").innerHTML = x;
@@ -248,6 +250,8 @@
 
         if (winCount <= 0) {
             gameWin()
+            var img = document.querySelector('.image');
+            img.src = '#';
         }
         document.getElementById("rightGuess").innerHTML = "Folyamatban: " + wordGuess;
         document.getElementById("wrongGuess").innerHTML = "Rossz tippek: " + wrongGuess;
