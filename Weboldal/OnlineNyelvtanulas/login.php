@@ -44,7 +44,7 @@ require_once 'mydbms.php';
                     $myusername1=mysqli_real_escape_string($con,$_POST['username']);
                     $mypassword1=mysqli_real_escape_string($con,$_POST['password']);
                     $mypassword=MD5($mypassword1);
-                    $sql="SELECT * FROM users WHERE username='$myusername1' and password='$mypassword'";
+                    $sql="SELECT * FROM users WHERE username='$myusername1' and password='$mypassword' and active='1'";
                     $result=mysqli_query($con,$sql);
                     $row=mysqli_fetch_array($result);
                     $_SESSION['userid']=$row['user_id'];
@@ -56,7 +56,8 @@ require_once 'mydbms.php';
                     }
                     else
                     {
-                        $error="<div class=\"hiba\">Felhasználónév vagy a jelszó hibás</div>";
+                        $error="<div class=\"hiba\">Győződj meg róla, hogy jól írtad-e be a 
+                            felhasználó nevet és a jelszót és hogy aktiváltad a felhasználói fiókod</div>";
                     }
                 }
                 ?>
