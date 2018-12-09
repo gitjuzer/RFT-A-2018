@@ -19,7 +19,7 @@ import javafx.scene.layout.AnchorPane;
  *
  * @author Tomcsa
  */
-public class FXML3controller implements Initializable {
+public class FXM10LController implements Initializable {
 
     @FXML
     private AnchorPane rootPane;
@@ -33,9 +33,9 @@ public class FXML3controller implements Initializable {
     }    
 
     @FXML
-    private void load_foruth(ActionEvent event) throws IOException {
-        AnchorPane pane4 = FXMLLoader.load(getClass().getResource("4FXML.fxml"));
-        rootPane.getChildren().setAll(pane4);
+    private void load_result(ActionEvent event) throws IOException {
+        AnchorPane pane11 = FXMLLoader.load(getClass().getResource("FXML_result.fxml"));
+        rootPane.getChildren().setAll(pane11);
     }
     
 }
