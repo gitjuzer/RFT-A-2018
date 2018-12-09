@@ -109,7 +109,6 @@ Akasztófa:
 	Ha rosszul választunk a játék autómatikusan elkezdi rajzolni az akasztófát. Ha az akasztófa kirajzolódott, a játék véget ér. A "Tovább" gombra való kattintással visszadob a kezdőlapra. Az "új játék" gombbal pedig új játék indítható.
 
 
-
 Asztali alkalmazás
 ------------------
 	
