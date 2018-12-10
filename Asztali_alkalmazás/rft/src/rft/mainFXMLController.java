@@ -66,6 +66,10 @@ public class mainFXMLController implements Initializable {
     @FXML
     private void ToSzintfelmero(ActionEvent event) throws IOException{
         
+        SzintfelmeroController.index.clear();
+        SzintfelmeroController.kerdesek.clear();
+        SzintfelmeroController.valasz.clear();
+        
         stage = (Stage) szintfelmerobtn.getScene().getWindow();
         AnchorPane root;
         root = (AnchorPane) FXMLLoader.load(getClass().getResource("szintfelmeroFXML.fxml"));
