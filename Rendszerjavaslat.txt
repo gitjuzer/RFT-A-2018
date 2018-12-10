@@ -144,7 +144,9 @@ A kezdőlapon rögtön lehet választani a könnyű és a nehezebb játékok men
 tesztet töltsünk ki, ami egy harmadik gombbal lehet elérni. A főoldalon két kép illusztrálja a könnyű és a nehéz feladatok
 szintjeit. Bármelyik gombra rákattintva új ablakba ugrik fel az új menü. Vissza gombokra kattintva az előző ablakot hozhatjuk vissza. 
 
-
+Akasztófa:
+A könnyű játékok között található játék, amely új felületen nyílik meg. Új szavak hozzáadása nem lehetséges.
+A játék véletlen szám segítségével fogja  kiválasztani a kitalálásra váró szót.
 
 
 
