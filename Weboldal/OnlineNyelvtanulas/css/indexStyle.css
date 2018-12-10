@@ -7,6 +7,9 @@ body{
     margin:0;
     background-color: #f4f4f4;
 }
+.letolteshead {
+margin-bottom: 150px;
+}
 /*Global*/
 .container{
     width: 80%;
