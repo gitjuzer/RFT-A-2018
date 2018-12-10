@@ -1,4 +1,4 @@
-Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjén!
+﻿Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjén!
 --------------------------------------------------------------------------------------------
 
 
@@ -112,7 +112,10 @@ Akasztófa:
 Asztali alkalmazás
 ------------------
 	
-
+Egyszerű letisztult felület:
+Az asztali alkalmazás felülete a könnyen kezelhetőség megvalósítása érdekében csak egér klikkelésre működő, magyar nyelvű gombokat fog tartalmazni. 
+A felületek egymásból nyílóak lesznek, és egy felület sem lesz túlzsúfolt.
+Nem lesz olyan felület amit hosszantartó kattingatásokon keresztül lehet elérni. Minden a keződlapról lesz elérhető.
 
 
 	
