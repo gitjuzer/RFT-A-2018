@@ -45,7 +45,11 @@ public class AkasztofaController implements Initializable {
     @FXML
     private Label wordLabel;
     @FXML
-    private Label letterLabel;
+    private Label letterLabel1;
+    private Label letterLabel2;
+    private Label letterLabel3;
+    private Label letterLabel4;
+    private Label letterLabel5;
     /**
      * Initializes the controller class.
      */
@@ -65,8 +69,6 @@ public class AkasztofaController implements Initializable {
     }
     @FXML
     private void valasztbtn(ActionEvent event) throws IOException{
-        
-        //még nem működőképes
         
         List<String> words = Arrays.asList("welcome", "banana", "computer", "cow", "rain", "water");
 	String word = words.get((int) (Math.random() * words.size()));
@@ -88,8 +90,14 @@ public class AkasztofaController implements Initializable {
         
         Scanner s = new Scanner(System.in); //to read character
         
-        ArrayList<Character> letterLabel = new ArrayList<Character>();
+        Label[] letterLabel = new Label[5];
+        letterLabel[0]=letterLabel1;
+        letterLabel[1]=letterLabel2;
+        letterLabel[2]=letterLabel3;
+        letterLabel[3]=letterLabel4;
+        letterLabel[4]=letterLabel5;
         
+        int b=0;
         //while(Integer.parseInt((String)lifeLabel.toString())>0){
         while(life>0){
             
@@ -124,7 +132,12 @@ public class AkasztofaController implements Initializable {
             lifeLabel.setText(Integer.toString(life));
             //System.out.print(wordLabel);
             //System.out.print(lifeLabel);
+            
+            letterLabel[b].setText(String.valueOf(kivalasztott));
+            b++;
+            
         }
+        
         
         if(life==0){
             wordLabel.setText("Sajnos vesztettél, majd legközelebb!" + String.valueOf(hossz));
