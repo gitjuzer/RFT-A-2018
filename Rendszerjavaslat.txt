@@ -123,6 +123,24 @@ Nem lesznek táblázatok, űrlapok és összezavaró nyelvi ábrák, fölöslege
 Az asztali felületen 2 nehézségi szint közül lehet választani, illetve lesz egy szintfelmérő.
 A könnyű szinten 3 játék lesz (akasztófa, mit látsz a képen, memóriajáték), a nehéz szint is 3 játékot fog tartalmazni (egészítsd ki, rakd ki, mond meg)
 
+Adatvédelem:
+Nincsen adatvédelemre szükség, hiszen az asztali alkalmazás nem kér és használ fel személyes adatokat.
+
+Könnyű megfogalmazás:
+Minden játékhoz tartozik rövid leírás, gombok kiosztása, a lehető legegyszerűbben lesz megfogalmazva.
+	
+Vizualitás:
+Az asztali alkalmazás a játékok illusztrálva lesznek képekkel. Ez azt jelenti, hogy a felhasználó számára nem csak egy 
+gomb fog látszódni rajta "Akasztófa" felirattal, hanem a gomb fölött a játékról való kép is el lesz helyezve.
+Az előbbiekben hozott példa mindegyik játék típusra teljesül.
+A játékok jelentős része vizuális alapon működik. Így azokra alapból teljesül a követelménynek való megfelelés.
+
+Web:
+A webes alkalmazásról egyszerűen letölthető az asztali alkalmazás így könnyen elérhető lesz.
+Internet szolgáltatás nem szükséges lesz hozzá offline használható a feltelepített program.
+
+
+
 
 
 	
