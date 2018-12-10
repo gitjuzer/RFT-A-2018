@@ -8,8 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="basic.witp.FXML7Controller">
+<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basic.witp.FXML7Controller">
    <children>
       <ImageView fitHeight="282.0" fitWidth="479.0" layoutX="81.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -21,17 +20,17 @@
             <Font name="Jokerman" size="20.0" />
          </font>
       </Text>
-      <Button layoutX="114.0" layoutY="387.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Vegetable">
+      <Button layoutX="114.0" layoutY="387.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Vegetable">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="223.0" layoutY="387.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Fruit">
+      <Button layoutX="223.0" layoutY="387.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Fruit">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="436.0" layoutY="387.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Fruits">
+      <Button layoutX="436.0" layoutY="387.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Fruits">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>

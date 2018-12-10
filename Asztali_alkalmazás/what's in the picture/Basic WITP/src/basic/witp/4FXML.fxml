@@ -20,11 +20,11 @@
             <Font name="Jokerman" size="22.0" />
          </font>
       </Text>
-      <Button layoutX="49.0" layoutY="409.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Articulated bus">
+      <Button layoutX="49.0" layoutY="409.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="33.0" prefWidth="129.0" text="Articulated bus">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <Button layoutX="191.0" layoutY="409.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Single-deck bus">
+      <Button layoutX="191.0" layoutY="409.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="33.0" prefWidth="129.0" text="Single-deck bus">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
@@ -32,7 +32,7 @@
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <Button layoutX="473.0" layoutY="409.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" text="Ordinary bus">
+      <Button layoutX="473.0" layoutY="409.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="33.0" prefWidth="129.0" text="Ordinary bus">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>

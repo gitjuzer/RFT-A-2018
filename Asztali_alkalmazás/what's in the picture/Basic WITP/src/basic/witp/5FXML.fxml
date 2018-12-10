@@ -20,17 +20,17 @@
             <Font name="Jokerman" size="19.0" />
          </font>
       </Text>
-      <Button layoutX="120.0" layoutY="387.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="89.0" text="Screw">
+      <Button layoutX="120.0" layoutY="387.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Screw">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="224.0" layoutY="387.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="89.0" text="Bolt">
+      <Button layoutX="224.0" layoutY="387.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Bolt">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="330.0" layoutY="387.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="89.0" text="Hummer">
+      <Button layoutX="330.0" layoutY="387.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Hummer">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>

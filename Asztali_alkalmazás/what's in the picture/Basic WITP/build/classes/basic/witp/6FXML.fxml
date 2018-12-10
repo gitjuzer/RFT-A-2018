@@ -8,8 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="basic.witp.FXML6Controller">
+<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basic.witp.FXML6Controller">
    <children>
       <ImageView fitHeight="296.0" fitWidth="318.0" layoutX="172.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -26,17 +25,17 @@
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="210.0" layoutY="394.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Number line">
+      <Button layoutX="210.0" layoutY="394.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="100.0" text="Number line">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="329.0" layoutY="394.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Paper cutter">
+      <Button layoutX="329.0" layoutY="394.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="100.0" text="Paper cutter">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="447.0" layoutY="394.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="106.0" text="Something else">
+      <Button layoutX="447.0" layoutY="394.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="106.0" text="Something else">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
