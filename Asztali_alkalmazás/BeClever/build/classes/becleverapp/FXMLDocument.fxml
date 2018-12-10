@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #120A3B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="becleverapp.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="191.0" prefWidth="771.0" style="-fx-background-color: #92ABDB;">
+         <children>
+            <Label layoutX="226.0" layoutY="37.0" text="Be Clever!">
+               <font>
+                  <Font name="Centaur" size="96.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="411.0" prefHeight="175.0" prefWidth="771.0" style="-fx-background-color: #92ABDB;">
+         <children>
+            <Button id="startbtn" fx:id="startbtn" layoutX="280.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" onMouseClicked="#handleButtonAction" text="Let's be clever!" textAlignment="CENTER">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="222.0" prefHeight="175.0" prefWidth="771.0" style="-fx-background-color: #C6CDDB;">
+         <children>
+            <Label layoutX="49.0" layoutY="29.0" prefHeight="50.0" prefWidth="674.0" text="So many interesting questions, to make fun the learning!">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="79.0" prefHeight="50.0" prefWidth="692.0" text="Megannyi érdekes kérdés, hogy a tanulás is móka legyen!" textAlignment="CENTER">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
