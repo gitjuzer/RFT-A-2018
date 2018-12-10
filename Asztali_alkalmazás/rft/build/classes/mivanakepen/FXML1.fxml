@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML1Controller">
+    <children>
+        <Button fx:id="button" layoutX="371.0" layoutY="607.0" onAction="#loadSecond" prefHeight="40.0" prefWidth="90.0" text="Lion">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font></Button>
+      <Button layoutX="497.0" layoutY="607.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Tiger">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font></Button>
+      <Button layoutX="633.0" layoutY="607.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Cat">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font></Button>
+      <Button layoutX="759.0" layoutY="607.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Other">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="691.0" fitWidth="424.0" layoutX="395.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../folder/1.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="375.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What animal can you see in the picture?" wrappingWidth="490.19921875">
+         <font>
+            <Font name="Jokerman" size="25.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

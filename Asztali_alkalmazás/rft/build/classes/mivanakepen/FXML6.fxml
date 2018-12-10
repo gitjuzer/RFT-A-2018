@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML6Controller">
+    <children>
+      <ImageView fitHeight="296.0" fitWidth="318.0" layoutX="172.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/6.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="143.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
+         <font>
+            <Font name="Jokerman" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="button" layoutX="93.0" layoutY="394.0" mnemonicParsing="false" onAction="#load_seventh" prefHeight="40.0" prefWidth="100.0" text="Tape measure">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="210.0" layoutY="394.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="100.0" text="Number line">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="329.0" layoutY="394.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="100.0" text="Paper cutter">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="447.0" layoutY="394.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="106.0" text="Something else">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
