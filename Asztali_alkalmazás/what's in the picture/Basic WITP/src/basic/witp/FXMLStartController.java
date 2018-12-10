@@ -24,6 +24,7 @@ public class FXMLStartController implements Initializable {
 
     @FXML
     private AnchorPane rootPane;
+    @FXML public int result = 0;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

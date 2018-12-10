@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #120A3B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="becleverapp.Question2Controller">
+   <children>
+      <AnchorPane layoutX="15.0" layoutY="222.0" prefHeight="364.0" prefWidth="771.0" style="-fx-background-color: #C6CDDB;">
+         <children>
+            <Button fx:id="abtn" layoutX="30.0" layoutY="59.0" mnemonicParsing="false" onAction="#wrongAnswerButtonPushed" prefHeight="57.0" prefWidth="301.0" text="8">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="cbtn" layoutX="30.0" layoutY="183.0" mnemonicParsing="false" onAction="#wrongAnswerButtonPushed" prefHeight="57.0" prefWidth="301.0" text="10">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="bbtn" layoutX="436.0" layoutY="59.0" mnemonicParsing="false" onAction="#goodAnswerButtonPushed" prefHeight="57.0" prefWidth="301.0" text="6">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="dbtn" layoutX="436.0" layoutY="183.0" mnemonicParsing="false" onAction="#wrongAnswerButtonPushed" prefHeight="57.0" prefWidth="301.0" text="5">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="191.0" prefWidth="771.0" style="-fx-background-color: #92ABDB;">
+         <children>
+            <Label layoutX="138.0" layoutY="57.0" text="Question 2: What's the result of 30 / 5?">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="191.0" layoutY="102.0" text="Második kérdés: Mennyi 30 / 5?">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

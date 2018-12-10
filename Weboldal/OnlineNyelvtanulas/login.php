@@ -27,7 +27,7 @@ require_once 'mydbms.php';
                 <ul>
                     <li class="current"><a href="index.html">Kezdőlap</a></li>
                     <li><a href="../html/gallery.html">Galéria</a></li>
-                    <li><a href="about.html">Letöltés</a></li>
+                    <li><a href="DowloadPage/index.html">Letöltés</a></li>
                     <li><a href="reg.php">Regisztráció</a></li>
                     <li><a href="login.php">Belépés</a></li>
                 </ul>
