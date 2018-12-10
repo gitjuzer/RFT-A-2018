@@ -117,6 +117,13 @@ Az asztali alkalmazás felülete a könnyen kezelhetőség megvalósítása érd
 A felületek egymásból nyílóak lesznek, és egy felület sem lesz túlzsúfolt.
 Nem lesz olyan felület amit hosszantartó kattingatásokon keresztül lehet elérni. Minden a keződlapról lesz elérhető.
 
+Játékos megoldások:
+A tanulás csakis kizárólag játékos formában fog történni.
+Nem lesznek táblázatok, űrlapok és összezavaró nyelvi ábrák, fölösleges instrukciók.
+Az asztali felületen 2 nehézségi szint közül lehet választani, illetve lesz egy szintfelmérő.
+A könnyű szinten 3 játék lesz (akasztófa, mit látsz a képen, memóriajáték), a nehéz szint is 3 játékot fog tartalmazni (egészítsd ki, rakd ki, mond meg)
+
+
 
 	
 
