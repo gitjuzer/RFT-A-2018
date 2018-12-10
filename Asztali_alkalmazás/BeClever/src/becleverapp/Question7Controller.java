@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package becleverapp;
 
 import java.io.IOException;
@@ -18,7 +14,7 @@ import javafx.stage.Stage;
 /**
  * FXML Controller class
  *
- * @author LENOVOBOOK
+ * @author PB
  */
 public class Question7Controller implements Initializable {
 
@@ -38,12 +34,10 @@ public class Question7Controller implements Initializable {
         window.setScene(Question8Scene);
         window.show();
     }
-    /**
-     * Initializes the controller class.
-     */
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+
     }    
     
 }
