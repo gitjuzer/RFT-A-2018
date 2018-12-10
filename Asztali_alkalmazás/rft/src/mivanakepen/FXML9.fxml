@@ -8,34 +8,34 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML9Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML9Controller">
     <children>
-      <ImageView fitHeight="315.0" fitWidth="515.0" layoutX="84.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="315.0" fitWidth="515.0" layoutX="364.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../images/9.jpg" />
          </image>
       </ImageView>
-      <Text layoutX="159.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
+      <Text layoutX="439.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
          <font>
             <Font name="Jokerman" size="20.0" />
          </font>
       </Text>
-      <Button fx:id="button" layoutX="39.0" layoutY="392.0" mnemonicParsing="false" onAction="#load_tenth" prefHeight="40.0" prefWidth="90.0" text="The Big Ben">
+      <Button fx:id="button" layoutX="319.0" layoutY="569.0" mnemonicParsing="false" onAction="#load_tenth" prefHeight="40.0" prefWidth="90.0" text="The Big Ben">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="484.0" layoutY="392.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="118.0" text="London Dungeon">
+      <Button layoutX="764.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="118.0" text="London Dungeon">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="159.0" layoutY="392.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="118.0" text="Tower of London">
+      <Button layoutX="439.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="118.0" text="Tower of London">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="311.0" layoutY="392.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="141.0" text="Buckingham Palace">
+      <Button layoutX="591.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="141.0" text="Buckingham Palace">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font>

@@ -8,34 +8,34 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML10Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML10Controller">
     <children>
-      <ImageView fitHeight="309.0" fitWidth="416.0" layoutX="115.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="309.0" fitWidth="416.0" layoutX="401.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../images/10.jpg" />
          </image>
       </ImageView>
-      <Text layoutX="159.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
+      <Text layoutX="445.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
          <font>
             <Font name="Jokerman" size="20.0" />
          </font>
       </Text>
-      <Button layoutX="59.0" layoutY="398.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jeff">
+      <Button layoutX="345.0" layoutY="578.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jeff">
          <font>
             <Font name="Jokerman" size="13.0" />
          </font>
       </Button>
-      <Button fx:id="button" layoutX="195.0" layoutY="398.0" mnemonicParsing="false" onAction="#load_result" text="The Union Jack">
+      <Button fx:id="button" layoutX="481.0" layoutY="578.0" mnemonicParsing="false" onAction="#load_result" text="The Union Jack">
          <font>
             <Font name="Jokerman" size="13.0" />
          </font>
       </Button>
-      <Button layoutX="332.0" layoutY="398.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jac">
+      <Button layoutX="618.0" layoutY="578.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jac">
          <font>
             <Font name="Jokerman" size="13.0" />
          </font>
       </Button>
-      <Button layoutX="469.0" layoutY="398.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Joe">
+      <Button layoutX="755.0" layoutY="578.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Joe">
          <font>
             <Font name="Jokerman" size="13.0" />
          </font>
