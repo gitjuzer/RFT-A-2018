@@ -13,7 +13,7 @@
       
       <ImageView fitHeight="274.0" fitWidth="424.0" layoutX="410.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../images/3.jpg" />
+            <Image url="@../folder/3.jpg" />
          </image>
       </ImageView>
       <Button layoutX="366.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Plane">

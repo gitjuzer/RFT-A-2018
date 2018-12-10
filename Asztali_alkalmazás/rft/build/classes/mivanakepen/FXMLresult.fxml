@@ -16,7 +16,7 @@
          </font></Text>
       <ImageView fitHeight="379.0" fitWidth="583.0" layoutX="343.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../images/last.jpg" />
+            <Image url="@../folder/last.jpg" />
          </image>
       </ImageView>
       <Button fx:id="visszabtn" layoutX="808.0" layoutY="617.0" mnemonicParsing="false" onAction="#vissza" text="Vissza" />

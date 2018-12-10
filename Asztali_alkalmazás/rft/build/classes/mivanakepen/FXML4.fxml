@@ -12,7 +12,7 @@
     <children>
       <ImageView fitHeight="283.0" fitWidth="430.0" layoutX="383.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../images/4.jpg" />
+            <Image url="@../folder/4.jpg" />
          </image>
       </ImageView>
       <Text layoutX="414.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see on the picture?">
