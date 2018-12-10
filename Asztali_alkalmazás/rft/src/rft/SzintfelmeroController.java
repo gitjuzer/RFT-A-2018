@@ -58,11 +58,14 @@ private Stage stage;
         if(forthwordlabel.getText().equals(valasz.get(index.get(3)))) helyesvalaszokszama++;
         if(fifthwordlabel.getText().equals(valasz.get(index.get(4)))) helyesvalaszokszama++;
         
-    FXMLLoader load = new FXMLLoader (getClass().getResource("szintfelmeroeredmeny.fxml"));
-        Parent root1 = (Parent) load.load();
-        Stage stage = new Stage();
-        stage.setScene(new Scene(root1));
-        stage.show();
+   
+        stage = (Stage) ellenorzobtn.getScene().getWindow();
+   
+        AnchorPane root;
+        root = (AnchorPane) FXMLLoader.load(getClass().getResource("szintfelmeroeredmeny.fxml"));
+        Scene scene = new Scene(root);
+       
+        stage.setScene(scene);
         
     } 
    
@@ -126,7 +129,7 @@ private Stage stage;
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
         Collections.addAll(kerdesek,"macska","kutya","eszik","iszik","alszik","unalmas","piros","zöld","hétfő","barátok");
-        Collections.addAll(valasz,"cat","dog","eat","drink","sleep","borring","red","green","monday","friends");
+        Collections.addAll(valasz,"cat","dog","eat","drink","sleep","boring","red","green","monday","friends");
         szintfelmeres();
         
     }    
