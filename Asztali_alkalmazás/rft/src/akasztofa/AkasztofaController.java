@@ -8,6 +8,8 @@ package akasztofa;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 import javafx.event.ActionEvent;
@@ -35,10 +37,15 @@ public class AkasztofaController implements Initializable {
 
     private Stage stage;
     @FXML
-    Button visszabtn;
-    TextField kivalasztField;
-    Label lifeLabel;
-    Label wordLabel;
+    private Button visszabtn;
+    @FXML
+    private TextField kivalasztField;
+    @FXML
+    private Label lifeLabel;
+    @FXML
+    private Label wordLabel;
+    @FXML
+    private Label letterLabel;
     /**
      * Initializes the controller class.
      */
@@ -61,65 +68,67 @@ public class AkasztofaController implements Initializable {
         
         //még nem működőképes
         
-        String[] words = {"welcome", "banana", "computer", "cow", "rain", "water" };
-        String word = words[(int) (Math.random() * words.length)];
-        int lifeLabel = 5;
-        //lifeLabel = new Label("5");
-        //lifeLabel.setText(Integer.toString(5));
+        List<String> words = Arrays.asList("welcome", "banana", "computer", "cow", "rain", "water");
+	String word = words.get((int) (Math.random() * words.size()));
         
-        char[] wordLabel = new char[word.length()];
+        int life = 5;
+        lifeLabel.setText(Integer.toString(life));
+        
+        char[] hossz = new char[word.length()];
         int i = 0;
         while(i < word.length()){
-            wordLabel[i]='-';
+            hossz[i]='-';
             if(word.charAt(i) == ' '){
-                wordLabel[i]= ' ';
+                hossz[i]= ' ';
             }
             i++;
         }
-        System.out.print(wordLabel);
-        //System.out.println("Maradék élet = " + lifeLabel.getText());
-        System.out.print(lifeLabel);
+        wordLabel.setText(String.valueOf(hossz));
+        lifeLabel.setText(Integer.toString(life));
         
         Scanner s = new Scanner(System.in); //to read character
         
-        ArrayList<Character> l = new ArrayList<Character>();
+        ArrayList<Character> letterLabel = new ArrayList<Character>();
         
         //while(Integer.parseInt((String)lifeLabel.toString())>0){
-        while(lifeLabel>0){
-            char kivalasztField = s.next().charAt(0);
+        while(life>0){
             
-            if(l.contains(kivalasztField)){
+            char kivalasztott = s.next(kivalasztField.getText()).charAt(0);
+            
+            /*if(l.contains(kivalasztField)){
                 System.out.println("Ezt a betűt már egyszer beírtad!"); //letterLabel bővül a beírt betűvel
                 continue;
-            }
+            }*/
             
-            l.add(kivalasztField);
+            //letterLabel.add(kivalasztott);
+            //letterLabel.setText("" + kivalasztField);
             
-            if(word.contains(kivalasztField+"")){
+            if(word.contains(kivalasztott+"")){
                 for(int y=0; y<word.length(); y++){
-                    if(word.charAt(y)==kivalasztField){
-                        wordLabel[y]=kivalasztField;
+                    if(word.charAt(y)==kivalasztott){
+                        hossz[y]=kivalasztott;
                     }
                 }
             }
             else{
-                //lifeLabel--;
+                 life--;
             }
             
-            if(word.equals(String.valueOf(wordLabel))){
-                System.out.print(wordLabel);
-                System.out.println("Ügyes vagy, nyertél!");
+            if(word.equals(String.valueOf(hossz))){
+                wordLabel.setText(String.valueOf(hossz));
+                wordLabel.setText("Ügyes vagy, nyertél!" + String.valueOf(hossz));
+                //System.out.println("Ügyes vagy, nyertél!");
                 break;
             }
-            
-            System.out.print(wordLabel);
-            System.out.print(lifeLabel);
-            //System.out.println("Maradék élet = " + lifeLabel.getText());
+            wordLabel.setText(String.valueOf(hossz));
+            lifeLabel.setText(Integer.toString(life));
+            //System.out.print(wordLabel);
+            //System.out.print(lifeLabel);
         }
         
-        //if(Integer.parseInt((String)lifeLabel.toString())==0){
-        if(lifeLabel==0){
-            System.out.println("Sajnos vesztettél, majd legközelebb!");
+        if(life==0){
+            wordLabel.setText("Sajnos vesztettél, majd legközelebb!" + String.valueOf(hossz));
+            //System.out.println("Sajnos vesztettél, majd legközelebb!");
         }
     }
 }
