@@ -10,6 +10,10 @@ body{
 .letolteshead {
 margin-bottom: 150px;
 }
+.kozepre{
+    text-align: center;
+    margin: 0 auto;
+}
 /*Global*/
 .container{
     width: 80%;
