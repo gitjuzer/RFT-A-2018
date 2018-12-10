@@ -56,18 +56,19 @@ public class SzintfelmeroeredmenyController implements Initializable {
         
     if(SzintfelmeroController.helyesvalaszokszama>=3)
     {
-    helyes.setText("Az eredményed:"+SzintfelmeroController.helyesvalaszokszama+"/5 helyes válasz!");
+    helyes.setText("Az eredményed: "+SzintfelmeroController.helyesvalaszokszama+"/5 helyes válasz!");
     szint.setText("A szinted: Haladó");
     
     }
     else
     {
-    helyes.setText("Az eredményed:"+SzintfelmeroController.helyesvalaszokszama+"/5 helyes válasz!");
+    helyes.setText("Az eredményed: "+SzintfelmeroController.helyesvalaszokszama+"/5 helyes válasz!");
     szint.setText("A szinted: Kezdő");
     
     
     
     }
+    SzintfelmeroController.helyesvalaszokszama=0;
     }
         
     @FXML
