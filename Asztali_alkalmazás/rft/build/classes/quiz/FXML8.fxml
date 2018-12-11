@@ -7,16 +7,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML8Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML8Controller">
     <children>
-      <Text layoutX="150.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Who is the monarch of England?">
+      <Text layoutX="389.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Who is the monarch of England?">
          <font>
             <Font size="25.0" />
          </font></Text>
-      <Button layoutX="109.0" layoutY="248.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Stalin" />
-      <Button layoutX="346.0" layoutY="248.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Putin" />
-      <Button fx:id="button" layoutX="109.0" layoutY="355.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Elizabeth II" />
-      <Button layoutX="346.0" layoutY="355.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Orbán Viktor" />
-      <Button fx:id="button1" layoutX="574.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+      <Button layoutX="348.0" layoutY="449.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Stalin" />
+      <Button layoutX="585.0" layoutY="449.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Putin" />
+      <Button fx:id="button" layoutX="348.0" layoutY="556.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Elizabeth II" />
+      <Button layoutX="585.0" layoutY="556.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Orbán Viktor" />
+      <Button fx:id="button1" layoutX="813.0" layoutY="215.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
    </children>
 </AnchorPane>

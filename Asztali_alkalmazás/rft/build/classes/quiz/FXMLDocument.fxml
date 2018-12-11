@@ -7,9 +7,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXMLDocumentController">
     <children>
-        <Button fx:id="button" layoutX="250.0" layoutY="199.0" onAction="#handleButtonAction" prefHeight="77.0" prefWidth="141.0" text="Start">
+        <Button fx:id="button" layoutX="530.0" layoutY="359.0" onAction="#handleButtonAction" prefHeight="77.0" prefWidth="141.0" text="Start">
          <font>
             <Font size="39.0" />
          </font></Button>

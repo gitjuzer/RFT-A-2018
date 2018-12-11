@@ -61,7 +61,7 @@ public class FXML1Controller implements Initializable {
 
     @FXML
     private void wrong(ActionEvent event) throws IOException {
-        FXMLLoader load = new FXMLLoader (getClass().getResource("Wrong.fxml"));
+        FXMLLoader load = new FXMLLoader (getClass().getResource("wrong.fxml"));
         Parent root1 = (Parent) load.load();
         Stage stage = new Stage();
         stage.setScene(new Scene(root1));

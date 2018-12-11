@@ -7,16 +7,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML5Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML5Controller">
     <children>
-      <Button layoutX="112.0" layoutY="274.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Islam" />
-      <Button layoutX="383.0" layoutY="274.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Buddhism" />
-      <Button layoutX="112.0" layoutY="352.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Judaism" />
-      <Button fx:id="button" layoutX="383.0" layoutY="352.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Christianity" />
-      <Text layoutX="82.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the most common religion in England?" wrappingWidth="511.23779296875">
+      <Button layoutX="365.0" layoutY="476.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Islam" />
+      <Button layoutX="636.0" layoutY="476.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Buddhism" />
+      <Button layoutX="365.0" layoutY="554.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Judaism" />
+      <Button fx:id="button" layoutX="636.0" layoutY="554.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Christianity" />
+      <Text layoutX="335.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the most common religion in England?" wrappingWidth="511.23779296875">
          <font>
             <Font size="31.0" />
          </font></Text>
-      <Button fx:id="button1" layoutX="574.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+      <Button fx:id="button1" layoutX="827.0" layoutY="216.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
    </children>
 </AnchorPane>

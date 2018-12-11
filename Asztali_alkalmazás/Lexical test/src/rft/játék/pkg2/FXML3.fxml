@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.játék.pkg2.FXML3Controller">
+<AnchorPane id="AnchorPane" style="-fx-background-color: f3c4b4;" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.játék.pkg2.FXML3Controller">
    <children>
       <Button layoutX="120.0" layoutY="247.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Black and white" />
       <Button layoutX="364.0" layoutY="247.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Green and purple" />
