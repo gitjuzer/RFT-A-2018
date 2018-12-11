@@ -174,19 +174,28 @@ Elõfeltétel:
 A jellemzõ forgatókönyvek leírásai:
 
 Forgatókönyv asztali alkalmazáshoz:
-1. A megnyitott alkalmazás kezdõoldalán a szintfelmérõ tesztet kell kitölteni
-2. A teszt kitöltésével a program besorol könnyû azaz öt szóból kettõ vagy annál kevesebb helyes vagy nehéz szintre ha az ötbõl legalább 3 helyes
-3. Eredmény után autómatikusan belép az ajánlott szintre
-4. Könnyû szinten 4 játék közül lehet választani:
+1. Az asztali alkalmazást megnyitva a fõoldalon választani lehet a könnyû, nehéz játékok és szintfelmérõ opció közül
+2. Ajánlatos a szintfelmérõ tesztet kell kitölteni, hogy a nyelvi szintünk alapján melyik csoportba tartozunk
+3. A teszt kitöltésével a program besorol könnyû azaz öt szóból kettõ vagy annál kevesebb helyes vagy nehéz szintre ha az ötbõl legalább 3 helyes
+4. Eredmény után autómatikusan belép az ajánlott szintre
+5. Könnyû szinten 4 játék közül lehet választani:
+			
 			-Akasztófa: A játékban bekér betût amit megvizsgál, hogy az adott szóban szerepel e. 
 				    Ha nem akkor levon egy életet és feltünteti alul a már választott betûket.
 			-Memória játék:
-			-Puzzle:
-			-Mi van a képen: A játék indítása után egy kép és hozzá négy válasz lehetõség közül kell választani
+			-Quiz: A játék kiválasztása után a "start" gombbal lehet elindítani a játékot. Miután elindult egy angol nyelven 
+			       lévõ kérdésre lehet a négy lehetséges válasz közül választani. A játékból a "quit" gombbal bármikor abba 
+			       lehet hagyni a játékot és kilépni. A játék 8 db kérdést tesz fel jó válasz esetén egymást követõen, ha a 
+			       kérdésre rossz válasz érkezik akkor egy felugró ablakban jelzi és ezután újra a kérdés jelenik meg ahol 
+			       ismételten lehet választ választani. Ha az össze kérdésre helyes választ adtak "well done" felirat jön 
+			       fel és a "back" gombbal vissza lehet lépni a játékokhoz.
+			-Mi van a képen?:A játék indítása után egy kép és hozzá négy válasz lehetõség közül kell választani
 					 Ha a válasz helyes következõ kép jelenik meg
 					 Ha a válasz hibás felugrik egy hiba üzenet és újra tudsz választani a megadott szavak közül
 					 Ha mind a 10 képre helyesen válaszoltál egy gratulációs kép jelenik meg
-5. Haladó szinten 4 játék közül lehet választani:
+
+6. Haladó szinten 4 játék közül lehet választani:
+			
 			-Egészítsd ki:
 			-Rakd ki:
 			-Matematika: A játék elindítása után angolul és magyarul is megjelenik egy matematikai összefüggés vagy szám helyes írás és négy válasz lehetõség
@@ -196,7 +205,9 @@ Forgatókönyv asztali alkalmazáshoz:
 				     Ha vége a játéknak a "Let's try again" gombra kattintva új játékot lehet kezdeni
 					
 			-Mondd meg:
-6. Kilépni bármelyik játéknál lehetséges
+
+7. Vissza lépni bármikor lehetséges a "vissza" vagy a "back" gombbal amivel az elõzõ oldalra léphetünk vissza 
+8. Kilépni bármelyik játéknál lehetséges
 
 
 Forgatókönyv webes alkalmazáshoz:
