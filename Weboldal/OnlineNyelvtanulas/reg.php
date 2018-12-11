@@ -115,7 +115,7 @@ if(isset($_POST['btn-signup'])) {
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.php">Kezdőlap</a></li>
+                    <li class="current"><a href="kezdolap.php">Kezdőlap</a></li>
                     <li><a href="../html/gallery.html">Galéria</a></li>
                     <li><a href="DowloadPage/index.php">Letöltés</a></li>
                     <li><a href="reg.php">Regisztráció</a></li>
