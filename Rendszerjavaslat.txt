@@ -133,6 +133,11 @@ Belépés:
 Galéria:
 	A keződlapról nyíló weboldal, ami az asztali alkalmazásról tartalmaz képeket.
 
+TalálKi:
+    A játék a kezdőlapról elérhető. Indításkor 3 fokozat közül tudunk választani. Valamelyik fokozat kiválasztása után indul el a játék. Segítségnek
+    kapunk egy képet és, hogy hány betűből áll a szó amit ki kell találni. Egyszerre csak egy betűt lehet tippelni.(Nagy és kis betű különböző)
+    A játék számolja a rossz tippeket ezenkívül ki is írja őket. Ezenfelül láthatjuk, hogy hány tipp maradt hátra és persze azt hogy a szóból
+    milyen betűk vannak már meg. A nehézségek közti különbség az, hogy hágy tippel kezdünk a szavak ugyanazok lehetnek mindhárom nehézségen.
 
 Akasztófa:
 	A kezdőlapról indítható játék, amely új webes felületen nyílik meg. A játék saját, előre elkészített szótárral dolgozik. A szótárban 2,3,4,5,6,7 és 10 betűs szavak lesznek. Új szavak hozzáadása nem lehetséges.
