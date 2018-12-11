@@ -20,7 +20,7 @@ import javafx.stage.Stage;
 public class Question5Controller implements Initializable {
 
     public void wrongAnswerButtonPushed(ActionEvent event) throws IOException{
-        Parent wrongAnswerParent = FXMLLoader.load(getClass().getResource("LosePage.fxml"));
+        Parent wrongAnswerParent = FXMLLoader.load(getClass().getResource("TryAgain5.fxml"));
         Scene LosePageScene = new Scene(wrongAnswerParent);
         
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();

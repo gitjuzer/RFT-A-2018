@@ -31,6 +31,11 @@
                   <Font size="27.0" />
                </font>
             </Button>
+            <Label layoutX="368.0" layoutY="289.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
       <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="191.0" prefWidth="771.0" style="-fx-background-color: #92ABDB;">
