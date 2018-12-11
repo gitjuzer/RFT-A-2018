@@ -57,4 +57,40 @@ let data = [
         correctAnswer: 0,
         explanation: 'A towel = törölköző. A törölköző vizes lesz ha megtörölkötünk.'
     }
+    {
+        id: 3,
+        question: 'Which month has 28 days?',
+        answers: [
+            {
+                choice: 0,
+                value: 'February'
+            },
+            {
+                choice: 1,
+                value: 'All of them'
+            }
+        ],
+        correctAnswer: 1,
+        explanation: 'Minden hónapban van legalább 28 nap.'
+    },
+    {
+        id: 4,
+        question: 'What is next in this sequence? JFMAMJJASON...',
+        answers: [
+            {
+                choice: 0,
+                value: 'A'
+            },
+            {
+                choice: 1,
+                value: 'D'
+            },
+            {
+                choice: 2,
+                value: 'G'
+            }
+        ],
+        correctAnswer: 1,
+        explanation: 'Mivel a sorozat a hónapok kezbdőbetűit tartalmazza, így a helyes válasz a D.'
+    }
     ];
