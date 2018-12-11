@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['logged']=false;
 ?>
 <html>
     <head>
@@ -23,23 +24,9 @@ session_start();
                 <ul>
                     <li class="current"><a href="index.php">Kezdőlap</a></li>
                     <li><a href="../html/gallery.html">Galéria</a></li>
-                    <li><a href="DowloadPage/index.php">Letöltés</a></li>
+                    <li><a href="/DowloadPage/index.php">Letöltés</a></li>
 					<li><a href="reg.php">Regisztráció</a></li>
-                    <li>
-                        <?php
-                        if($_SESSION['logged']==true)
-                        {
-                            echo "Szia ";
-                            echo $_SESSION["username"];
-                            echo "! ";
-                            echo '<a href="logout.php"><span>Kilépés</span></a></li>';
-                        }
-                        elseif($_SESSION['logged']==false)
-                        {
-
-                            echo '<a href="login.php"><span>Belépés</span></a></li>';
-                        }
-                        ?></li>
+                    <li><a href="login.php">Belépés</a></li>
                 </ul>
             </nav>
            </div> 

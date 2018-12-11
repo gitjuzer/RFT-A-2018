@@ -51,7 +51,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
         </div>
         <nav>
             <ul>
-                <li class="current"><a href="index.php">Kezdőlap</a></li>
+                <li class="current"><a href="kezdolap.php">Kezdőlap</a></li>
                 <li><a href="../html/gallery.html">Galéria</a></li>
                 <li><a href="DowloadPage/index.php">Letöltés</a></li>
                 <li><a href="reg.php">Regisztráció</a></li>

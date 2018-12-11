@@ -34,7 +34,7 @@ session_start();
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="../index.html">Kezdőlap</a></li>
+                    <li class="current"><a href="../index.php">Kezdőlap</a></li>
                     <li><a href="../gallery.html">Galéria</a></li>
                     <li><a href="index.php">Letöltés</a></li>
                     <li><a href="../reg.php">Regisztráció</a></li>

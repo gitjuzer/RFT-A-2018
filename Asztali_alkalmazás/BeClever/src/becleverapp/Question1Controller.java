@@ -18,15 +18,16 @@ import javafx.stage.Stage;
  * @author PB
  */
 public class Question1Controller implements Initializable {
-
+    
     public void wrongAnswerButtonPushed(ActionEvent event) throws IOException{
-        Parent wrongAnswerParent = FXMLLoader.load(getClass().getResource("LosePage.fxml"));
+        Parent wrongAnswerParent = FXMLLoader.load(getClass().getResource("TryAgain1.fxml"));
         Scene LosePageScene = new Scene(wrongAnswerParent);
         
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(LosePageScene);
         window.show();
     }
+
     public void goodAnswerButtonPushed(ActionEvent event) throws IOException{
         Parent Question2Parent = FXMLLoader.load(getClass().getResource("Question2.fxml"));
         Scene Question2Scene = new Scene(Question2Parent);

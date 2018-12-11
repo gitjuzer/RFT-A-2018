@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['logged']=false;
-header("Location: index.php");
+header("Location: kezdolap.php");
 exit();
 
 ?>

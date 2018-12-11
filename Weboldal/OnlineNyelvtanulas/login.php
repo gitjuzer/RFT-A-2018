@@ -25,7 +25,7 @@ require_once 'mydbms.php';
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.php">Kezdőlap</a></li>
+                    <li class="current"><a href="kezdolap.php">Kezdőlap</a></li>
                     <li><a href="../html/gallery.html">Galéria</a></li>
                     <li><a href="DowloadPage/index.php">Letöltés</a></li>
                     <li><a href="reg.php">Regisztráció</a></li>
@@ -54,7 +54,7 @@ require_once 'mydbms.php';
                     {
                         $_SESSION['logged']=true;
                         $_SESSION['username']=$myusername1;
-                        header("Location: index.php");
+                        header("Location: kezdolap.php");
                         exit();
                     }
                     else
