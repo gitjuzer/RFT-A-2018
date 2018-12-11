@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML6Controller">
+    <children>
+      <Button layoutX="346.0" layoutY="477.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Eagle" />
+      <Button fx:id="button" layoutX="622.0" layoutY="477.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Lion" />
+      <Button layoutX="346.0" layoutY="560.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Turul" />
+      <Button layoutX="622.0" layoutY="560.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Hedgehog" />
+      <Text layoutX="385.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the symbolic animal of England?">
+         <font>
+            <Font size="23.0" />
+         </font></Text>
+      <Button fx:id="button1" layoutX="815.0" layoutY="210.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
+</AnchorPane>

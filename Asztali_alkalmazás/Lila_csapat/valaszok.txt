@@ -1,8 +1,34 @@
-601
-1300
-15
-450
-Northrend
-Outland
-Kalimdor
-Eastern Kingdom
+read
+reading 
+will read
+raed
+is playing
+are playing
+playing
+be playing
+went
+gone 
+go
+did go
+are going
+is going
+going
+go
+will hear
+hear
+hearing
+are hearing
+matches
+match
+are matching
+will matching
+will have 
+have 
+has
+had
+will understand
+understand
+understood
+will understood
+
+

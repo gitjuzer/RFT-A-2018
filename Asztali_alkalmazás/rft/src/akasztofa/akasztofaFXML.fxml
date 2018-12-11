@@ -15,7 +15,7 @@
             <Font name="Lucida Bright" size="27.0" />
          </font>
       </Label>
-      <Button fx:id="valasztbtn" alignment="CENTER" contentDisplay="TOP" layoutX="537.0" layoutY="436.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="39.0" prefWidth="126.0" style="-fx-background-color: ffffff;" text="Választ" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="valasztbtn" alignment="CENTER" contentDisplay="TOP" layoutX="537.0" layoutY="436.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#valasztbtn" prefHeight="39.0" prefWidth="126.0" style="-fx-background-color: ffffff;" text="Választ" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
@@ -45,17 +45,37 @@
             <Font name="Lucida Bright" size="27.0" />
          </font>
       </Label>
-      <Label fx:id="letterLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="418.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="365.0" textFill="#55160d">
-         <font>
-            <Font name="Lucida Bright" size="27.0" />
-         </font>
-      </Label>
       <Label alignment="CENTER" layoutX="450.0" layoutY="624.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="301.0" text="Már választott betűk:" textFill="#55160d">
          <font>
             <Font name="Lucida Bright" size="27.0" />
          </font>
       </Label>
       <Label fx:id="wordLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="337.0" layoutY="207.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="525.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterLabel1" alignment="CENTER" contentDisplay="CENTER" layoutX="489.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterLabel2" alignment="CENTER" contentDisplay="CENTER" layoutX="666.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterLabel3" alignment="CENTER" contentDisplay="CENTER" layoutX="535.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterLabel4" alignment="CENTER" contentDisplay="CENTER" layoutX="578.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterLabel5" alignment="CENTER" contentDisplay="CENTER" layoutX="622.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
          <font>
             <Font name="Lucida Bright" size="27.0" />
          </font>

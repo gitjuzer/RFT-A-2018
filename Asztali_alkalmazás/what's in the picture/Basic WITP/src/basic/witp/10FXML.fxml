@@ -8,8 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="basic.witp.FXM10LController">
+<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basic.witp.FXM10LController">
    <children>
       <ImageView fitHeight="309.0" fitWidth="416.0" layoutX="115.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -21,7 +20,7 @@
             <Font name="Jokerman" size="20.0" />
          </font>
       </Text>
-      <Button layoutX="59.0" layoutY="398.0" mnemonicParsing="false" text="The Union Jeff">
+      <Button layoutX="59.0" layoutY="398.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jeff">
          <font>
             <Font name="Jokerman" size="13.0" />
          </font>
@@ -31,12 +30,12 @@
             <Font name="Jokerman" size="13.0" />
          </font>
       </Button>
-      <Button layoutX="332.0" layoutY="398.0" mnemonicParsing="false" text="The Union Jac">
+      <Button layoutX="332.0" layoutY="398.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jac">
          <font>
             <Font name="Jokerman" size="13.0" />
          </font>
       </Button>
-      <Button layoutX="469.0" layoutY="398.0" mnemonicParsing="false" text="The Union Joe">
+      <Button layoutX="469.0" layoutY="398.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Joe">
          <font>
             <Font name="Jokerman" size="13.0" />
          </font>

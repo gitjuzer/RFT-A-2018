@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,17 +8,34 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="820.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML3Controller">
-   <children>
-      <Text layoutX="386.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="completed 2 questions">
-            <font>
-            <Font name="Jokerman" size="42.0" />
-         </font>
-      </Text>
-      <Button fx:id="button" layoutX="542.0" layoutY="547.0" mnemonicParsing="false" onAction="#vissza" prefHeight="50.0" prefWidth="120.0" text="Vissza">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML3Controller">
+    <children>
+      
+      <ImageView fitHeight="274.0" fitWidth="424.0" layoutX="410.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../folder/3.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="366.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Plane">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
+      <Button fx:id="button" layoutX="491.0" layoutY="569.0" mnemonicParsing="false" onAction="#load_foruth" prefHeight="40.0" prefWidth="89.0" text="Car">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font></Button>
+      <Button layoutX="619.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Ship">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font></Button>
+      <Button layoutX="745.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Bicycle">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font></Button>
+      <Text layoutX="419.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see on the picture?">
+         <font>
+            <Font name="Jokerman" size="22.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

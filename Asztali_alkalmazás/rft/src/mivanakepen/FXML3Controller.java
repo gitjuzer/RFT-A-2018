@@ -12,6 +12,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
@@ -24,25 +25,34 @@ import javafx.stage.Stage;
  */
 public class FXML3Controller implements Initializable {
 
+    @FXML
+    private AnchorPane rootPane;
+    
     /**
      * Initializes the controller class.
      */
-    private Stage stage;
-    @FXML
-    Button button;
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
+    }
+    private Stage stage;
     @FXML
-    private void vissza(ActionEvent event) throws IOException {
+    Button button;
+    @FXML
+    private void load_foruth(ActionEvent event) throws IOException {
         stage = (Stage) button.getScene().getWindow();
         AnchorPane root;
-        root = (AnchorPane) FXMLLoader.load(getClass().getResource("/rft/mainFXML.fxml"));
+        root = (AnchorPane) FXMLLoader.load(getClass().getResource("FXML4.fxml"));
         Scene scene = new Scene(root);
        
         stage.setScene(scene);
-        
+    }
+    @FXML
+    private void wrong_answer(ActionEvent event) throws IOException {
+        FXMLLoader load = new FXMLLoader (getClass().getResource("Wrong_answer.fxml"));
+        Parent root1 = (Parent) load.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root1));
+        stage.show();
     }
 }

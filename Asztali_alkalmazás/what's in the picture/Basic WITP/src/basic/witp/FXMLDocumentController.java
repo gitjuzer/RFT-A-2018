@@ -31,6 +31,7 @@ public class FXMLDocumentController implements Initializable {
     private Button button;
      @FXML
     private AnchorPane button_wrong;
+     
 
 
     
@@ -44,6 +45,7 @@ public class FXMLDocumentController implements Initializable {
     private void loadSecond(ActionEvent event) throws IOException {
         AnchorPane pane = FXMLLoader.load(getClass().getResource("2FXML.fxml"));
         rootPane.getChildren().setAll(pane);
+        
                 
     }
 

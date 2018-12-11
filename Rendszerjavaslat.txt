@@ -1,4 +1,4 @@
-Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjén!
+﻿Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjén!
 --------------------------------------------------------------------------------------------
 
 
@@ -112,6 +112,41 @@ Akasztófa:
 Asztali alkalmazás
 ------------------
 	
+Egyszerű letisztult felület:
+Az asztali alkalmazás felülete a könnyen kezelhetőség megvalósítása érdekében csak egér klikkelésre működő, magyar nyelvű gombokat fog tartalmazni. 
+A felületek egymásból nyílóak lesznek, és egy felület sem lesz túlzsúfolt.
+Nem lesz olyan felület amit hosszantartó kattingatásokon keresztül lehet elérni. Minden a keződlapról lesz elérhető.
+
+Játékos megoldások:
+A tanulás csakis kizárólag játékos formában fog történni.
+Nem lesznek táblázatok, űrlapok és összezavaró nyelvi ábrák, fölösleges instrukciók.
+Az asztali felületen 2 nehézségi szint közül lehet választani, illetve lesz egy szintfelmérő.
+A könnyű szinten 3 játék lesz (akasztófa, mit látsz a képen, memóriajáték), a nehéz szint is 3 játékot fog tartalmazni (egészítsd ki, rakd ki, mond meg)
+
+Adatvédelem:
+Nincsen adatvédelemre szükség, hiszen az asztali alkalmazás nem kér és használ fel személyes adatokat.
+
+Könnyű megfogalmazás:
+Minden játékhoz tartozik rövid leírás, gombok kiosztása, a lehető legegyszerűbben lesz megfogalmazva.
+	
+Vizualitás:
+Az asztali alkalmazás a játékok illusztrálva lesznek képekkel. Ez azt jelenti, hogy a felhasználó számára nem csak egy 
+gomb fog látszódni rajta "Akasztófa" felirattal, hanem a gomb fölött a játékról való kép is el lesz helyezve.
+Az előbbiekben hozott példa mindegyik játék típusra teljesül.
+A játékok jelentős része vizuális alapon működik. Így azokra alapból teljesül a követelménynek való megfelelés.
+
+Web:
+A webes alkalmazásról egyszerűen letölthető az asztali alkalmazás így könnyen elérhető lesz.
+Internet szolgáltatás nem szükséges lesz hozzá offline használható a feltelepített program.
+
+Kezdőlap:
+A kezdőlapon rögtön lehet választani a könnyű és a nehezebb játékok menüi között. Lehetőség van rá, hogy egy szintfelmérő
+tesztet töltsünk ki, ami egy harmadik gombbal lehet elérni. A főoldalon két kép illusztrálja a könnyű és a nehéz feladatok
+szintjeit. Bármelyik gombra rákattintva új ablakba ugrik fel az új menü. Vissza gombokra kattintva az előző ablakot hozhatjuk vissza. 
+
+Akasztófa:
+A könnyű játékok között található játék, amely új felületen nyílik meg. Új szavak hozzáadása nem lehetséges.
+A játék véletlen szám segítségével fogja  kiválasztani a kitalálásra váró szót.
 
 
 

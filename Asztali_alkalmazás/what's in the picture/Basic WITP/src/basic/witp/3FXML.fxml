@@ -16,7 +16,7 @@
             <Image url="@../../images/3.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="86.0" layoutY="400.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="89.0" text="Plane">
+      <Button layoutX="86.0" layoutY="400.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Plane">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
@@ -24,11 +24,11 @@
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <Button layoutX="339.0" layoutY="400.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="89.0" text="Ship">
+      <Button layoutX="339.0" layoutY="400.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Ship">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>
-      <Button layoutX="465.0" layoutY="400.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="89.0" text="Bicycle">
+      <Button layoutX="465.0" layoutY="400.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Bicycle">
          <font>
             <Font name="Jokerman" size="12.0" />
          </font></Button>

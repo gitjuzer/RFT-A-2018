@@ -8,6 +8,7 @@ amin esetlegesen az igényeknek megfelelõen személyre tudnánk szabni.
 Tovább kutakodtunk és számos fejlesztési ötletet tudunk felkínálni a megrendelõnek.
 A könnyebb felhasználás érdekében, egy letisztult egyszerû felhasználói felületet ajánlunk fel.
 
+
 2. Követelménylista
 ID			NÉV			KIFEJTÉS
 Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
@@ -171,6 +172,32 @@ Elõfeltétel:
 - az említett funkciók csak regisztrálás után legyenek használhatóak.
 
 A jellemzõ forgatókönyvek leírásai:
+
+Forgatókönyv asztali alkalmazáshoz:
+1. A megnyitott alkalmazás kezdõoldalán a szintfelmérõ tesztet kell kitölteni
+2. A teszt kitöltésével a program besorol könnyû azaz öt szóból kettõ vagy annál kevesebb helyes vagy nehéz szintre ha az ötbõl legalább 3 helyes
+3. Eredmény után autómatikusan belép az ajánlott szintre
+4. Könnyû szinten 4 játék közül lehet választani:
+			-Akasztófa: A játékban bekér betût amit megvizsgál, hogy az adott szóban szerepel e. 
+				    Ha nem akkor levon egy életet és feltünteti alul a már választott betûket.
+			-Memória játék:
+			-Puzzle:
+			-Mi van a képen: A játék indítása után egy kép és hozzá négy válasz lehetõség közül kell választani
+					 Ha a válasz helyes következõ kép jelenik meg
+					 Ha a válasz hibás felugrik egy hiba üzenet és újra tudsz választani a megadott szavak közül
+					 Ha mind a 10 képre helyesen válaszoltál egy gratulációs kép jelenik meg
+5. Haladó szinten 4 játék közül lehet választani:
+			-Egészítsd ki:
+			-Rakd ki:
+			-Matematika: A játék elindítása után angolul és magyarul is megjelenik egy matematikai összefüggés vagy szám helyes írás és négy válasz lehetõség
+				     Ha helyes a válasz új kérdés jelenik meg
+				     Ha az összes kérdésre jól válaszoltál akkor gratulál és a "vissza" gombbal a játék választási lehetõségekhez lép ki
+				     Ha a válasz hibás felugrik egy hiba üzenet és vége a játéknak
+				     Ha vége a játéknak a "Let's try again" gombra kattintva új játékot lehet kezdeni
+					
+			-Mondd meg:
+6. Kilépni bármelyik játéknál lehetséges
+
 
 Forgatókönyv regisztrációhoz:
 1.A kezdõlapon a navigációs sávból kiválasztjuk a regisztrációs panelt.

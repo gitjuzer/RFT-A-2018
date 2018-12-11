@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXMLresultController">
+    <children>
+      <Text layoutX="378.0" layoutY="610.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Well played! You completed ten questions!">
+         <font>
+            <Font name="Jokerman" size="20.0" />
+         </font></Text>
+      <ImageView fitHeight="379.0" fitWidth="583.0" layoutX="343.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../folder/last.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="visszabtn" layoutX="808.0" layoutY="617.0" mnemonicParsing="false" onAction="#vissza" text="Vissza" />
+   </children>
+</AnchorPane>

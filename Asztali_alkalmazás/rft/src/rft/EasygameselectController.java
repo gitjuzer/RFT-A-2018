@@ -62,6 +62,19 @@ public class EasygameselectController implements Initializable {
        
         stage.setScene(scene);
     }
+     @FXML
+    Button akasztofabtn2;
+    
+    @FXML
+    private void ToQuiz(ActionEvent event) throws IOException{
+        
+        stage = (Stage) akasztofabtn2.getScene().getWindow();
+        AnchorPane root;
+        root = (AnchorPane) FXMLLoader.load(getClass().getResource("/quiz/FXMLDocument.fxml"));
+        Scene scene = new Scene(root);
+       
+        stage.setScene(scene);
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {

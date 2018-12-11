@@ -12,7 +12,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -36,6 +39,14 @@ public class FXML7Controller implements Initializable {
     private void load_eighth(ActionEvent event) throws IOException {
         AnchorPane pane8 = FXMLLoader.load(getClass().getResource("8FXML.fxml"));
         rootPane.getChildren().setAll(pane8);
+    }
+    @FXML
+    private void wrong_answer(ActionEvent event) throws IOException {
+        FXMLLoader load = new FXMLLoader (getClass().getResource("Wrong_answer.fxml"));
+        Parent root1 = (Parent) load.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root1));
+        stage.show();
     }
     
 }
