@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.játék.pkg2.FXML1Controller">
+   <children>
+      <Button layoutX="64.0" layoutY="260.0" mnemonicParsing="false" onAction="#wrong" prefHeight="38.0" prefWidth="236.0" text="New York" />
+      <Button layoutX="334.0" layoutY="260.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="38.0" prefWidth="230.0" text="London" />
+      <Button layoutX="64.0" layoutY="323.0" mnemonicParsing="false" onAction="#wrong" prefHeight="38.0" prefWidth="236.0" text="Budapest" />
+      <Button layoutX="334.0" layoutY="323.0" mnemonicParsing="false" onAction="#wrong" prefHeight="38.0" prefWidth="230.0" text="Moscow" />
+      <Text layoutX="69.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the capitcal of England?" wrappingWidth="514.0">
+         <font>
+            <Font size="35.0" />
+         </font></Text>
+      <Button layoutX="587.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
+</AnchorPane>
