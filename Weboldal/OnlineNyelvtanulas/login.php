@@ -67,10 +67,10 @@ require_once 'mydbms.php';
                 ?>
                 <h1>Belépés</h1>
                 <div>
-                    <input type="text" placeholder="Username" required="" name="username" />
+                    <input type="text" placeholder="Felhasználónév" required="" name="username" />
                 </div>
                 <div>
-                    <input type="password" placeholder="Password" required="" name="password" />
+                    <input type="password" placeholder="Jelszó" required="" name="password" />
                 </div>
                 <div>
                     <input type="submit" value="Log in" />

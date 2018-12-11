@@ -44,15 +44,15 @@ if(isset($_POST['btn-signup'])) {
                         $subject = "Signup | Verification"; // Give the email a subject
                         $message = '
          
-        Thanks for signing up!
-        Your account has been created, you can login with the following credentials after you have activated your account by pressing the url below.
+        Köszönjük a regisztrációt
+        A felhasználói fiókod elkészült, beléphetsz miután aktiváltat az email címed az alul megtalálható linkre kattintva.
          
         ------------------------
-        Username: ' . $uname . '
-        Password: ' . $upass . '
+        Felhasználónév: ' . $uname . '
+        Jelszó: ' . $upass . '
         ------------------------
          
-        Please click this link to activate your account:
+        Kattints a linkre az aktiváláshoz:
         http://localhost:63342/OnlineNyelvtanulas/verify.php?email=' . $email . '&hash=' . $hash . '
          
         ';
@@ -75,7 +75,7 @@ if(isset($_POST['btn-signup'])) {
 
 
                         if ($mail->send())
-                            $msg = "You have been registered! Please verify your email!";
+                            $msg = "Sikeres Regisztrációs! Elküldtük az aktiváló email-t!";
                         else
                             echo $msg = "Hiba az aktiváló email küldése közben.";
                     } else {
@@ -150,13 +150,13 @@ if(isset($_POST['btn-signup'])) {
                     <h1>Regisztráció</h1>
 
                     <div>
-                        <input type="text" class="form-control" placeholder="Username" name="username" required  />
+                        <input type="text" class="form-control" placeholder="Felhasználónév" name="username" required  />
                     </div>
                     <div>
-                        <input type="password" class="form-control" placeholder="Password" name="password" required  />
+                        <input type="password" class="form-control" placeholder="Jelszó" name="password" required  />
                     </div>
                     <div>
-                        <input type="password" class="form-control" placeholder="Password" name="password2" required  />
+                        <input type="password" class="form-control" placeholder="Jelszó újra" name="password2" required  />
                     </div>
                     <div>
                         <input type="text" class="form-control" placeholder="Email" name="email" required  />
