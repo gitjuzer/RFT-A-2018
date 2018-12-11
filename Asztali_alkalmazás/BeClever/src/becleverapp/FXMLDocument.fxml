@@ -20,7 +20,7 @@
       </AnchorPane>
       <AnchorPane layoutX="15.0" layoutY="411.0" prefHeight="175.0" prefWidth="771.0" style="-fx-background-color: #92ABDB;">
          <children>
-            <Button id="startbtn" fx:id="startbtn" layoutX="280.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" onMouseClicked="#handleButtonAction" text="Let's be clever!" textAlignment="CENTER">
+            <Button id="startbtn" fx:id="startbtn" layoutX="280.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" text="Let's be clever!" textAlignment="CENTER">
                <font>
                   <Font size="27.0" />
                </font>

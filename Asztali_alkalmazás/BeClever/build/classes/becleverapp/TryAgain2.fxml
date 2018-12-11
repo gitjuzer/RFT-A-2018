@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #120A3B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="becleverapp.LosePageController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #120A3B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="becleverapp.TryAgain2Controller">
    <children>
       <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="191.0" prefWidth="771.0" style="-fx-background-color: #92ABDB;">
          <children>
@@ -44,3 +44,4 @@
       </AnchorPane>
    </children>
 </AnchorPane>
+
