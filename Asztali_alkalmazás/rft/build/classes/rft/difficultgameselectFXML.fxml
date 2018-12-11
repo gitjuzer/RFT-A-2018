@@ -90,7 +90,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="akasztofabtn4" contentDisplay="TOP" layoutX="627.0" layoutY="328.0" mnemonicParsing="false" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Matematika" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn4" onAction="#ToMatematika" contentDisplay="TOP" layoutX="627.0" layoutY="328.0" mnemonicParsing="false" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Matematika" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
