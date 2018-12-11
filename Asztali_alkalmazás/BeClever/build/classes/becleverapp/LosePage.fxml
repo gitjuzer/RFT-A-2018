@@ -25,12 +25,12 @@
       </AnchorPane>
       <AnchorPane layoutX="15.0" layoutY="222.0" prefHeight="364.0" prefWidth="771.0" style="-fx-background-color: #C6CDDB;">
          <children>
-            <Label layoutX="117.0" layoutY="66.0" text="To start a new game please press the button!">
+            <Label layoutX="9.0" layoutY="71.0" text="To try again to answer to this question press the button please!">
                <font>
                   <Font size="27.0" />
                </font>
             </Label>
-            <Label layoutX="128.0" layoutY="131.0" text="Új játék indításához nyomd meg a gombot!">
+            <Label layoutX="109.0" layoutY="134.0" text="Az újrapróbálkozáshoz nyomd meg a gombot!">
                <font>
                   <Font size="27.0" />
                </font>

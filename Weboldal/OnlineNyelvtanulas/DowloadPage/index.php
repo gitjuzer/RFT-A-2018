@@ -1,9 +1,15 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
 <head>
     <style type="text/css">
         #branding h1 {
+            color: white;
+        }
+        .legyfeher{
             color: white;
         }
     </style>
@@ -28,11 +34,25 @@
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="../index.html">Kezdőlap</a></li>
+                    <li class="current"><a href="../index.php">Kezdőlap</a></li>
                     <li><a href="../gallery.html">Galéria</a></li>
-                    <li><a href="DowloadPage/index.html">Letöltés</a></li>
+                    <li><a href="index.php">Letöltés</a></li>
                     <li><a href="../reg.php">Regisztráció</a></li>
-                    <li><a href="../login.php">Belépés</a></li>
+                    <li class="legyfeher">
+                        <?php
+                        if($_SESSION['logged']==true)
+                        {
+                            echo "Szia ";
+                            echo $_SESSION["username"];
+                            echo "! ";
+                            echo '<a href="../logout.php"><span>Kilépés</span></a></li>';
+                        }
+                        elseif($_SESSION['logged']==false)
+                        {
+
+                            echo '<a href="../login.php"><span>Belépés</span></a></li>';
+                        }
+                        ?></li>
                 </ul>
             </nav>
         </div>

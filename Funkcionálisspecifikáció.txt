@@ -199,15 +199,24 @@ Forgatókönyv asztali alkalmazáshoz:
 6. Kilépni bármelyik játéknál lehetséges
 
 
-Forgatókönyv regisztrációhoz:
-1.A kezdõlapon a navigációs sávból kiválasztjuk a regisztrációs panelt.
-2.regisztrációs ûrlap megjelenítése
-3.regisztrációs ûrlaphoz tartozó adatok kitöltése
-4.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
-5.ûrlap adatainak tárolása
-6.regisztráció megerõsítõ email küldése
-7.megerõsítés fogadása
-8.regisztráció aktiválása
+Forgatókönyv webes alkalmazáshoz:
+1. Honlap megnyitását követõen a kezdõoldal fogad, melyen a navigációs sáv található, és 3 játék próbálható ki.
+2. A navigációs sávon 5 pont közül választhatunk:
+			-Kezdõlap: Erre a pontra kattintva visszakerülünk az oldal kezdõlapjára
+			-Galéria: Ezt a pontot választva átírányít bennünket egy olyan oldalra ahol az asztali alkalmazásról tudunk képeket megtekinteni.
+			-Letöltés: A letöltés menüpont alatt egy letöltõ oldalt találunk ahol az asztali alkalmazás letöltéséhez szükséges link szerepel.
+			-Regisztráció: Itt egy ûrlap kitöltésének segítségével van lehetõség a regisztrációra.
+				-regisztrációs ûrlap megjelenítése
+				-regisztrációs ûrlaphoz tartozó adatok kitöltése
+				-ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
+				-ûrlap adatainak tárolása
+				-regisztráció megerõsítõ email küldése
+				-megerõsítés fogadása
+				-regisztráció aktiválása
+			Belépés/Kilépés: Ez a menüpont változik annak függvényében, hogy van-e épp bejelentkezve aktuális felhasználó. Amennyiben belépést kezdeményez
+					egy ûrlap kitöltésével beléphet.
+3. Három játék közül bármelyiket választva átirányít az adott játékhoz tartozó weblapra.
+
 
 
 7. A rendszer céljai és nem céljai:

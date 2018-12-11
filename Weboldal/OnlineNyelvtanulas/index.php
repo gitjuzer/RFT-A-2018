@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['logged']=false;
+?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -18,9 +22,9 @@
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Kezdőlap</a></li>
+                    <li class="current"><a href="index.php">Kezdőlap</a></li>
                     <li><a href="../html/gallery.html">Galéria</a></li>
-                    <li><a href="DowloadPage/index.html">Letöltés</a></li>
+                    <li><a href="/DowloadPage/index.php">Letöltés</a></li>
 					<li><a href="reg.php">Regisztráció</a></li>
                     <li><a href="login.php">Belépés</a></li>
                 </ul>
