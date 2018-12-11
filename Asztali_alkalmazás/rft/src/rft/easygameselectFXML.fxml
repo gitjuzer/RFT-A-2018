@@ -65,7 +65,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="akasztofabtn2" contentDisplay="TOP" layoutX="621.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Puzzle" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn2" onAction="#ToQuiz" contentDisplay="TOP" layoutX="621.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Quiz" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
