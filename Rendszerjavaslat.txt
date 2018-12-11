@@ -148,10 +148,12 @@ Akasztófa:
 A könnyű játékok között található játék, amely új felületen nyílik meg. Új szavak hozzáadása nem lehetséges.
 A játék véletlen szám segítségével fogja  kiválasztani a kitalálásra váró szót.
 
-Mi van a képen?
+Mi van a képen?:
 A könnyű játékok között található, megnyitáskor/kiválasztáskor új felületen nyílik meg. A játék lényege hogy a játékosnak
 fel kell ismernie mit lát a képen és el kell döntenie az alternatívák közül melyik a helyes megoldás. A játék véletlen szám segítségével
 fogja kiválasztani a kitalálandó képet.
+
+
 
 
 
