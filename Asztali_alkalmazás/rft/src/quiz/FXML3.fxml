@@ -8,5 +8,15 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML3Controller">
-    
+    <children>
+      <Button layoutX="120.0" layoutY="247.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Black and white" />
+      <Button layoutX="364.0" layoutY="247.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Green and purple" />
+      <Button fx:id="button" layoutX="120.0" layoutY="319.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Blue and red" />
+      <Button layoutX="364.0" layoutY="319.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Red and yellow" />
+      <Text layoutX="191.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What are the 2 main colours in the english flag?" wrappingWidth="284.13671875">
+         <font>
+            <Font size="26.0" />
+         </font></Text>
+      <Button fx:id="button1" layoutX="574.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
 </AnchorPane>

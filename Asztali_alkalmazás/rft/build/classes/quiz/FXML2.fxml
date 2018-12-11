@@ -8,5 +8,15 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML2Controller">
-    
+    <children>
+    <Button fx:id="button" layoutX="77.0" layoutY="236.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Fish and chips" />
+      <Button layoutX="77.0" layoutY="300.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Schnitzel" />
+      <Button layoutX="354.0" layoutY="236.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Stuffed cabbage" />
+      <Button layoutX="354.0" layoutY="300.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Rice" />
+      <Text layoutX="122.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the national dish of Endland?">
+         <font>
+            <Font size="21.0" />
+         </font></Text>
+      <Button fx:id="button1" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
 </AnchorPane>

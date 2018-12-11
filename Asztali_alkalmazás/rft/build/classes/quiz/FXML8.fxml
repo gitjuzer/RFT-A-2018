@@ -8,5 +8,15 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML8Controller">
-    
+    <children>
+      <Text layoutX="150.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Who is the monarch of England?">
+         <font>
+            <Font size="25.0" />
+         </font></Text>
+      <Button layoutX="109.0" layoutY="248.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Stalin" />
+      <Button layoutX="346.0" layoutY="248.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Putin" />
+      <Button fx:id="button" layoutX="109.0" layoutY="355.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Elizabeth II" />
+      <Button layoutX="346.0" layoutY="355.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Orbán Viktor" />
+      <Button fx:id="button1" layoutX="574.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
 </AnchorPane>
