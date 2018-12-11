@@ -56,7 +56,7 @@ let data = [
         ],
         correctAnswer: 0,
         explanation: 'A towel = törölköző. A törölköző vizes lesz ha megtörölkötünk.'
-    }
+    },
     {
         id: 3,
         question: 'Which month has 28 days?',
