@@ -98,3 +98,11 @@ let data = [
 const fiftyFifty = () => Math.random() > 0.5;
 data.forEach(question => question.answers.sort(() => (fiftyFifty()) ? 1 : -1));
 data = data.sort(() => (fiftyFifty()) ? 1 : -1);
+
+const initialState = {
+    data: data
+};
+
+const reducer = (state = initialState) => state;
+const store = createStore(reducer);
+
