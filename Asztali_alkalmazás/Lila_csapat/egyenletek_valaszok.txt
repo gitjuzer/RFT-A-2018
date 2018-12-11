@@ -3,3 +3,10 @@ five
 twelve
 one
 twentyfive
+twentythree
+ninetythree
+eleven
+ninetyfour
+seven
+eightyseven
+
