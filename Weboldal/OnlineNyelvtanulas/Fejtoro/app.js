@@ -94,3 +94,7 @@ let data = [
         explanation: 'Mivel a sorozat a hónapok kezbdőbetűit tartalmazza, így a helyes válasz a D.'
     }
     ];
+
+const fiftyFifty = () => Math.random() > 0.5;
+data.forEach(question => question.answers.sort(() => (fiftyFifty()) ? 1 : -1));
+data = data.sort(() => (fiftyFifty()) ? 1 : -1);
