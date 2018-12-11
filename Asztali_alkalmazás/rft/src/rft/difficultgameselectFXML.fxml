@@ -72,7 +72,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="akasztofabtn2" contentDisplay="TOP" layoutX="900.0" layoutY="328.0" mnemonicParsing="false" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Mond meg" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn2" contentDisplay="TOP" layoutX="900.0" layoutY="328.0" mnemonicParsing="false" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Mondd meg" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
