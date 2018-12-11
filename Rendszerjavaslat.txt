@@ -103,6 +103,15 @@ Kezdőlap:
 	fog tartozni. A "Játék" gombra kattintva a gomb felett fémjelzett játék azonnal elindul, egy másik oldalon.
 	A kezdőlapon feltüntetett játékok alatt pedig a webal érvényessége, hitelesítése lesz feltüntetve.
 
+Letöltési oldal:
+		Navigációs rész: 
+		Ügyanazok a funkciók elérhetők mint a kezdőlapon. Ugyanúgy van Regisztáció, Bejelentkezés, Galéria funkció. 
+		Plusz van egy link ami visszavisz a kezdőlapra.
+		Törzs:
+		Itt csak egy windows logó kap helyet meg egy gomb amivel a letöltést meg lehet kezdeni. Az elkészült  asztali
+		alkalmazást lehet majd letölteni ennek a linknek a segítésgével.
+		
+
 Regisztráció:
 	Regisztráció során egy űrlap kitöltését kérjük a leendő felhasználótól
 	Bekérendő adatok:
@@ -118,10 +127,12 @@ Regisztráció:
 
 Belépés:
 	Belépés során egy űrlap jelenik meg, mely segítségével a felhasználó beléphet, amennyiben nem aktiválta még a fiókját, vagy hibás adatokat ad meg
-	a bejelentkezés során hibát dob az oldal.	
+	a bejelentkezés során hibát dob az oldal.
+	
 
 Galéria:
 	A keződlapról nyíló weboldal, ami az asztali alkalmazásról tartalmaz képeket.
+
 
 Akasztófa:
 	A kezdőlapról indítható játék, amely új webes felületen nyílik meg. A játék saját, előre elkészített szótárral dolgozik. A szótárban 2,3,4,5,6,7 és 10 betűs szavak lesznek. Új szavak hozzáadása nem lehetséges.
