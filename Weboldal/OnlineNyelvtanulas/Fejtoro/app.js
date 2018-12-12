@@ -165,3 +165,143 @@ const AppResult = (props) => {
         </Result>
     );
 };
+
+const Answer = styled.div`
+  text-align: center;
+  transition: transform 0.2s ease-out;
+  transition-delay: 0.05s;
+
+  &.Hidden {
+    transform: scale(0);
+    height: 0;
+    visibility: none;
+    opacity: 0;
+  }
+`;
+
+const Verdict = styled.h2`
+  font-size: 1.4rem;
+  margin: 0.8rem 0;
+`;
+const Correction = styled.p`
+  margin: 0.8rem 0 1rem;
+  font-size: 1.2rem;
+`;
+
+const Explanation = styled.p`
+  font-size: 1.1rem;
+  line-height: 2;
+  text-align: initial;
+`;
+
+const Button = styled.button`
+  margin: 1rem 0;
+  background: none;
+  border: 1px solid #252525;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: inherit;
+  transition: all 0.2s ease-out;
+
+  &:hover, &:focus {
+    background: #252525;
+    color: #fff;
+  }
+  &:active {
+    background: #252525;
+    color: #fff;
+    transform: scale(1.1);
+  }
+`;
+
+const AppAnswer = (props) => {
+    const { isCorrect, isHidden, isLast, nextQuestion, data } = props;
+    const { answers, correctAnswer, explanation } = data;
+    const className = (isHidden) ? ' AppAnswer Hidden' : 'AppAnswer';
+
+    return (
+        <Answer className={ className }>
+            {
+                isCorrect
+                    ?
+                    <Verdict>Right Answer!</Verdict>
+                    :
+                    <React.Fragment>
+                        <Verdict>Sorry, wrong answer</Verdict>
+                        <Correction>The right answer was: <strong>{ answers.find(answer => answer.choice === correctAnswer).value }</strong></Correction>
+                    </React.Fragment>
+            }
+            <Explanation>{ explanation }</Explanation>
+            <Button onClick={ nextQuestion }>{ isLast ? "Continue" : "Check your Score"}</Button>
+        </Answer>
+    );
+};
+
+const Question = styled.h2`
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+`;
+
+const Answers = styled.ol`
+  font-size: 1.2rem;
+  line-height: 4;
+  list-style: none;
+  counter-reset: special-counter;
+
+  li {
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    counter-increment: special-counter;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+
+    &:before {
+    content: counter(special-counter);
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    background: #252a37;
+    color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-out;
+    }
+    &:hover:before {
+      background: #252a3799;
+    }
+    &:hover {
+      background: #252a3722;
+    }
+  }
+`;
+
+const AppQuestion = (props) => {
+    const { question, answers } = props.data;
+    const { showAnswer } = props;
+
+    const choices = answers.map(answer =>
+        <li
+            key={ answer.answer }
+            choice={ answer.choice }
+            onClick={ showAnswer }>
+            { answer.value }
+        </li>
+    );
+    return (
+        <div className="AppQuestion">
+            <Question>{ question }</Question>
+            <Answers>
+                { choices }
+            </Answers>
+        </div>
+    );
+}
