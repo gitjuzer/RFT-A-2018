@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML3Controller">
+    <children>
+      <Button layoutX="354.0" layoutY="466.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Black and white" />
+      <Button layoutX="598.0" layoutY="466.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Green and purple" />
+      <Button fx:id="button" layoutX="354.0" layoutY="538.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Blue and red" />
+      <Button layoutX="598.0" layoutY="538.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Red and yellow" />
+      <Text layoutX="394.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What are the 2 main colours in the english flag?" wrappingWidth="353.13671875">
+         <font>
+            <Font size="26.0" />
+         </font></Text>
+      <Button fx:id="button1" layoutX="808.0" layoutY="233.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML4Controller">
+    <children>
+      <Button fx:id="button" layoutX="361.0" layoutY="471.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Scots" />
+      <Button layoutX="361.0" layoutY="529.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="French" />
+      <Button layoutX="631.0" layoutY="471.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="German" />
+      <Button layoutX="631.0" layoutY="529.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Hungarian" />
+      <Text layoutX="330.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the 2. most spoken language in England?" wrappingWidth="529.9619140625">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="button1" layoutX="831.0" layoutY="241.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
+</AnchorPane>

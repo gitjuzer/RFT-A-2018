@@ -25,9 +25,9 @@ require_once 'mydbms.php';
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Kezdőlap</a></li>
+                    <li class="current"><a href="kezdolap.php">Kezdőlap</a></li>
                     <li><a href="../html/gallery.html">Galéria</a></li>
-                    <li><a href="about.html">Letöltés</a></li>
+                    <li><a href="DowloadPage/index.php">Letöltés</a></li>
                     <li><a href="reg.php">Regisztráció</a></li>
                     <li><a href="login.php">Belépés</a></li>
                 </ul>
@@ -52,21 +52,25 @@ require_once 'mydbms.php';
                     $count=mysqli_num_rows($result);
                     if($count==1)
                     {
-                        header ("location: index.html");
+                        $_SESSION['logged']=true;
+                        $_SESSION['username']=$myusername1;
+                        header("Location: kezdolap.php");
+                        exit();
                     }
                     else
                     {
-                        $error="<div class=\"hiba\">Győződj meg róla, hogy jól írtad-e be a 
-                            felhasználó nevet és a jelszót és hogy aktiváltad a felhasználói fiókod</div>";
+                        $_SESSION['logged']=false;
+                        header("Location: login.html");
+                        exit();
                     }
                 }
                 ?>
                 <h1>Belépés</h1>
                 <div>
-                    <input type="text" placeholder="Username" required="" name="username" />
+                    <input type="text" placeholder="Felhasználónév" required="" name="username" />
                 </div>
                 <div>
-                    <input type="password" placeholder="Password" required="" name="password" />
+                    <input type="password" placeholder="Jelszó" required="" name="password" />
                 </div>
                 <div>
                     <input type="submit" value="Log in" />

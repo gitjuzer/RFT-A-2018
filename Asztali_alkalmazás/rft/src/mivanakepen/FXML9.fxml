@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML9Controller">
+    <children>
+      <ImageView fitHeight="315.0" fitWidth="515.0" layoutX="364.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../folder/9.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="439.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
+         <font>
+            <Font name="Jokerman" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="button" layoutX="319.0" layoutY="569.0" mnemonicParsing="false" onAction="#load_tenth" prefHeight="40.0" prefWidth="90.0" text="The Big Ben">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="764.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="118.0" text="London Dungeon">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="439.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="118.0" text="Tower of London">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="591.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="141.0" text="Buckingham Palace">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

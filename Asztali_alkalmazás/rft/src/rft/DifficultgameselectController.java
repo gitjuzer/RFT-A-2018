@@ -40,6 +40,20 @@ public class DifficultgameselectController implements Initializable {
        
         stage.setScene(scene);
     }
+    @FXML
+    Button akasztofabtn4;
+    
+    @FXML
+    private void ToMatematika(ActionEvent event) throws IOException{
+        
+        stage = (Stage) akasztofabtn4.getScene().getWindow();
+        AnchorPane root;
+        root = (AnchorPane) FXMLLoader.load(getClass().getResource("/matematika/FXMLDocument.fxml"));
+        Scene scene = new Scene(root);
+       
+        stage.setScene(scene);
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

@@ -1,4 +1,4 @@
-Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjén!
+﻿Funkcionális specifikáció kidolgozása a követelmény specifikáció alapján tervezés szintjén!
 --------------------------------------------------------------------------------------------
 
 
@@ -57,7 +57,7 @@ Nagyvonalú rendszerjavaslat kidolgozása a fent leírtak és a funkcionális sp
 Webes alkalmazás
 ----------------
 
-A webes alkalmazás 8-10 weblapból álló felülettel fog rendelkezni, mely HTML, CSS és JavaScript-ben lesz megírva.
+A webes alkalmazás 8-10 weblapból álló felülettel fog rendelkezni, mely HTML, CSS, PHP és JavaScript-ben lesz megírva.
 
 Megfeleltetés:
 
@@ -74,6 +74,10 @@ Felület:
 	A webes alkalmazás maga lesz az online felület, amely telefonról is elérhető lesz.
 
 Adatvédelem:
+	Az adatvédelemnek a felhasználóktól bekért adatok titkosításával teszünk eleget, az adatbázisban a felhasználóhoz tartozó jelszó md5-s kódolást kap, mely megakadályozza, hogy egy esetleges támadás esetén illetéktelenek
+	kezébe kerüljenek az adatok. Az aktiváló email kiküldése is úgy történik, hogy az aktivál linkben nem szerepel semmilyen olyan adat amely segítségével feltörhető lenne az adott fiók. 
+	A bejelentkezés és regisztráció során a felhasználó védve van a fizikiai veszélyektől, gondolunk itt arra, hogy valaki lenézi a begépelt kódot a számítógép monitoráról, hiszen a már jól bevált jelszóhoz használt beviteli
+	típust használjuk, ami csak pontokat jelenít meg a bevitt karakterek helyén.
 	
 
 
@@ -98,10 +102,42 @@ Kezdőlap:
 	A marketing rész alatt következnek a játékok. Mindegyik játékhoz rövid leírás, kép és egy "Játék" gomb 
 	fog tartozni. A "Játék" gombra kattintva a gomb felett fémjelzett játék azonnal elindul, egy másik oldalon.
 	A kezdőlapon feltüntetett játékok alatt pedig a webal érvényessége, hitelesítése lesz feltüntetve.
+
+Letöltési oldal:
+		Navigációs rész: 
+		Ügyanazok a funkciók elérhetők mint a kezdőlapon. Ugyanúgy van Regisztáció, Bejelentkezés, Galéria funkció. 
+		Plusz van egy link ami visszavisz a kezdőlapra.
+		Törzs:
+		Itt csak egy windows logó kap helyet meg egy gomb amivel a letöltést meg lehet kezdeni. Az elkészült  asztali
+		alkalmazást lehet majd letölteni ennek a linknek a segítésgével.
+		
+
+Regisztráció:
+	Regisztráció során egy űrlap kitöltését kérjük a leendő felhasználótól
+	Bekérendő adatok:
+		-Felhasználónév
+			Vizsgáljuk a felhasználónév helyességét, nem lehet csak az angol abc betűit használni és legalább 5 karakterből áll
+		-Jelszó
+		-Jelszó újra
+			Amennyiben nem egyezett meg a két jelszó az oldal hibát dob, amennyiben megegyezik md5 titkosítással látja el.
+		-Email cím 
+			Vizsgáljuk, hogy megfelelő formátumban adta meg az email címet amennyiben nem az oldal hibát dob.
+	A "Felhasználó létrehozása" gombra kattintást követően Aktiváló email-t küldünk melyben leírjuk a felhasználó belépéshez szükséges adatait és egy aktiváló linket is
+	közlünk.
+
+Belépés:
+	Belépés során egy űrlap jelenik meg, mely segítségével a felhasználó beléphet, amennyiben nem aktiválta még a fiókját, vagy hibás adatokat ad meg
+	a bejelentkezés során hibát dob az oldal.
 	
 
 Galéria:
 	A keződlapról nyíló weboldal, ami az asztali alkalmazásról tartalmaz képeket.
+
+TalálKi:
+    A játék a kezdőlapról elérhető. Indításkor 3 fokozat közül tudunk választani. Valamelyik fokozat kiválasztása után indul el a játék. Segítségnek
+    kapunk egy képet és, hogy hány betűből áll a szó amit ki kell találni. Egyszerre csak egy betűt lehet tippelni.(Nagy és kis betű különböző)
+    A játék számolja a rossz tippeket ezenkívül ki is írja őket. Ezenfelül láthatjuk, hogy hány tipp maradt hátra és persze azt hogy a szóból
+    milyen betűk vannak már meg. A nehézségek közti különbség az, hogy hágy tippel kezdünk a szavak ugyanazok lehetnek mindhárom nehézségen.
 
 Akasztófa:
 	A kezdőlapról indítható játék, amely új webes felületen nyílik meg. A játék saját, előre elkészített szótárral dolgozik. A szótárban 2,3,4,5,6,7 és 10 betűs szavak lesznek. Új szavak hozzáadása nem lehetséges.
@@ -112,6 +148,50 @@ Akasztófa:
 Asztali alkalmazás
 ------------------
 	
+Egyszerű letisztult felület:
+Az asztali alkalmazás felülete a könnyen kezelhetőség megvalósítása érdekében csak egér klikkelésre működő, magyar nyelvű gombokat fog tartalmazni. 
+A felületek egymásból nyílóak lesznek, és egy felület sem lesz túlzsúfolt.
+Nem lesz olyan felület amit hosszantartó kattingatásokon keresztül lehet elérni. Minden a keződlapról lesz elérhető.
+
+Játékos megoldások:
+A tanulás csakis kizárólag játékos formában fog történni.
+Nem lesznek táblázatok, űrlapok és összezavaró nyelvi ábrák, fölösleges instrukciók.
+Az asztali felületen 2 nehézségi szint közül lehet választani, illetve lesz egy szintfelmérő.
+A könnyű szinten 3 játék lesz (akasztófa, mit látsz a képen, memóriajáték), a nehéz szint is 3 játékot fog tartalmazni (egészítsd ki, rakd ki, mond meg)
+
+Adatvédelem:
+Nincsen adatvédelemre szükség, hiszen az asztali alkalmazás nem kér és használ fel személyes adatokat.
+
+Könnyű megfogalmazás:
+Minden játékhoz tartozik rövid leírás, gombok kiosztása, a lehető legegyszerűbben lesz megfogalmazva.
+	
+Vizualitás:
+Az asztali alkalmazás a játékok illusztrálva lesznek képekkel. Ez azt jelenti, hogy a felhasználó számára nem csak egy 
+gomb fog látszódni rajta "Akasztófa" felirattal, hanem a gomb fölött a játékról való kép is el lesz helyezve.
+Az előbbiekben hozott példa mindegyik játék típusra teljesül.
+A játékok jelentős része vizuális alapon működik. Így azokra alapból teljesül a követelménynek való megfelelés.
+
+Web:
+A webes alkalmazásról egyszerűen letölthető az asztali alkalmazás így könnyen elérhető lesz.
+Internet szolgáltatás nem szükséges lesz hozzá offline használható a feltelepített program.
+
+Kezdőlap:
+A kezdőlapon rögtön lehet választani a könnyű és a nehezebb játékok menüi között. Lehetőség van rá, hogy egy szintfelmérő
+tesztet töltsünk ki, ami egy harmadik gombbal lehet elérni. A főoldalon két kép illusztrálja a könnyű és a nehéz feladatok
+szintjeit. Bármelyik gombra rákattintva új ablakba ugrik fel az új menü. Vissza gombokra kattintva az előző ablakot hozhatjuk vissza.
+
+
+
+Akasztófa:
+A könnyű játékok között található játék, amely új felületen nyílik meg. Új szavak hozzáadása nem lehetséges.
+A játék véletlen szám segítségével fogja  kiválasztani a kitalálásra váró szót.
+
+Mi van a képen?:
+A könnyű játékok között található, megnyitáskor/kiválasztáskor új felületen nyílik meg. A játék lényege hogy a játékosnak
+fel kell ismernie mit lát a képen és el kell döntenie az alternatívák közül melyik a helyes megoldás. A játék véletlen szám segítségével
+fogja kiválasztani a kitalálandó képet.
+
+
 
 
 

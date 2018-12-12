@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML1Controller">
+    <children>
+      <Button layoutX="319.0" layoutY="473.0" mnemonicParsing="false" onAction="#wrong" prefHeight="38.0" prefWidth="236.0" text="New York" />
+      <Button fx:id="button" layoutX="589.0" layoutY="473.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="38.0" prefWidth="230.0" text="London" />
+      <Button layoutX="319.0" layoutY="536.0" mnemonicParsing="false" onAction="#wrong" prefHeight="38.0" prefWidth="236.0" text="Budapest" />
+      <Button layoutX="589.0" layoutY="536.0" mnemonicParsing="false" onAction="#wrong" prefHeight="38.0" prefWidth="230.0" text="Moscow" />
+      <Text layoutX="324.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the capitcal of England?" wrappingWidth="514.0">
+         <font>
+            <Font size="35.0" />
+         </font></Text>
+      <Button fx:id="button1" layoutX="842.0" layoutY="227.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
+</AnchorPane>

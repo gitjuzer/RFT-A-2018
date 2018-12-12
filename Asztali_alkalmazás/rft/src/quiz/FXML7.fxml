@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML7Controller">
+    <children>
+      <Button fx:id="button" layoutX="349.0" layoutY="462.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="United kingdom" />
+      <Button layoutX="614.0" layoutY="462.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Kommunism" />
+      <Button layoutX="349.0" layoutY="547.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Socialism" />
+      <Button layoutX="614.0" layoutY="547.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Dictatorship" />
+      <Text layoutX="342.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the form of government of England?">
+         <font>
+            <Font size="25.0" />
+         </font></Text>
+      <Button fx:id="button1" layoutX="820.0" layoutY="224.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+   </children>
+</AnchorPane>

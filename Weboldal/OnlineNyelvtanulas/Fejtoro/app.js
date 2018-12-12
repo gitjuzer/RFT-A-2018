@@ -1,0 +1,151 @@
+const { createStore } = Redux;
+const { Provider, connect } = ReactRedux;
+const Component = React.Component;
+const { default : styled } = styled;
+const { render } = ReactDOM;
+
+let data = [
+    {
+        id: 0,
+        question: 'What has a face and two hands but no arms or legs?\n',
+        answers: [
+            {
+                choice: 0,
+                value: 'A clock'
+            },
+            {
+                choice: 1,
+                value: 'A person'
+            }
+        ],
+        correctAnswer: 0,
+        explanation: 'Az óránál angolul a mutató = hands.'
+    },
+    {
+        id: 1,
+        question: 'What has a neck but no head?\n',
+        answers: [
+            {
+                choice: 0,
+                value: 'A person'
+            },
+            {
+                choice: 1,
+                value: 'A bottle'
+            }
+        ],
+        correctAnswer: 0,
+        explanation: 'A bottle = üveg. Az üvegnek is van nyaka, illetve feje.'
+    },
+    {
+        id: 2,
+        question: 'What gets wetter as it dries?\n',
+        answers: [
+            {
+                choice: 0,
+                value: 'A dress'
+            },
+            {
+                choice: 1,
+                value: 'A costume'
+            },
+            {
+                choice: 2,
+                value: 'A towel'
+            }
+        ],
+        correctAnswer: 0,
+        explanation: 'A towel = törölköző. A törölköző vizes lesz ha megtörölkötünk.'
+    },
+    {
+        id: 3,
+        question: 'Which month has 28 days?',
+        answers: [
+            {
+                choice: 0,
+                value: 'February'
+            },
+            {
+                choice: 1,
+                value: 'All of them'
+            }
+        ],
+        correctAnswer: 1,
+        explanation: 'Minden hónapban van legalább 28 nap.'
+    },
+    {
+        id: 4,
+        question: 'What is next in this sequence? JFMAMJJASON...',
+        answers: [
+            {
+                choice: 0,
+                value: 'A'
+            },
+            {
+                choice: 1,
+                value: 'D'
+            },
+            {
+                choice: 2,
+                value: 'G'
+            }
+        ],
+        correctAnswer: 1,
+        explanation: 'Mivel a sorozat a hónapok kezbdőbetűit tartalmazza, így a helyes válasz a D.'
+    }
+    ];
+
+const fiftyFifty = () => Math.random() > 0.5;
+data.forEach(question => question.answers.sort(() => (fiftyFifty()) ? 1 : -1));
+data = data.sort(() => (fiftyFifty()) ? 1 : -1);
+
+const initialState = {
+    data: data
+};
+
+const reducer = (state = initialState) => state;
+const store = createStore(reducer);
+
+const SVGTwitter = () => {
+    return(
+        <svg id="twitter-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 26.458 26.458">
+        <path d="M13.23 2.646A10.584 10.584 0 0 0 2.646 13.23 10.584 10.584 0 0 0 13.23 23.812 10.584 10.584 0 0 0 23.81 13.23 10.584 10.584 0 0 0 13.23 2.646zM7.39 7.73c1.085 2.652 5.528 3.396 5.528 3.396 1.082-4.992 4.93-2.228 5.115-1.87.31.423 1.912-.372 1.912-.372.051.584-1.395 1.22-1.395 1.22l1.55.054c.052.317-1.446.742-1.446.742-.104 6.843-5.89 7.704-5.89 7.704-3.049.531-6.097-.848-6.097-.848 2.015.372 4.392-2.122 4.392-2.122-1.67.396-2.902-.692-3.279-1.08a.249.249 0 0 1-.132-.14s.055.06.132.14c.514.256 2.193-.459 2.193-.459-3.255-.424-3.616-2.917-3.616-2.917 1.394 1.38 2.996 1.22 2.996 1.22-2.17.053-1.963-4.668-1.963-4.668z" />
+        </svg>
+);
+};
+
+const Result = styled.div`
+  text-align: center;
+`;
+const Proclamation = styled.h2`
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+`;
+const Score = styled.h1`
+  font-weight: 300;
+  margin: 1rem 0 2rem;
+`;
+const Link = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease-out;
+
+  svg {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    fill: inherit;
+    transition: all 0.2s ease-out;
+  }
+
+  &:hover svg {
+    background: #333;
+    fill: #fff;
+  }
+`;

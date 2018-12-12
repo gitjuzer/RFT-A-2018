@@ -7,6 +7,13 @@ body{
     margin:0;
     background-color: #f4f4f4;
 }
+.letolteshead {
+margin-bottom: 150px;
+}
+.kozepre{
+    text-align: center;
+    margin: 0 auto;
+}
 /*Global*/
 .container{
     width: 80%;
@@ -158,8 +165,10 @@ header a:hover {
 }
 
 footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
     padding:3px;
-    margin-top:0;
     color:#ffffff;
     background-color: #e8491d;
     text-align: center;

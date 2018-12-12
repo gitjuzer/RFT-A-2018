@@ -6,7 +6,7 @@ require 'PHPMailer/Exception.php';
 require 'PHPMailer/PHPMailer.php';
 require 'PHPMailer/SMTP.php';
 require_once 'mydbms.php';
-
+session_start();
 if(isset($_POST['btn-signup'])) {
 
     $uname = strip_tags($_POST['username']);
@@ -44,15 +44,15 @@ if(isset($_POST['btn-signup'])) {
                         $subject = "Signup | Verification"; // Give the email a subject
                         $message = '
          
-        Thanks for signing up!
-        Your account has been created, you can login with the following credentials after you have activated your account by pressing the url below.
+        Köszönjük a regisztrációt
+        A felhasználói fiókod elkészült, beléphetsz miután aktiváltat az email címed az alul megtalálható linkre kattintva.
          
         ------------------------
-        Username: ' . $uname . '
-        Password: ' . $upass . '
+        Felhasználónév: ' . $uname . '
+        Jelszó: ' . $upass . '
         ------------------------
          
-        Please click this link to activate your account:
+        Kattints a linkre az aktiváláshoz:
         http://localhost:63342/OnlineNyelvtanulas/verify.php?email=' . $email . '&hash=' . $hash . '
          
         ';
@@ -75,7 +75,7 @@ if(isset($_POST['btn-signup'])) {
 
 
                         if ($mail->send())
-                            $msg = "You have been registered! Please verify your email!";
+                            $msg = "Sikeres Regisztrációs! Elküldtük az aktiváló email-t!";
                         else
                             echo $msg = "Hiba az aktiváló email küldése közben.";
                     } else {
@@ -115,11 +115,25 @@ if(isset($_POST['btn-signup'])) {
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Kezdőlap</a></li>
+                    <li class="current"><a href="kezdolap.php">Kezdőlap</a></li>
                     <li><a href="../html/gallery.html">Galéria</a></li>
-                    <li><a href="about.html">Letöltés</a></li>
+                    <li><a href="DowloadPage/index.php">Letöltés</a></li>
                     <li><a href="reg.php">Regisztráció</a></li>
-                    <li><a href="login.php">Belépés</a></li>
+                    <li>
+                        <?php
+                        if($_SESSION['logged']==true)
+                        {
+                            echo "Szia ";
+                            echo $_SESSION["username"];
+                            echo "! ";
+                            echo '<a href="logout.php"><span>Kilépés</span></a></li>';
+                        }
+                        elseif($_SESSION['logged']==false)
+                        {
+
+                            echo '<a href="login.php"><span>Belépés</span></a></li>';
+                        }
+                        ?></li>
                 </ul>
             </nav>
         </div>
@@ -136,13 +150,13 @@ if(isset($_POST['btn-signup'])) {
                     <h1>Regisztráció</h1>
 
                     <div>
-                        <input type="text" class="form-control" placeholder="Username" name="username" required  />
+                        <input type="text" class="form-control" placeholder="Felhasználónév" name="username" required  />
                     </div>
                     <div>
-                        <input type="password" class="form-control" placeholder="Password" name="password" required  />
+                        <input type="password" class="form-control" placeholder="Jelszó" name="password" required  />
                     </div>
                     <div>
-                        <input type="password" class="form-control" placeholder="Password" name="password2" required  />
+                        <input type="password" class="form-control" placeholder="Jelszó újra" name="password2" required  />
                     </div>
                     <div>
                         <input type="text" class="form-control" placeholder="Email" name="email" required  />

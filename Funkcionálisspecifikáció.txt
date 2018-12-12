@@ -8,6 +8,7 @@ amin esetlegesen az igényeknek megfelelõen személyre tudnánk szabni.
 Tovább kutakodtunk és számos fejlesztési ötletet tudunk felkínálni a megrendelõnek.
 A könnyebb felhasználás érdekében, egy letisztult egyszerû felhasználói felületet ajánlunk fel.
 
+
 2. Követelménylista
 ID			NÉV			KIFEJTÉS
 Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
@@ -173,15 +174,61 @@ Elõfeltétel:
 
 A jellemzõ forgatókönyvek leírásai:
 
-Forgatókönyv regisztrációhoz:
-1.A kezdõlapon a navigációs sávból kiválasztjuk a regisztrációs panelt.
-2.regisztrációs ûrlap megjelenítése
-3.regisztrációs ûrlaphoz tartozó adatok kitöltése
-4.ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
-5.ûrlap adatainak tárolása
-6.regisztráció megerõsítõ email küldése
-7.megerõsítés fogadása
-8.regisztráció aktiválása
+Forgatókönyv asztali alkalmazáshoz:
+1. Az asztali alkalmazást megnyitva a fõoldalon választani lehet a könnyû, nehéz játékok és szintfelmérõ opció közül
+2. Ajánlatos a szintfelmérõ tesztet kell kitölteni, hogy a nyelvi szintünk alapján melyik csoportba tartozunk
+3. A teszt kitöltésével a program besorol könnyû azaz öt szóból kettõ vagy annál kevesebb helyes vagy nehéz szintre ha az ötbõl legalább 3 helyes
+4. Eredmény után autómatikusan belép az ajánlott szintre
+5. Könnyû szinten 4 játék közül lehet választani:
+			
+			-Akasztófa: A játékban bekér betût amit megvizsgál, hogy az adott szóban szerepel e. 
+				    Ha nem akkor levon egy életet és feltünteti alul a már választott betûket.
+			-Memória játék:
+			-Quiz: A játék kiválasztása után a "start" gombbal lehet elindítani a játékot. Miután elindult egy angol nyelven 
+			       lévõ kérdésre lehet a négy lehetséges válasz közül választani. A játékból a "quit" gombbal bármikor abba 
+			       lehet hagyni a játékot és kilépni. A játék 8 db kérdést tesz fel jó válasz esetén egymást követõen, ha a 
+			       kérdésre rossz válasz érkezik akkor egy felugró ablakban jelzi és ezután újra a kérdés jelenik meg ahol 
+			       ismételten lehet választ választani. Ha az össze kérdésre helyes választ adtak "well done" felirat jön 
+			       fel és a "back" gombbal vissza lehet lépni a játékokhoz.
+			-Mi van a képen?:A játék indítása után egy kép és hozzá négy válasz lehetõség közül kell választani
+					 Ha a válasz helyes következõ kép jelenik meg
+					 Ha a válasz hibás felugrik egy hiba üzenet és újra tudsz választani a megadott szavak közül
+					 Ha mind a 10 képre helyesen válaszoltál egy gratulációs kép jelenik meg
+
+6. Haladó szinten 4 játék közül lehet választani:
+			
+			-Egészítsd ki:
+			-Rakd ki:
+			-Matematika: A játék elindítása után angolul és magyarul is megjelenik egy matematikai összefüggés vagy szám helyes írás és négy válasz lehetõség
+				     Ha helyes a válasz új kérdés jelenik meg
+				     Ha az összes kérdésre jól válaszoltál akkor gratulál és a "vissza" gombbal a játék választási lehetõségekhez lép ki
+				     Ha a válasz hibás felugrik egy hiba üzenet és vége a játéknak
+				     Ha vége a játéknak a "Let's try again" gombra kattintva új játékot lehet kezdeni
+					
+			-Mondd meg:
+
+7. Vissza lépni bármikor lehetséges a "vissza" vagy a "back" gombbal amivel az elõzõ oldalra léphetünk vissza 
+8. Kilépni bármelyik játéknál lehetséges
+
+
+Forgatókönyv webes alkalmazáshoz:
+1. Honlap megnyitását követõen a kezdõoldal fogad, melyen a navigációs sáv található, és 3 játék próbálható ki.
+2. A navigációs sávon 5 pont közül választhatunk:
+			-Kezdõlap: Erre a pontra kattintva visszakerülünk az oldal kezdõlapjára
+			-Galéria: Ezt a pontot választva átírányít bennünket egy olyan oldalra ahol az asztali alkalmazásról tudunk képeket megtekinteni.
+			-Letöltés: A letöltés menüpont alatt egy letöltõ oldalt találunk ahol az asztali alkalmazás letöltéséhez szükséges link szerepel.
+			-Regisztráció: Itt egy ûrlap kitöltésének segítségével van lehetõség a regisztrációra.
+				-regisztrációs ûrlap megjelenítése
+				-regisztrációs ûrlaphoz tartozó adatok kitöltése
+				-ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
+				-ûrlap adatainak tárolása
+				-regisztráció megerõsítõ email küldése
+				-megerõsítés fogadása
+				-regisztráció aktiválása
+			Belépés/Kilépés: Ez a menüpont változik annak függvényében, hogy van-e épp bejelentkezve aktuális felhasználó. Amennyiben belépést kezdeményez
+					egy ûrlap kitöltésével beléphet.
+3. Három játék közül bármelyiket választva átirányít az adott játékhoz tartozó weblapra.
+
 
 
 7. A rendszer céljai és nem céljai:

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML8Controller">
+    <children>
+      <ImageView fitHeight="300.0" fitWidth="434.0" layoutX="383.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../folder/8.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="433.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can yout see in this picture?">
+         <font>
+            <Font name="Jokerman" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="383.0" layoutY="559.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Cranberries">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="499.0" layoutY="559.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Redberries">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="613.0" layoutY="559.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="96.0" text="Strawberries">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="button" layoutX="727.0" layoutY="559.0" mnemonicParsing="false" onAction="#load_ninth" prefHeight="40.0" prefWidth="90.0" text="Blueberries">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

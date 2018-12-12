@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="button_wrong" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.SzintfelmeroeredmenyController">
+   <children>
+      <Label fx:id="helyes" alignment="CENTER" layoutX="334.0" layoutY="314.0" prefHeight="46.0" prefWidth="607.0" text="">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="szint" alignment="CENTER" layoutX="533.0" layoutY="400.0" prefHeight="27.0" prefWidth="208.0" text="">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="button" layoutX="601.0" layoutY="456.0" onAction="#exit" prefHeight="43.0" prefWidth="74.0" text="Ok">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
