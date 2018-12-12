@@ -238,3 +238,156 @@ const AppAnswer = (props) => {
         </Answer>
     );
 };
+
+const Question = styled.h2`
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+`;
+
+const Answers = styled.ol`
+  font-size: 1.2rem;
+  line-height: 4;
+  list-style: none;
+  counter-reset: special-counter;
+
+  li {
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    counter-increment: special-counter;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+
+    &:before {
+    content: counter(special-counter);
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    background: #252a37;
+    color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-out;
+    }
+    &:hover:before {
+      background: #252a3799;
+    }
+    &:hover {
+      background: #252a3722;
+    }
+  }
+`;
+
+const AppQuestion = (props) => {
+    const { question, answers } = props.data;
+    const { showAnswer } = props;
+
+    const choices = answers.map(answer =>
+        <li
+            key={ answer.answer }
+            choice={ answer.choice }
+            onClick={ showAnswer }>
+            { answer.value }
+        </li>
+    );
+    return (
+        <div className="AppQuestion">
+            <Question>{ question }</Question>
+            <Answers>
+                { choices }
+            </Answers>
+        </div>
+    );
+};
+
+const Counter = styled.h3`
+  text-align: center;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  padding: 0.5rem 0;
+  border-top: 0.2rem solid #252a37;
+  border-bottom: 0.2rem solid #252a37;
+  background: #fff;
+`;
+
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            counter: 0,
+            correct: 0,
+            isHidden: true,
+            isCorrect: false,
+            isFinished: false
+        };
+        this.showAnswer = this.showAnswer.bind(this);
+        this.nextQuestion = this.nextQuestion.bind(this);
+    }
+
+    showAnswer(e) {
+        const {target} = e;
+        const answer = parseInt(target.getAttribute('choice'));
+        const correctanswer = this.props.data[this.state.counter].correctAnswer;
+        const isCorrect = (answer === correctanswer);
+        const correct = (isCorrect) ? this.state.correct + 1 : this.state.correct;
+
+        this.setState({
+            correct,
+            isCorrect,
+            isHidden: false
+        });
+    }
+
+    nextQuestion() {
+        const counter = this.state.counter;
+        const length = this.props.data.length;
+
+        if (counter === length - 1) {
+            this.setState({
+                isFinished: true
+            })
+        }
+
+        else {
+            this.setState({
+                counter: this.state.counter + 1,
+                isHidden: true
+            })
+        }
+    }
+
+render() {
+    return (
+        <div className="App">
+            {
+                !this.state.isFinished
+                    ?
+                    <React.Fragment>
+                        <Counter>{this.state.counter + 1 }/{this.props.data.length}</Counter>
+                        <AppQuestion showAnswer={this.showAnswer} data={this.props.data[this.state.counter]}/>
+                        <AppAnswer isHidden={this.state.isHidden} isLast={this.state.counter !== this.props.data.length - 1} isCorrect={this.state.isCorrect} nextQuestion={this.nextQuestion} data={this.props.data[this.state.counter]}/>
+                    </React.Fragment>
+                    :
+                    <AppResult correct={this.state.correct} total={this.props.data.length}/>
+            }
+        </div>
+    );
+}
+}
+
+const mapStateToProps = state => ({
+    data: state.data
+});
+
+App = connect(mapStateToProps)(App);
+
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>, document.getElementById('root'));

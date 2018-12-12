@@ -51,7 +51,7 @@ $_SESSION['logged']=false;
                     <img src="pic/talaldki.JPG" alt="">
                     <h3>Találd Ki</h3>
                     <p>Légy vakmerő, és találd ki a szavak helyes alakját.</p>
-                    <a href="TalaldKi/index.html">Játék</a>
+                    <a href="TalaldKi/index.php">Játék</a>
                 </div>
                 <div class="box">
                     <img src="pic/london.png" alt="">
