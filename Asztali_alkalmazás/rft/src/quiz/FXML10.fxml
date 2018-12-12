@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML10Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML10Controller">
     <children>
-      <Text layoutX="385.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maybe next time!">
+      <Text layoutX="369.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maybe next time!">
          <font>
-            <Font size="56.0" />
+            <Font name="Lucida Bright" size="56.0" />
          </font></Text>
-      <Button fx:id="button" layoutX="538.0" layoutY="462.0" mnemonicParsing="false" onAction="#vissza" prefHeight="74.0" prefWidth="124.0" text="Back">
+      <Button fx:id="button" contentDisplay="TOP" layoutX="518.0" layoutY="435.0" mnemonicParsing="false" onAction="#vissza" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: ffffff;" text="Back" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font size="21.0" />
+            <Font name="Lucida Bright" size="36.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
    </children>
 </AnchorPane>

@@ -1,22 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="quiz.FXML4Controller">
-    <children>
-      <Button fx:id="button" layoutX="361.0" layoutY="471.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="30.0" prefWidth="200.0" text="Scots" />
-      <Button layoutX="361.0" layoutY="529.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="French" />
-      <Button layoutX="631.0" layoutY="471.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="German" />
-      <Button layoutX="631.0" layoutY="529.0" mnemonicParsing="false" onAction="#wrong" prefHeight="30.0" prefWidth="200.0" text="Hungarian" />
-      <Text layoutX="330.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the 2. most spoken language in England?" wrappingWidth="529.9619140625">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.FXML4Controller">
+   <children>
+      <Text layoutX="273.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the 2nd most spoken language in England?" textAlignment="CENTER" wrappingWidth="654.0">
          <font>
-            <Font size="30.0" />
-         </font></Text>
-      <Button fx:id="button1" layoutX="831.0" layoutY="241.0" mnemonicParsing="false" onAction="#loadLast" text="Quit" />
+            <Font name="Lucida Bright" size="35.0" />
+         </font>
+      </Text>
+      <Button fx:id="button11" layoutX="1025.0" layoutY="725.0" mnemonicParsing="false" onAction="#loadLast" prefHeight="44.0" prefWidth="131.0" style="-fx-background-color: f3c4b4 f3c4b4;" text="Quit" textFill="#55160d" underline="true">
+         <font>
+            <Font name="Lucida Bright" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button" contentDisplay="TOP" layoutX="344.0" layoutY="430.0" mnemonicParsing="false" onAction="#loadNext" prefHeight="51.0" prefWidth="245.0" style="-fx-background-color: ffffff;" text="Scots" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="611.0" layoutY="430.0" mnemonicParsing="false" onAction="#wrong" prefHeight="51.0" prefWidth="245.0" style="-fx-background-color: ffffff;" text="French" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="611.0" layoutY="511.0" mnemonicParsing="false" onAction="#wrong" prefHeight="51.0" prefWidth="245.0" style="-fx-background-color: ffffff;" text="German" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="344.0" layoutY="511.0" mnemonicParsing="false" onAction="#wrong" prefHeight="51.0" prefWidth="245.0" style="-fx-background-color: ffffff;" text="Hungarian" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
    </children>
 </AnchorPane>
