@@ -9,11 +9,10 @@
 
 <AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="320.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.játék.pkg2.WrongController">
    <children>
-      <Text layoutX="68.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer!" wrappingWidth="184.98828125">
+      <Text layoutX="68.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer!" wrappingWidth="184.98828125">
          <font>
             <Font size="27.0" />
          </font>
       </Text>
-      <Button fx:id="button" layoutX="135.0" layoutY="143.0" mnemonicParsing="false" text="ok" />
    </children>
 </AnchorPane>
