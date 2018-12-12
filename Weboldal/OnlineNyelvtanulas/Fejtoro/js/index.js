@@ -142,7 +142,7 @@ var AppResult = function AppResult(props) {
             React.createElement(Proclamation, null, 'You have answered correctly to'),
             React.createElement(Score, null, correct, ' questions out of ', total),
 
-            React.createElement(Link, { href: tweet }, 'Feel free to brag about it ',
+            React.createElement(Link, { href: tweet }, 'Ha tetszett a játék, oszd meg az eredményed!',
                 React.createElement(SVGTwitter, null))));
 };
 
