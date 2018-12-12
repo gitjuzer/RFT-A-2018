@@ -238,3 +238,48 @@ const AppAnswer = (props) => {
         </Answer>
     );
 };
+
+const Question = styled.h2`
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+`;
+
+const Answers = styled.ol`
+  font-size: 1.2rem;
+  line-height: 4;
+  list-style: none;
+  counter-reset: special-counter;
+
+  li {
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    counter-increment: special-counter;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+
+    &:before {
+    content: counter(special-counter);
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    background: #252a37;
+    color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-out;
+    }
+    &:hover:before {
+      background: #252a3799;
+    }
+    &:hover {
+      background: #252a3722;
+    }
+  }
+`;
