@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  * @author PB
  */
 public class FXMLDocumentController implements Initializable {
-    
+   
 
     public void changeScreenButtonPushed(ActionEvent event) throws IOException{
         Parent Question1Parent = FXMLLoader.load(getClass().getResource("Question1.fxml"));
@@ -32,5 +32,6 @@ public class FXMLDocumentController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
     
 }
