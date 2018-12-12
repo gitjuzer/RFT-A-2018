@@ -380,3 +380,14 @@ render() {
     );
 }
 }
+
+const mapStateToProps = state => ({
+    data: state.data
+});
+
+App = connect(mapStateToProps)(App);
+
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>, document.getElementById('root'));
