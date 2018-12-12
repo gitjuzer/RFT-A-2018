@@ -215,3 +215,26 @@ const Button = styled.button`
     transform: scale(1.1);
   }
 `;
+
+const AppAnswer = (props) => {
+    const { isCorrect, isHidden, isLast, nextQuestion, data } = props;
+    const { answers, correctAnswer, explanation } = data;
+    const className = (isHidden) ? ' AppAnswer Hidden' : 'AppAnswer';
+
+    return (
+        <Answer className={ className }>
+            {
+                isCorrect
+                    ?
+                    <Verdict>Right Answer!</Verdict>
+                    :
+                    <React.Fragment>
+                        <Verdict>Sorry, wrong answer</Verdict>
+                        <Correction>The right answer was: <strong>{ answers.find(answer => answer.choice === correctAnswer).value }</strong></Correction>
+                    </React.Fragment>
+            }
+            <Explanation>{ explanation }</Explanation>
+            <Button onClick={ nextQuestion }>{ isLast ? "Continue" : "Check your Score"}</Button>
+        </Answer>
+    );
+};
