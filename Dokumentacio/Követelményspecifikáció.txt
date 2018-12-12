@@ -1,0 +1,116 @@
+﻿1. Jelenlegi helyzet
+
+Voltam a régi általános iskolámban, beszélgettem a régi tanáraimmal és mondták, 
+hogy jó lenne egy tanulás segítő játékos program.
+Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
+Jelenleg nincs ilyen rendszer a környező iskolákban, ezért máshova is el tudnánk adni.
+Ennek a megrendelőnek szüksége lenne a program személyre szabása feature-re, 
+mivel több tárgyhoz is használná. (matek, nyelvtan, angol).
+
+
+2. Követelménylista
+
+
+A riport alapján a megrendelő elvárásai a következők:
+
+ID			NÉV			KIFEJTÉS
+Kov_001		Egyszerű, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
+Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetőbb legyen a tanulás folyamata
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhető, tanulható
+Kov_004		Felület				Legyen online felülete és android felülete
+Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
+Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyűjteni.
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelően kell kezelni.
+Kov_008		Feladatok			A felület alkalmas legyen különböző témájú feladatok összeállítására.
+Kov_009		Helyesség
+Kov_010		Megbízhatóság			Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen akkor,amikor nagy mennyiségű user használja egyszerre
+Kov_011		Hatékonyság/magas teljesítmény  A korlátozott iskolai erőforrásokhoz alkalmazkodva ne legyen magas a rendszerkövetelmény, a gyenge gépeken is jól muzsikáljon
+Kov_012		Visszejelzés			A diákoknak lehetőséget ad az aktuális témakörről visszajelzést írni.
+
+3. Törvények
+
+GDPR
+
+A legfontosabbak változások röviden:
+
+    mielőtt bármilyen adatot bekér tőlünk egy szervezet, pontos tájékoztatást kell adnia, hogy mi az adatkezelés célja, hogyan kezeli az adatokat vagy például kik férhetnek hozzá
+    egy adatbázisból kérésünk esetén például e-mail-címünk törlésének elmaradása az eddigieknél jobban számonkérhető, szankcionálható lesz
+    az új jogszabályok magas bírságokkal kényszerítik ki a biztonságos adatkezelést, vagyis azt, hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bíró gyakorlat még hiányzik, de a bírság akár 20 millió euró vagy az éves árbevétel 4 %- a is lehet
+    olyan eseteket is szabályoz és szankcionál a rendelkezés, amikor például egy hackertámadás következtében személyes adataink kikerülnek az adatkezelő rendszeréből, ellopják azokat vagy ha egy rendszerhiba miatt megsemmisülnek. Nagyobb lesz a felelősség az adatkezelőkön
+
+
+    Felhasználó által generált tartalom. Minden olyan alkalmazásnak, amely tartalmazza a felhasználó által generált tartalmat (UGC), vagy tartalmaznia kell, további óvintézkedéseket kell tennie, például a jelentési rendszert, a helyes kategorizálást és az IARC-minősítéseket.
+    DMCA. Míg az alkalmazásboltok kötelezik arra, hogy az alkalmazásában "erkölcsi alapot" teremtsenek, létezik a Digital Millennium Copyright Act (az online szerzői jogi kötelezettség megsértéséről szóló törvény), amely mentesíti az internetszolgáltatók és más közvetítők közvetlen és közvetett felelősségét.
+    Ez azt jelenti, hogy nem felelős a szerzői joggal védett vagy nem megfelelő tartalmak terjesztéséért a médiatartományban, ha Ön kijelölt ügynökként van bejegyezve, tegyen lépéseket a jogsértő tartalmak eltávolítására és tiltsák meg a jogsértőket.
+    Rögzítő. Mindig fennáll annak a lehetősége, hogy az alkalmazás nem indul el először. Általában ezek a problémák könnyen megoldhatók. Ilyen esetekben az utószolgálat karbantartását végezzük annak érdekében, hogy segítségünkre legyenek a regisztrálási folyamat során, és módosítsunk a felhasználó felhasználói és tárolja a visszajelzést.
+
+
+Pályázatfigyelő oldalon találtam egy számunkra megfelelő pályázati lehetőséget visszanemtérintendő támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg.
+
+Szellemi tulajdon
+	A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona.
+	A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet.
+        (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
+
+4.Vágyálom rendszer leírása:
+
+Szeretnénk egy olyan online elérhető felületet létrehozni, melyen a kisiskolásokat játékos formában oktathatjuk.
+Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
+Egyéni feladatokat kapnának, ezeket mind a tanár állítaná össze az adott tantárgynak megfelelően. 
+A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz az optimális terhelés elérését kívánjuk megvalósítani.
+(A második mérföldő elképzelése az lenne, hogy a gyerekek megtanuljanak csoportokban is dolgozni.
+4-5 fős csapatok alakulnának ki, melyekre az iskolásoknak kell feliratkozniuk, a tanár pedig nyomon követi mindegyik csapat haladását.)
+A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg. 
+(Ötletek: virtuális matricák gyűjtése, piros pontok stb., ezeknek a legnagyobb gyűjtőformája lenne a kupák vagy serlegek, amelyekkel később akár jegyeket is szerezhetnek)
+Különböző leckéket szeretnénk elkülöníteni. Minden részben különféle módon tehetik magukat majd próbára a gyerekek.
+Azonnali értékelést kívánunk bevezetni.A diákok rögtön tudják meg, hogy helyesen válaszoltak-e.
+Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikációt, barátságos kinézetet szeretnénk adni az egész rendszernek.
+
+5.Fogalomszótár
+Sz01	 GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
+Sz02	 UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
+Sz03	 DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzői jogok megsértése elleni fellépés. 
+Sz04	 Személyes adat: Azonosított vagy azonosítható természetes személyre (Érintett) vonatkozó bármely információ. Azonosítható az a természetes személy, aki közvetlen vagy közvetett módon, különösen valamely azonosító, például név, szám, helymeghatározó adat, online azonosító vagy a természetes személy testi, fiziológiai, genetikai, szellemi, gazdasági, kulturális vagy szociális azonosságára vonatkozó egy vagy több tényező alapján azonosítható. 
+Sz05	 Különleges személyes adat: A faji vagy etnikai származásra, politikai véleményre, vallási vagy világnézeti meggyőződésre vagy szakszervezeti tagságra utaló személyes adatok, valamint a természetes személyek egyedi azonosítását célzó genetikai és biometrikus adatok, az egészségügyi adatok és a természetes személyek szexuális életére vagy szexuális irányultságára vonatkozó személyes adatok. 
+Sz06	 Adatkezelés: A személyes adatokon vagy adatállományokon automatizált vagy nem automatizált módon végzett bármely művelet vagy műveletek összessége, így a gyűjtés, rögzítés, rendszerezés, tagolás, tárolás, átalakítás vagy megváltoztatás, lekérdezés, betekintés, felhasználás, közlés továbbítás, terjesztés vagy egyéb módon történő hozzáférhetővé tétel útján, összehangolás vagy összekapcsolás, korlátozás, törlés, illetve megsemmisítés. 
+Sz07	 Adatkezelő: Az a természetes vagy jogi személy, közhatalmi szerv, ügynökség vagy bármely egyéb szerv, amely a személyes adatok kezelésének céljait és eszközeit önállóan vagy másokkal együtt meghatározza; ha az adatkezelés céljait és eszközeit az uniós vagy a tagállami jog határozza meg, az adatkezelőt vagy az adatkezelő kijelölésére vonatkozó különös szempontokat az uniós vagy a tagállami jog is meghatározhatja. 
+Sz08 	Adatfeldolgozó: Az a természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki vagy amely szerződés alapján - beleértve a jogszabály rendelkezése alapján kötött szerződést is - adatok feldolgozását végzi.
+Sz09	Érintett: Az adatkezelés alanya, bármely meghatározott, személyes adat alapján azonosított vagy - közvetlenül vagy közvetve - azonosítható természetes személy. 
+A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelvet fogalmaz meg, melyek a következők:
+
+    Jogszerűség, tisztességes eljárás és átláthatóság
+    Célhoz kötöttség
+    Adattakarékosság
+    Pontosság
+    Korlátozott tárolhatóság
+    Integritás és bizalmas jelleg
+    Elszámoltathatóság
+    Bizalom
+Sz10	Követelmény specifikácó: A követelmény specifikáció (angolul: requirement specification), alapja a megrendelővel készített riportok. Ezek segítségével pontos képet alkotunk a megrendelő igényeiről és egyeztetünk ennek megvalósításával kapcsolatban.
+Sz11	Szoftver: (angol: software) alatt a legszűkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedő, azokat működtető programokat értjük.
+Sz12	Android felület:Az Android Linux kernelt használó mobil operációs rendszer, elsősorban érintőképernyős mobil eszközökre (okostelefon, táblagép) tervezve.  A fejlesztők Java nyelven írhatnak rá menedzselt kódot, az eszközt a Google által fejlesztett Java programkönyvtárakon keresztül vezérelve.
+Sz13	Üzleti modell: Az üzleti modell egy olyan koncepcionális eszköz, mely egy adott vállalat üzleti logikáját – értsd: értékteremtését – leíró elemeket és az azok közötti kapcsolatot írja le.
+Sz14	Előfeltétel:Vminek a létrejöttét, megvalósulását lehetővé tevő körülmény, adottság, feltétel, amely nélkül vmi nem lehetséges, nem történhetik meg.
+Sz15	Felhasználói jog: Felhasználói támogatás a program fejlesztőitől, lehetőség a jogtiszta felhasználásra.
+Sz16	Opció:választási lehetőség
+Sz17	Jogkör:Törvényes hatáskör; meghatározott illetékességi terület, amelynek ügyeiben egy személy vagy szervezet kötelező érvényű döntéseket hozhat.
+Sz18	Rendszer karbantartás: Adott berendezés azon képessége, hogy a használni kívánt időtartamhoz képest, mennyit volt képes valójában üzemelni hiba/leállás nélkül és ezt optimális szinten tartásához szükséges karbantartási munkálatok összessége.
+
+
+6.Jelenlegi üzleti folyamatok modellje
+Jelenleg nincs üzleti modell, más meglévőkből tudunk ötletet venni. A weblapoknál általában a bejelentkező felületet követően lehet tanulni.
+A tananyagot részekre bontva tálalja. Minden részben egy feladatsor van, sok különböző egyszerű játékos feladattal.
+Minden megoldott feladatsorral tudjuk bővíteni a tudásunkat, illetve bizonyos feladatsoroknak, más feladatsor megoldása az előfeltétel.
+Vannak szintugró feladatsorok is, amivel akár több fejezetet is le lehet egyszerre tudni.
+Egy jó kis versenyzés sem maradhat ki egy ilyen rendszerből, ezért a feladatsorok pontszámát összevetheted a barátaidéval.
+A program nem megy máshogy mobilon sem, a bejelentkezési adatok azonosak, a felület azonban egyszerűbb, a könyebb átláthatóság érdekében.
+
+7.Igényelt üzleti folyamatok modellje
+A fő oldalon lehetne bejelentkezni (felhasználónév, jelszó), valamit a regisztrációt megkezdeni, mely egy új oldalon folytatódna (felh., jelszó, e-mail), illetve lehetőség lenne vendégként belépni.
+Bejelentkezést követően lehetőség lenne felhasználói jogtól függően, hogy csatlakozzunk egy osztályhoz, vagy akár létrehozzunk egyet. Az osztályokon belül lehetne csapatokhoz csatlakozni, vagy létrehozni.
+A tanár dönthet úgy, hogy órán egy feladatsor ad ki a diákok között, melyet minden diák megkap, és ugyan olyan, vagy mivel az osztály, az ülésrendet is tartalmazhatja, így A, B csoportos feladatot kiadni, akár padsoronként, így egy páros munkát kiosztva, vagy mint egy röpdolgozat oszloponként.
+Azonban lenne olyan opció is, amely az egyéni csoportoknak adna ki feladatot. Mivel a tanár nyomn tudná követni, hogy melyik diák mennyit adott bele az adott csoport teljesítményéhez, úgy azokat tudná szerkeszteni, hogy a gyengébben teljesítő csoportokat vegyíti a jobban teljesítőkkkel.
+A feladatokat a tanárnő állíthatja össze, ezért ezeket részekre kell szedni. Kvíz mely konkrét választ vár. Kvíz, mely több válasz közüli lehetőséget kínál, ezen belül 1 vagy több helyes válasszal. Rajz feladat, és ezek tetszőleges kombinációja lenne egy feladatsor.
+A konkrét feladatok, például egy beadandó is lehetne, vagy a csoportokban felváltva feldobálódó kérdés is. Jogkörből 3 lenne, admin, tanár, és diák. Az admin feladata a rendszer karbantartás, feltéve, hogy a feladatsorokat tárolnánk, ha új feladat sor van ő fogadná el. A tanár osztályokat, csoportokat hozhat létre. A diákok pedig csatlakozhatnak az osztályokhoz és a csoportokhoz.
+Egy diákhoz csak egy osztály tartozhat, viszont több csoport. A diákok vissza nézhetik a megoldott feladatokat, hogy tudjanak belőle javítani, tanulni.
+Ezeken felül lenne egy aktuális feladat(ok) menü, valamint egy beadandós menü, valamint egy kijelentkezés menü is.

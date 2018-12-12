@@ -1,0 +1,435 @@
+1. Jelenlegi helyzet
+
+Voltam a régi általános iskolámban, beszélgettem a régi tanáraimmal és mondták, hogy jó lenne egy tanulás segítõ program.
+Felajánlottam, hogy a csapattal fejlesztünk egy ilyen programot.
+Jelenleg nincs ilyen rendszer a környezõ iskolákban, ezért máshova is el tudnánk adni.
+Megnéztünk hasonló programokat, ezekbõl ötleteket merítettünk és így létre tudunk hozni egy egyedi programot, 
+amin esetlegesen az igényeknek megfelelõen személyre tudnánk szabni.
+Tovább kutakodtunk és számos fejlesztési ötletet tudunk felkínálni a megrendelõnek.
+A könnyebb felhasználás érdekében, egy letisztult egyszerû felhasználói felületet ajánlunk fel.
+
+
+2. Követelménylista
+ID			NÉV			KIFEJTÉS
+Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
+Kov_002		Játékos megoldások		        Fontos, hogy az oktatás játékos formában történjen, hogy a 
+											kisiskolások számára minél élvezhetõbb legyen a tanulás folyamata
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhetõ, tanulható
+Kov_004		Felület					Legyen online felülete és android felülete
+Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
+Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
+Kov_007		Adatvédelem				Az adatokat a GDPR-nak megfelelõen kell kezeljék.
+Kov_008		Jogosultság				Olyan jogosultsági rendszert tartalmazzon, ami nem engedi a diákoknak a 	tanároknak szánt funkció alkalmazását.
+Kov_009		Könnyû megfogalmazás		Lehetõleg kerüljék a szakmai kifejezéseket, egyszerû mindenki számára érthetõen fogalmazzanak.
+Kov_010		Vizualitás			Képek könnyítsék meg a megértést.
+Kov_011		Leckék				Otthoni feladatok kiosztására legyen képes a program.
+Kov_012		Web					Otthonról könnyen elérhetõnek kell lennie.
+Kov_013		Lecke megtekintése		A tanárnak legyen lehetõsége megtekinteni otthonról a diákok leadott leckéit.
+Kov_014		Keresés					Keresõfelület biztosítása.
+
+3. Törvények
+
+GDPR
+
+A legfontosabbak változások röviden:
+
+    mielõtt bármilyen adatot bekér tõlünk egy szervezet, pontos tájékoztatást kell adnia, hogy mi az adatkezelés célja, hogyan kezeli az adatokat vagy például kik férhetnek hozzá
+    egy adatbázisból kérésünk esetén például e-mail-címünk törlésének elmaradása az eddigieknél jobban számonkérhetõ, szankcionálható lesz
+    az új jogszabályok magas bírságokkal kényszerítik ki a biztonságos adatkezelést, vagyis azt, hogy személyes adatainkhoz ne férhessenek hozzá illetéktelenek. A bíró gyakorlat még hiányzik, de a bírság akár 20 millió euró vagy az éves árbevétel 4 %- a is lehet
+    olyan eseteket is szabályoz és szankcionál a rendelkezés, amikor például egy hackertámadás következtében személyes adataink kikerülnek az adatkezelõ rendszerébõl, ellopják azokat vagy ha egy rendszerhiba miatt megsemmisülnek. Nagyobb lesz a felelõsség az adatkezelõkön
+
+
+    Felhasználó által generált tartalom. Minden olyan alkalmazásnak, amely tartalmazza a felhasználó által generált tartalmat (UGC), vagy tartalmaznia kell, további óvintézkedéseket kell tennie, például a jelentési rendszert, a helyes kategorizálást és az IARC-minõsítéseket.
+    DMCA. Míg az alkalmazásboltok kötelezik arra, hogy az alkalmazásában "erkölcsi alapot" teremtsenek, létezik a Digital Millennium Copyright Act (az online szerzõi jogi kötelezettség megsértésérõl szóló törvény), amely mentesíti az internetszolgáltatók és más közvetítõk közvetlen és közvetett felelõsségét.
+    Ez azt jelenti, hogy nem felelõs a szerzõi joggal védett vagy nem megfelelõ tartalmak terjesztéséért a médiatartományban, ha Ön kijelölt ügynökként van bejegyezve, tegyen lépéseket a jogsértõ tartalmak eltávolítására és tiltsák meg a jogsértõket.
+    Rögzítõ. Mindig fennáll annak a lehetõsége, hogy az alkalmazás nem indul el elõször. Általában ezek a problémák könnyen megoldhatók. Ilyen esetekben az utószolgálat karbantartását végezzük annak érdekében, hogy segítségünkre legyenek a regisztrálási folyamat során, és módosítsunk a felhasználó felhasználói és tárolja a visszajelzést.
+
+
+Pályázatfigyelõ oldalon találtam egy számunkra megfelelõ pályázati lehetõséget visszanemtérintendõ támogatásra, hogy a programunk nemzetközi területekre kerülhessen. GINOP-3.1.2-8.2.4-16 kódszámmal található meg.
+
+Szellemi tulajdon
+	A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona.
+	A számítógépes programokat szerzõi jogi törvény védi, amely kimondja, hogy az ilyen mûvek engedély nélküli másolása törvénybe ütközõ cselekedet.
+        (Magyarországon a szerzõi jogokat az 1999. évi LXXVI. törvény szabályozza)
+
+4. Vágyálom rendszer leírása:
+
+Szeretnénk egy olyan online elérhetõ felületet és asztali alkalmazást létrehozni, melyen a kisiskolásokat játékos formában oktatnánk az angol nyelv elsajátítására.
+Ez által szeretnénk elérni, hogy a tanulási folyamatuk még érdekesebb és eredményesebb legyen.
+Az elõre meghatározott tananyag alapján kapnának játékos feladatokat.
+A játékos oktatás szerepe az lenne, hogy a diákok ne legyenek túlterhelve, azaz az optimális terhelés elérését kívánjuk megvalósítani.
+Az adott játékokkal szeretnénk elérni, hogy a gyerekek minél közelebb kerüljenek az angol nyelvhez és játékos formában sajátítsák el az angol nyelvi alapokat.
+A programban egy ideális jutalom osztó rendszert is szeretnénk beépíteni, amely megadja mindazt a pozitív élményt, amit a hétköznapoktól sajnos nem igazán kapnak meg a gyerekek, ilyen lesz a jó eredmény elérése után egy felugró ablak ami megdicséri a játékost.
+Különbözõ szintû játékokkal sajátíthatják el az angol nyelvtudás alapjait a képességeikhez mérten.
+Minden részben különféle módon tehetik magukat majd próbára a gyerekek. A két szint lesz elérhetõ, a kezdõ, amely egyszerû szavakat használ, és egy haladó, ami bonyolultabbakat tartalmaz.
+Így mindenki a saját szintjéhez megfelelõ játékot játszhatja.
+Azonnali értékelést kívánunk bevezetni. Jó válaszok után egy ablak jelenik meg a fentiekben megfogalmazott képpen. A diákok rögtön meg fogják tudni, hogy helyesen válaszoltak-e.
+Nagyon fontosnak gondoljuk a vidám, illusztrált képekkel való kommunikációt, barátságos kinézetet szeretnénk adni az egész rendszernek.
+
+5.Fogalomszótár
+
+-Functional Specification: A funkcionális specifikáció a felhasznáó szemszögébõl írja le a rendszert.
+-USE CASE: Központi eleme a funkcionális specifikációnak, azaz a használati eset(egyszerû ábra ami a megrendelõ számára egy könnyû megértést biztosít informatikai háttér nélkül is).
+-GDPR: Adatvédelmi rendelet, ami a nyilvántartási és adatkezelési szabályokat határozza meg.
+-UGC: User Generated Content, tehát a felhasználó által generál tartalom. 
+-DMCA: A Digital Millennium Copyright Act (DMCA) egy 1998-ban beiktatott amerikai törvény, célja a digitális szerzõi jogok megsértése elleni fellépés. 
+-GINOP-3.1.2-8.2.4-16: Az infokommunikációs ágazatban mûködõ mikro-, kis- és középvállalkozások által elõállított termékek és szolgáltatások piacosításának, nemzetközi piacokra való belépésének támogatása.
+-Jogosultság: Hivatalos engedéllyel rendelkezõ fél akit megillet egy lehetõség, tulajdon, másokkal ellentétben elõnnyel felruházott fél aki engedélyt kapott egy cselekvésre.
+-Vizualitás:Láthatóság, láttatás a tárgyak, események, érzések, gondolatok, fogalmak képi megjelenítése. Lényege a képlátás, ami optikai és vizuális természetû egyszerre.
+-Szankcionál:szentesít, jóváhagy, megerõsít, törvényerõre emel; (vmely cselekményt) büntet, büntetõ rendelkezéssel sújt.
+-IARC-minõsítések: Az IARC Besorolási eszköz az International Age Rating Coalition, Inc. („IARC”) tulajdonában van. Ezek a Használati feltételek szabályozzák a Besorolási eszköz Ön általi elérését és használatát, ezért kérjük, olvassa el figyelmesen. 
+-Kritériumorientált értékelés:Teljesítményt a követelményekbõl kiindulva és ahhoz viszonyítva határozhatjuk meg.
+-Normaorientált értékelés:Teljesítményeket egymáshoz vagy egy referenciacsoport átlagához viszonyíthatjuk.
+-Kognitív probléma megoldás: A problémamegoldás, mint alkalmazott gondolkodás – komplex kognitív folyamatként jellemezhetõ, melyben a korábban megszerzett tudás szervezése és az újhoz való alkalmazkodás egyaránt hangsúlyos és fontos
+-Szummatív értékelés: Minõsítjük a tanuló tudásszintjét, és elhelyezzük egy rangsorban, amelynek jelentõsége van az elõmenetele szempontjából. Ennek neve minõsítõ értékelés.
+-Normatív értékelés:Tanulói teljesítmény viszonyításának alapja egy meghatározott norma.A követelmények tagolása, a lényeges minimum megadása, objektív mérések alkalmazása.
+-Személyes adat: Azonosított vagy azonosítható természetes személyre (Érintett) vonatkozó bármely információ. Azonosítható az a természetes személy, aki közvetlen vagy közvetett módon, különösen valamely azonosító, például név, szám, helymeghatározó adat, online azonosító vagy a természetes személy testi, fiziológiai, genetikai, szellemi, gazdasági, kulturális vagy szociális azonosságára vonatkozó egy vagy több tényezõ alapján azonosítható. 
+-Különleges személyes adat: A faji vagy etnikai származásra, politikai véleményre, vallási vagy világnézeti meggyõzõdésre vagy szakszervezeti tagságra utaló személyes adatok, valamint a természetes személyek egyedi azonosítását célzó genetikai és biometrikus adatok, az egészségügyi adatok és a természetes személyek szexuális életére vagy szexuális irányultságára vonatkozó személyes adatok. 
+-Adatkezelés: A személyes adatokon vagy adatállományokon automatizált vagy nem automatizált módon végzett bármely mûvelet vagy mûveletek összessége, így a gyûjtés, rögzítés, rendszerezés, tagolás, tárolás, átalakítás vagy megváltoztatás, lekérdezés, betekintés, felhasználás, közlés továbbítás, terjesztés vagy egyéb módon történõ hozzáférhetõvé tétel útján, összehangolás vagy összekapcsolás, korlátozás, törlés, illetve megsemmisítés. 
+-Adatkezelõ: Az a természetes vagy jogi személy, közhatalmi szerv, ügynökség vagy bármely egyéb szerv, amely a személyes adatok kezelésének céljait és eszközeit önállóan vagy másokkal együtt meghatározza; ha az adatkezelés céljait és eszközeit az uniós vagy a tagállami jog határozza meg, az adatkezelõt vagy az adatkezelõ kijelölésére vonatkozó különös szempontokat az uniós vagy a tagállami jog is meghatározhatja. 
+-Adatfeldolgozó: Az a természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkezõ szervezet, aki vagy amely szerzõdés alapján - beleértve a jogszabály rendelkezése alapján kötött szerzõdést is - adatok feldolgozását végzi.
+-Érintett: Az adatkezelés alanya, bármely meghatározott, személyes adat alapján azonosított vagy - közvetlenül vagy közvetve - azonosítható természetes személy. 
+A rendelet 5. cikkében a személyes adatok kezelésére vonatkozóan 7 alapelvet fogalmaz meg, melyek a következõk:Jogszerûség, tisztességes eljárás és átláthatóság, célhoz kötöttség, adattakarékosság, pontosság, korlátozott tárolhatóság, integritás és bizalmas jelleg, elszámoltathatóság, bizalom.
+-Követelmény specifikácó: A követelmény specifikáció (angolul: requirement specification), alapja a megrendelõvel készített riportok. Ezek segítségével pontos képet alkotunk a megrendelõ igényeirõl és egyeztetünk ennek megvalósításával kapcsolatban.
+-Szoftver: (angol: software) alatt a legszûkebb értelemben elektronikus adatfeldolgozó berendezések (például számítógépek) memóriájában elhelyezkedõ, azokat mûködtetõ programokat értjük.
+-Android felület:Az Android Linux kernelt használó mobil operációs rendszer, elsõsorban érintõképernyõs mobil eszközökre (okostelefon, táblagép) tervezve.  A fejlesztõk Java nyelven írhatnak rá menedzselt kódot, az eszközt a Google által fejlesztett Java programkönyvtárakon keresztül vezérelve.
+-Jutalomrendszer:A gamifikáció – vagy más néven játékosítás – a játékok és játékelemek alkalmazását jelenti az élet játékon kívüli területein, célja pedig, hogy az ott zajló folyamatokat érdekesebbé és eredményesebbé tegye. Kiválóan alkalmazható az oktatásban, az egészségügyben, kulturális területeken és a munkahelyi környezetben is – mindenütt minõségi javulást eredményezhet.
+-Adatvédelem:Az adatvédelem a személyes adatok gyûjtésének, feldolgozásának és felhasználásának korlátozásával, az érintett személyek védelmével foglalkozik. Nevével ellentétben tehát nem elsõsorban az adatokat védjük, hanem azokat a személyeket, akikkel az adatok összeköthetõk. Ennek eszközei lehetnek jogi szabályok, eljárások, de akár technológiai eszközök is.
+-Implementált feladat: Egy komplex rendszer mûködése során különféle feladatokat old meg, ezek egymással összefüggnek, általában kölcsönhatásban vannak.
+-User: A felhasználó aza személy,, aki egy számítógépes szolgáltatás használója. A felhasználóhoz gyakran felhasználói fiók tartozik, amit felhasználói név azonosít.
+-Rendszerkövetelmény: A szolgáltatások és megszorítások leírásai a rendszerkövetelményei.
+-Szellemi termék(immateriális): A szakirodalom szerint a szellemi termékek olyan tartós, nem anyagi (materiális) javak, amelyek felhasználásával, vagy alkalmazásával hasznosítható anyagi- és nem anyagi javak állíthatóak elõ.
+-Értékesítés: Azt a munkamûveletet, amivel az árut közvetlenül a vásárlónak adjuk, értékesítésnek nevezzük.
+-Specifikáció: Részletezés, felsorolás az egyedi különbségek meghatározása. 
+-DEMO(demonstráció): Reklámelõzetes egy termék vagy szolgáltatás (szoftver, videojáték) kipróbálására.
+
+6.Használati eset
+
+	kik, és mire akarják használni a rendszert:
+		A tanulni vágyó diákok használhatják majd a rendszert. A fõleg arra, hogy fejlesszék a tudásukat, egy olyan formában ami játékos módon teszi mindeszt.
+		Olyan felnõttek  akik szeretnék szinten tartani a tudásukat miközben egy jó szórakozást is látnak a dologban.
+		Tanárok. A tanárok fõleg a tanítás megkönnyítésére és arra hogy felkeltség a diákok érdeklõdését, és ösztönözzék õket a tanulásra.
+
+
+
+
+	rendszert mire akarják majd használni:
+
+		A különbözõ tantárgyak játékosformában történõ elsajátítására akarják használni ezt az általános iskolákban.
+		A tanárok úgy gondolják, hogy fõként az alsó tagozatos gyerekek jobban tanulnak, ha mindezt játékkal kapcsolatosan
+		történik. Ezen program által a tanárok minden diáknak egyedi képességeihez illõ feladatokat tud adni és ellenõrizni
+		tudja a házifeladatokat is ezáltal a saját munkáját is meggyorsítja. A program közvetlen visszajelzést tud adni a diákoknak
+		a házifeladatuk helyességérõl és ezeket a válaszokat elmentve késõbb vissza tudják saját magukat ellenõrizni a késõbbiekben.
+
+	elõfeltételek:
+		
+		Csak regisztrációt követõen lehessen használni a programot. Ez azért szükséges, hogy kiküszöbölhetõ legyen az illetéktelen használat.
+		Valamint, hogy a diákok akár otthonról is tudják használni a programot, ne csak az iskolai gépeken, ennek megfelelõen saját maguk is ellenõrizhetik 
+		munkájukat, amit az Oktató is megtehet diákonként.
+
+	egyéb feltételeknek kell teljesülniük:
+		
+		Egyéb feltételek között teljesülnie kéne, hogy csoportmunkát támogassa amit a tanár nyomon tud követni és minden lépest/elvégzett
+		dolgot naplóz így, ha a tanár esetleg nem elérhetõ akkor késõbb vissza tudja ellenõrizni, hogy tanítványai mit dolgoztak.
+		A tanárnak tudnia kell jutalmazni a diákokat virtuális matricákkal vagy pirospontokkal és ezek alapján egy rangsort állíthatna a rendszer
+		és a legjobb három diákot az év végén jutalmazná a tanár valami személyes kis aprósággal vagy 5-10 pirospont után lehetne egy naplóba beírt 5ös szerezni,
+		de ugyan így mûködne a büntetés rész is. Esetleges egyéb feltétel lehet az e-naplo hozzákapcsolása a tanári felülethez. 
+
+
+
+
+
+Használati eset diagram:
+
+		__________________________
+		|			 |
+		|			 |
+Diák ------>	|   Lecke megtekintés	 |<----- Oktató
+		|			 |
+		|     Lecke felvitel	 |<----- Oktató
+		|			 |  
+Diák ------>	|	Regisztráció	 |<----- Oktató
+		|			 |
+Diák ------>	|	Barátkövetés	 |
+		|			 |
+Diák ------>	|	Barátmeghívás	 |
+		|			 |
+		--------------------------
+
+A használati eset-modell leírása:
+Elsõdleges szereplõk: Diákok
+Másodlagos szereplõ/k (adminisztrátor): Oktató/k
+Szerepkörök:
+A diákoknak legyen lehetõsége:
+- regisztrálni
+- megtekinteni a leckéket (új/megoldott leckék)
+- barátot meghívni
+- barátot követni
+Az Oktatónak legyen lehetõsége:
+- regisztrálni
+- leckét feltölteni
+- leckét megtekinteni
+Elõfeltétel:
+- az említett funkciók csak regisztrálás után legyenek használhatóak.
+
+A jellemzõ forgatókönyvek leírásai:
+
+Forgatókönyv asztali alkalmazáshoz:
+1. Az asztali alkalmazást megnyitva a fõoldalon választani lehet a könnyû, nehéz játékok és szintfelmérõ opció közül
+2. Ajánlatos a szintfelmérõ tesztet kell kitölteni, hogy a nyelvi szintünk alapján melyik csoportba tartozunk
+3. A teszt kitöltésével a program besorol könnyû azaz öt szóból kettõ vagy annál kevesebb helyes vagy nehéz szintre ha az ötbõl legalább 3 helyes
+4. Eredmény után autómatikusan belép az ajánlott szintre
+5. Könnyû szinten 4 játék közül lehet választani:
+			
+			-Akasztófa: A játék elindítása utána bekér egy betût amit a "választ" gombbal küldünk el a játéknak. Ha a betû
+				    nem szerepel az adott szóban akkor a betût a "már választott betûk" részhez, levon egy életet és 
+				    elkezdi az embert kirajzolni. Ha olyan betût választunk ami szerepel a szóban akkor azt a betût 
+				    behelyezi a szóba a megfelelõ helyre és ezt a betût is a "már választott betûk" részen megjeleníti.
+				    Ha kész a szó a vonalakon kiíródik. Ha elfogy az élet akkor felül megjelenik, hogy "game over".
+				    A "vissza" gombbal a könnyû játékokhoz.
+			-Memória játék:
+			-Quiz: A játék kiválasztása után a "start" gombbal lehet elindítani a játékot. Miután elindult egy angol nyelven 
+			       lévõ kérdésre lehet a négy lehetséges válasz közül választani. A játékból a "quit" gombbal bármikor abba 
+			       lehet hagyni a játékot és kilépni ekkor megjelenik, hogy "maybe next time". A játék 8 db kérdést tesz fel jó válasz esetén egymást követõen, ha a 
+			       kérdésre rossz válasz érkezik akkor egy felugró ablakban jelzi és ezután újra a kérdés jelenik meg ahol 
+			       ismételten lehet választ választani. Ha az össze kérdésre helyes választ adtak "well done" felirat jön 
+			       fel és a "back" gombbal vissza lehet lépni a játékokhoz.
+			-Mi van a képen?:A játék indítása után egy kép és hozzá négy válasz lehetõség közül kell választani
+					 Ha a válasz helyes következõ kép jelenik meg
+					 Ha a válasz hibás felugrik egy hiba üzenet és újra tudsz választani a megadott szavak közül
+					 Ha mind a 10 képre helyesen válaszoltál egy gratulációs kép jelenik meg
+
+6. Haladó szinten 4 játék közül lehet választani:
+			
+			-Egészítsd ki:
+			-Rakd ki:
+			-Matematika/Be Clever: A játék elindítása után angolul és magyarul is megjelenik egy matematikai összefüggés vagy szám helyes írás és négy válasz lehetõség
+				    	       Ha helyes a válasz új kérdés jelenik meg
+				    	       Ha az összes kérdésre jól válaszoltál akkor gratulál és a "vissza" gombbal a játék választási lehetõségekhez lép ki
+				     	       Ha a válasz hibás felugrik egy hiba üzenet és vége a játéknak
+				    	       Ha vége a játéknak a "Let's try again" gombra kattintva új játékot lehet kezdeni
+					
+			-Mondd meg:
+7. Vissza lépni bármikor lehetséges a "vissza" vagy a "back" gombbal amivel az elõzõ oldalra léphetünk vissza 
+8. Kilépni bármelyik játéknál lehetséges
+
+
+Forgatókönyv webes alkalmazáshoz:
+1. Honlap megnyitását követõen a kezdõoldal fogad, melyen a navigációs sáv található, és 3 játék próbálható ki.
+2. A navigációs sávon 5 pont közül választhatunk:
+			-Kezdõlap: Erre a pontra kattintva visszakerülünk az oldal kezdõlapjára
+			-Galéria: Ezt a pontot választva átírányít bennünket egy olyan oldalra ahol az asztali alkalmazásról tudunk képeket megtekinteni.
+			-Letöltés: A letöltés menüpont alatt egy letöltõ oldalt találunk ahol az asztali alkalmazás letöltéséhez szükséges link szerepel.
+			-Regisztráció: Itt egy ûrlap kitöltésének segítségével van lehetõség a regisztrációra.
+				-regisztrációs ûrlap megjelenítése
+				-regisztrációs ûrlaphoz tartozó adatok kitöltése
+				-ûrlap adatainak ellenõrzése (hiányzó elemek, létezõ regisztráció)
+				-ûrlap adatainak tárolása
+				-regisztráció megerõsítõ email küldése
+				-megerõsítés fogadása
+				-regisztráció aktiválása
+			Belépés/Kilépés: Ez a menüpont változik annak függvényében, hogy van-e épp bejelentkezve aktuális felhasználó. Amennyiben belépést kezdeményez
+					egy ûrlap kitöltésével beléphet.
+3. Három játék közül bármelyiket választva átirányít az adott játékhoz tartozó weblapra.
+
+
+
+7. A rendszer céljai és nem céljai:
+Célok:
+ - A diákok számára a tananyagot online felületen elérhetõvé tenni.
+ - A tananyag szemléltetése (esetleg mozgó) ábrákkal, ha szükséges.
+ - A tananyag elsajátításához való segítség, érdekes példák, feladatok szemléltetésével (esetleg az oktató saját példáival, feladataival).
+ - A tananyag könnyebben feldolgozhatóvá tétele, leegyszerûsítése.
+ - A diákoknak azonnali értékelést nyújtson.
+ - A felület ne csak kritériumorientáltan, hanem normaoriantáltan is mûködjön.
+ - Egyszerû, átlátható feladatok és kérdéssorok.
+ - Szummatív- és normatív értékelés.
+ - Egyszerû navigálás a tananyagok között.
+ - A feladatoknak játékosnak kell lennie, hogy ne utáltassuk meg a tárgyat a diákokkal.
+ - Törekedni kell arra, hogy új tudás megszerzése közben a diákok jól érezzék magukat.
+ - A megoldandó feladat jelentsen kihívást a diákok számára.
+ - Kognitív problémamegoldásra törekedjenek a játékok.
+Nem célok:
+ - A tananyag túlbonyolítása, hosszadalmas részletezése.
+ - Tananyag túlságosan szájbarágása a diákoknak.
+ - Elvonni a tanuló figyelmét a megtanulandó anyagról.
+ - Megutáltatni az adott tantárgyat a diákkal.
+ - Felesleges ismeretek átadása.
+ - Unalmas szoftverek létrehozása.
+
+
+8. Megfeleltetés
+
+Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára.
+
+	A követelmény specifikácóban feltültetett követelménynek megfelelõen, letisztult felületet valósítunk meg a programban,
+	mégpedig webes és asztali felületen egyaránt. A kért szoftverben minden fõbb funkció egér klikkelésre fog mûködni, billenyûzetet
+	csak a játékoknál kell használni, ott is csak a szavak mondatbavaló behelyettesítésénél. Az egyes grafikus felületeken csak néhány
+	lesz elérhetõ pl.: "visszalépés" gomb, "ok" gomb.
+
+Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetõbb legyen a 	tanulás folyamata
+
+	A követelmény specifikácóban feltültetett követelménynek megfelelõen, az oktatást játékokon kersztül valósítjuk meg a szoftverben. 
+	3 típusú játék van a szoftverben megvalósítva: akasztófa, képfelismerõ, és szó behelyettesítõs
+	Játékok mûködése:
+		-Akasztófa: mint az eredeti akasztófa játékban, itt is a rendszer által feldobott szónak a betûit kell kitalálni.
+		-Képfelismerõ:
+		-szó behelyettesítõs: az adott mondatokba az igének a megfelelõ alakját kell beírni.
+		
+Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhetõ, tanulható
+
+	A követelmény specifikációban lefektetett követelménynek csak egy részére van funkció a szoftverben. A szoftverben csak 
+	az angol nyelv lesz elérhetõ oktatás céljából.
+
+Kov_004		Felület				Legyen online felülete és android felülete
+	
+	A szoftver az androidos felületet nem foglalja magában, mivel kevés a rendelkezésre álló idõ és erõforrás. A szoftver két részbõl fog áll,
+	egy webes és egy asztali alkalmazásból.
+	Webes alkalmazás: -itt lehet regisztrálni 
+			  -minden játékból található rajta egy demó 
+			  -van galéria a játékokról 
+			  -itt lehet letölteni az asztali alkalmazást
+	Asztali alkalmazás: gyakorló feladatokat tartalmaz.
+Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel.
+
+	A követelmény specifikácóban feltültetett követelménynek megfelelõen, ahogyan már itt is szó volt róla, egy egyszerû és letisztult felületet 
+	valósítunk meg a programban, hogy a kisiskolások minél könnyebben kezelni tudják azt. 
+	A kért szoftverben minden fõbb funkció egér klikkelésre fog mûködni, billenyûzetet, a gombokon a feliratok jól olvashatóak a betûtípusnak 		köszönhetõen. Minden utasítás magyarul fog megjelenni, hogy az legfiatalabbak is könnyen kezelhessék, hogy mi a feladat. Csak a játékok feladatai 		lesznek angolul.
+
+Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
+
+	A követelmény specifikációban lefektetett követelménynek csak egy részére van funkció a szoftverben. Azonnali visszajelzést fognak kapni arról, hogy 		hogyan sikerült a feladat, viszont csak az elért százalékot írja majd ki.
+
+Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezelni.
+
+	A a webes alkalmazás a követelmény specifikációban lefektetett követelménynek 100%-ban megfel. Az asztali alkalmazás nem használ fel személyes 	adatokat, azért arra nem vonatkoznak a GDPR törvényei.
+
+Kov_008		Feladatok			A felület alkalmas legyen különbözõ témájú feladatok összeállítására.
+
+	A szoftver nem alkalmazkodik különbözõ témákhoz, és nem állít össze ennek megfelelõen feladatokat. Csak elõre meghatározott feladatokat tartalmaz.
+	A rövid határidõ miatt, csak az elõre implementált feladatokkal lehet gyakorolni.
+
+Kov_009		Helyesség
+
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program 
+Kov_010		Megbízhatóság			
+				Az alkalmazás legyen stabil, ne fagyjon ki és ne omoljon össze, különösen akkor,amikor nagy mennyiségû user használja egyszerre
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megbíztahtó és stabil lesz.
+Kov_011		
+		Hatékonyság/magas teljesítmény 
+ 
+				A korlátozott iskolai erõforrásokhoz alkalmazkodva ne legyen magas a rendszerkövetelmény, a gyenge gépeken is jól muzsikáljon
+				A követelmény specifikációban lefektetett körülményeknek megfelelõen a program megfelelõen fog futni a gyengébb teljesítményû gépeken is.
+Kov_012		Visszejelzés			
+				A diákoknak lehetõséget ad az aktuális témakörrõl visszajelzést írni.
+				A program nem fog lehetõséget adni a diákoknak visszajelzés adására.
+				
+
+UML ábra
+
+Felhasználó						Program
+	 _______
+	 |start|
+	 |_____|
+	    |
+	    |
+	    V
+	______________
+	|Szintfelmérõ|
+	|   írása    |
+	|____________|
+	    |
+	    |
+	    |						_______________
+	   /\						|	      |
+	  /  \____igen--------------------------------->| Kiértékelés |
+	  \  /						|_____________|
+	   \/							|
+	    |							|
+	nem |							|
+	    |							|
+	    v 							v
+	_________________				_________________
+	|Nehézségi szint|				|Nehézségi szint|
+	| kiválasztása  |				| kiválasztása  |
+	|_______________|				|_______________|
+	    |							|
+	    |							|
+	    |							|
+	    v							|
+	____________						|
+	|          |<--------------------------------------------
+	|  Játék   |					_______________
+	|választás |----------------------------------->|             |
+	|__________|<--------------------		| Kiértékelés |
+	    |				|		|_____________|
+	    |				|
+	    |				|
+	   /\				|
+	  /  \másik játék------igen-----|
+	  \  /választása
+	   \/
+	    |
+	nem |
+	    |
+	    v
+	 ________
+	 | vége |
+	 |______|
+
+
+Szereplõk: Tanárok és diákok
+diákok: az iskolában szereplõ diákok, felettesük a tanár, feladatokat kell teljesíteniük
+tanárok: a feladatok kiosztásáért felelõ személy
+
+ÜZLETI FOLYAMATOK MODELLJE
+__________________________
+
+Üzleti szereplõk
+
+üzleti partnerek: ide tartoznak a vevõk, szállítók, megrendelõk. A partnerek a szerzõdés erejéig bírnak befolyással a vállalatra
+beosztottak: vállalat alkalmazottjai, fejlesztõk. A vezetõktõl kapják az utasításokat, és feléjük beszámolási kötelezettséggel tartoznak.
+felettesek: olyan vezetõk akik alá beosztottak tartoznak.
+vezetõtársak: munkamegosztásban dolgoznak, a feladataik elosztását a szervezeti és mûködési szabályzat írja le.
+
+Folyamatok
+
+1. Megrendelõk: termékeket rendelnek.
+2. Szellemi termék elkészítése. (olyan tartós nem anyagi javak amelyek felhasználásával hasznosítható anyagi és nem anyagi javak
+				 állíthatóak elõ)
+3. Értékesítés
+4. Fizetés, számlázás
+5. További javítások, fejlesztések
+
+
+Üzleti feladat ábra:
+
+	______________			________________________
+	| Megrendelõ |----------------->| Program megrendelése |
+	|____________|			|______________________|
+					________________________
+					| A termék megvásárlása|
+					|______________________|
+
+
+	______________			_________________
+	| Üzletvezetõ|----------------->| Áru rendelése |
+	|____________|			|_______________|
+
+
+	______________			_________________	________________
+	| Fejlesztõk |----------------->|    Termék     |------>| Specifikáció |
+	|____________|			|  elkészítése  |	| Tervezés     |
+					|_______________|	| Kódolás      |
+								| Tesztelés    |
+								| Hibajavítás  |
+								| Dokumentálás |
+								|______________|
+
+	______________			_________________
+	| Értékesítõ |----------------->|    Eladás     |
+	|____________|			|_______________|
+					________________	_________________
+					|  Számlázás   |------->| Készpénz vagy |
+					|______________|	| Banki átutalás|
+								|_______________|
