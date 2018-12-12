@@ -304,4 +304,14 @@ const AppQuestion = (props) => {
             </Answers>
         </div>
     );
-}
+};
+
+const Counter = styled.h3`
+  text-align: center;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  padding: 0.5rem 0;
+  border-top: 0.2rem solid #252a37;
+  border-bottom: 0.2rem solid #252a37;
+  background: #fff;
+`;
