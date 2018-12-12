@@ -5,7 +5,7 @@ var words = new Array(
     "ARMOR", "HOTEL", "ADULT", "LAUGH", "PLANE", "BREAD", "BEACH", "ZEBRA", "WHEEL",
     "ANIMAL", "BEAUTY", "BREATH", "ATTACK", "MIDDLE", "DOLLAR", "DRIVER", "ENERGY", "FRIEND", "LETTER", "MOBILE", "NATURE",
     "KICKBOXING", "COMPLEXITY", "CIVILIZERS", "POCKETBOOK");
-var randomWord = "PEN"; //words[Math.floor(Math.random() * words.length)];
+var randomWord =  words[Math.floor(Math.random() * words.length)];
 
 // globals
 var lifes = 10;
