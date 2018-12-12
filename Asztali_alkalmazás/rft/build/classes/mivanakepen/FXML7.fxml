@@ -1,44 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML7Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML7Controller">
     <children>
-      <ImageView fitHeight="282.0" fitWidth="479.0" layoutX="378.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="282.0" fitWidth="479.0" layoutX="360.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../folder/7.jpg" />
          </image>
+         <effect>
+            <DropShadow />
+         </effect>
       </ImageView>
-      <Text layoutX="445.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
+      <Text layoutX="342.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?" textAlignment="CENTER" wrappingWidth="514.19921875">
          <font>
-            <Font name="Jokerman" size="20.0" />
+            <Font name="Lucida Bright" size="25.0" />
          </font>
       </Text>
-      <Button layoutX="411.0" layoutY="543.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Vegetable">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="308.0" layoutY="570.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="141.0" style="-fx-background-color: ffffff;" text="Vegetable" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="12.0" />
+            <Font name="Lucida Bright" size="22.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
-      <Button layoutX="520.0" layoutY="543.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Fruit">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="474.0" layoutY="570.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="101.0" style="-fx-background-color: ffffff;" text="Fruit" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="12.0" />
+            <Font name="Lucida Bright" size="22.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
-      <Button layoutX="733.0" layoutY="543.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="90.0" text="Fruits">
+      <Button fx:id="button" alignment="CENTER" contentDisplay="TOP" layoutX="606.0" layoutY="570.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#load_eighth" prefHeight="50.0" prefWidth="154.0" style="-fx-background-color: ffffff;" text="Vegetables" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="12.0" />
+            <Font name="Lucida Bright" size="22.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
-      <Button fx:id="button" layoutX="628.0" layoutY="543.0" mnemonicParsing="false" onAction="#load_eighth" prefHeight="40.0" prefWidth="90.0" text="Vegetables">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="791.0" layoutY="570.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="101.0" style="-fx-background-color: ffffff;" text="Fruits" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="12.0" />
+            <Font name="Lucida Bright" size="22.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
    </children>
 </AnchorPane>

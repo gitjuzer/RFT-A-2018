@@ -1,44 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML10Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML10Controller">
     <children>
-      <ImageView fitHeight="309.0" fitWidth="416.0" layoutX="401.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="313.0" fitWidth="419.0" layoutX="406.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../folder/10.jpg" />
          </image>
+         <effect>
+            <DropShadow />
+         </effect>
       </ImageView>
-      <Text layoutX="445.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see in the picture?">
+      <Text layoutX="357.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see on the picture?" textAlignment="CENTER" wrappingWidth="514.19921875">
          <font>
-            <Font name="Jokerman" size="20.0" />
+            <Font name="Lucida Bright" size="25.0" />
          </font>
       </Text>
-      <Button layoutX="345.0" layoutY="578.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jeff">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="253.0" layoutY="580.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="155.0" style="-fx-background-color: ffffff;" text="The Union Jeff" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="13.0" />
+            <Font name="Lucida Bright" size="18.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
-      <Button fx:id="button" layoutX="481.0" layoutY="578.0" mnemonicParsing="false" onAction="#load_result" text="The Union Jack">
+      <Button fx:id="button" alignment="CENTER" contentDisplay="TOP" layoutX="428.0" layoutY="580.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#load_result" prefHeight="50.0" prefWidth="164.0" style="-fx-background-color: ffffff;" text="The Union Jack" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="13.0" />
+            <Font name="Lucida Bright" size="18.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
-      <Button layoutX="618.0" layoutY="578.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Jac">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="612.0" layoutY="580.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="155.0" style="-fx-background-color: ffffff;" text="The Union Jac" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="13.0" />
+            <Font name="Lucida Bright" size="18.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
-      <Button layoutX="755.0" layoutY="578.0" mnemonicParsing="false" onAction="#wrong_answer" text="The Union Joe">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="783.0" layoutY="580.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="164.0" style="-fx-background-color: ffffff;" text="The Union Joe" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="13.0" />
+            <Font name="Lucida Bright" size="18.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
    </children>
 </AnchorPane>

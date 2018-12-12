@@ -1,41 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mivanakepen.FXML3Controller">
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXML3Controller">
     <children>
       
-      <ImageView fitHeight="274.0" fitWidth="424.0" layoutX="410.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="318.0" fitWidth="432.0" layoutX="384.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../folder/3.jpg" />
          </image>
+         <effect>
+            <DropShadow />
+         </effect>
       </ImageView>
-      <Button layoutX="366.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Plane">
+      <Text layoutX="343.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see on the picture?" textAlignment="CENTER" wrappingWidth="514.19921875">
          <font>
-            <Font name="Jokerman" size="12.0" />
-         </font></Button>
-      <Button fx:id="button" layoutX="491.0" layoutY="569.0" mnemonicParsing="false" onAction="#load_foruth" prefHeight="40.0" prefWidth="89.0" text="Car">
-         <font>
-            <Font name="Jokerman" size="12.0" />
-         </font></Button>
-      <Button layoutX="619.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Ship">
-         <font>
-            <Font name="Jokerman" size="12.0" />
-         </font></Button>
-      <Button layoutX="745.0" layoutY="569.0" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="40.0" prefWidth="89.0" text="Bicycle">
-         <font>
-            <Font name="Jokerman" size="12.0" />
-         </font></Button>
-      <Text layoutX="419.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What can you see on the picture?">
-         <font>
-            <Font name="Jokerman" size="22.0" />
+            <Font name="Lucida Bright" size="25.0" />
          </font>
       </Text>
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="352.0" layoutY="579.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="101.0" style="-fx-background-color: ffffff;" text="Plane" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
+      <Button fx:id="button" alignment="CENTER" contentDisplay="TOP" layoutX="478.0" layoutY="579.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#load_foruth" prefHeight="50.0" prefWidth="101.0" style="-fx-background-color: ffffff;" text="Car" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="610.0" layoutY="579.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="101.0" style="-fx-background-color: ffffff;" text="Ship" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="736.0" layoutY="579.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#wrong_answer" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: ffffff;" text="Bicycle" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Lucida Bright" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
+      </Button>
    </children>
 </AnchorPane>

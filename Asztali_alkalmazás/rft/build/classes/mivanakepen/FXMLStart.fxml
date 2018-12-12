@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXMLStartController">
+<AnchorPane id="AnchorPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mivanakepen.FXMLStartController">
    <children>
       <ImageView fitHeight="218.0" fitWidth="549.0" layoutX="370.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -21,18 +22,27 @@
       </ImageView>
       <Text layoutX="457.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mi van a képen?" textAlignment="CENTER" wrappingWidth="306.265625">
          <font>
-            <Font name="Jokerman" size="36.0" />
+            <Font name="Lucida Bright" size="36.0" />
          </font>
       </Text>
-      <Button cacheShape="false" centerShape="false" focusTraversable="false" layoutX="442.0" layoutY="547.0" mnemonicParsing="false" onAction="#Start_Game" prefHeight="54.0" prefWidth="357.0" scaleShape="false" text="Játék indítása">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="450.0" layoutY="547.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Start_Game" prefHeight="50.0" prefWidth="342.0" style="-fx-background-color: ffffff;" text="Játék indítása" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
-            <Font name="Jokerman" size="25.0" />
+            <Font name="Lucida Bright" size="22.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
+         </effect>
       </Button>
-      <Button fx:id="visszagomb" onAction="#vissza" layoutX="822.0" layoutY="621.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Vissza" underline="true">
+      <Button fx:id="visszagomb" layoutX="1018.0" layoutY="726.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#vissza" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: f3c4b4 f3c4b4;" text="vissza" textFill="#55160d" underline="true">
          <font>
-            <Font name="Jokerman" size="16.0" />
+            <Font name="Lucida Bright" size="24.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
    </children>
 </AnchorPane>
