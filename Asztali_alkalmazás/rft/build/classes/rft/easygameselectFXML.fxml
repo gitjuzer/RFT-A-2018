@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -9,7 +16,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.EasygameselectController">
+<AnchorPane id="AnchorPane" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rft.EasygameselectController">
    <children>
       <Label layoutX="398.0" layoutY="66.0" text="Könnyű játékok" textAlignment="CENTER" textFill="#55160d">
          <font>
@@ -21,7 +28,7 @@
             <Font name="Lucida Bright" size="27.0" />
          </font>
       </Label>
-      <Button fx:id="akasztofabtn" contentDisplay="TOP" layoutX="90.0" layoutY="318.0" mnemonicParsing="false" onAction="#ToAkasztofa" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Akasztófa" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn" contentDisplay="TOP" layoutX="168.0" layoutY="318.0" mnemonicParsing="false" onAction="#ToAkasztofa" prefHeight="155.0" prefWidth="230.0" style="-fx-background-color: ffffff;" text="Akasztófa" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
@@ -47,7 +54,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="akasztofabtn1" onAction="#Tomivanakepen" contentDisplay="TOP" layoutX="881.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Mi van a képen?" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn1" contentDisplay="TOP" layoutX="793.0" layoutY="318.0" mnemonicParsing="false" onAction="#Tomivanakepen" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Mi van a képen?" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
@@ -65,7 +72,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="akasztofabtn2" onAction="#ToQuiz" contentDisplay="TOP" layoutX="621.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Quiz" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="akasztofabtn2" contentDisplay="TOP" layoutX="474.0" layoutY="318.0" mnemonicParsing="false" onAction="#ToQuiz" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Quiz" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Lucida Bright" size="22.0" />
          </font>
@@ -79,24 +86,6 @@
             <ImageView fitHeight="127.0" fitWidth="200.0">
                <image>
                   <Image url="@../folder/puzzle.jpg" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
-      <Button fx:id="akasztofabtn3" contentDisplay="TOP" layoutX="359.0" layoutY="318.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="108.0" style="-fx-background-color: ffffff;" text="Memóriajáték" textAlignment="CENTER" textFill="#55160d" textOverrun="CENTER_ELLIPSIS">
-         <font>
-            <Font name="Lucida Bright" size="22.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-         <effect>
-            <DropShadow color="#55160d" height="11.67" radius="7.6675" />
-         </effect>
-         <graphic>
-            <ImageView fitHeight="127.0" fitWidth="199.0">
-               <image>
-                  <Image url="@../folder/170621-tensorflow.png" />
                </image>
             </ImageView>
          </graphic>
