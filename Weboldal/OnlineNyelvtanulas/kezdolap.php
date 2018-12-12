@@ -73,19 +73,8 @@ session_start();
                     <a href="Fejtoro/index.php">Játék</a>
                 </div>
             </div>
-            <
         </section>
-
-        <section id="newsletter">
-            <div class="containerNL">  
-                <h1>Iratokozz fel a hírlevelünkre!</h1>    
-                <form action="">
-                    <input type="email" placeholder="Enter Email...">
-                    <button type="submit" class="btn">Subscribe</button>
-                </form>
-            </div>
-        </section>
-
+        
         <footer>
             <p>Responsive Web Design, Copyright &copy; 2018</p>
         </footer>
