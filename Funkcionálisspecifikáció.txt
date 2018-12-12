@@ -210,7 +210,6 @@ Forgatókönyv asztali alkalmazáshoz:
 				    	       Ha vége a játéknak a "Let's try again" gombra kattintva új játékot lehet kezdeni
 					
 			-Mondd meg:
-
 7. Vissza lépni bármikor lehetséges a "vissza" vagy a "back" gombbal amivel az elõzõ oldalra léphetünk vissza 
 8. Kilépni bármelyik játéknál lehetséges
 
