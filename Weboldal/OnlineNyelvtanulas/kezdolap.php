@@ -58,20 +58,20 @@ session_start();
                     <img src="pic/hagmann.jpg" alt="">
                     <h3>Akasztófa</h3>
                     <p>Tedd próbára az angol tudásod, az angolnyelvű szókereső akasztófa játékban.</p>
-                    <a href="TalaldKi/index.html">Játék</a>
+                    <a href="Hangmann/hagmann.php">Játék</a>
                 </div>
                 <div class="box">
-                    <img src="pic/mondatkiegeszitos.PNG" alt="">
-                    <h3>Mondatok kiegészítése</h3>
+                    <img src="pic/talaldki.JPG" alt="">
+                    <h3>Találd Ki</h3>
                     <p>Légy vakmerő, és találd ki a szavak helyes alakját.</p>
-                    <a href="">Játék</a>
+                    <a href="TalaldKi/index.html">Játék</a>
                 </div>
                 <div class="box">
                     <img src="pic/london.png" alt="">
                     <h3>Graphic Design</h3>
                     <p>Teszteld le eddigi tudásodat és válj a kitalálás mesterévé</p>
                     <a href="">Játék</a>
-                </div>              
+                </div>
             </div>
             <
         </section>

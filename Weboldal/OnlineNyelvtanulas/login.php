@@ -60,7 +60,7 @@ require_once 'mydbms.php';
                     else
                     {
                         $_SESSION['logged']=false;
-                        header("Location: login.html");
+                        header("Location: login.php");
                         exit();
                     }
                 }

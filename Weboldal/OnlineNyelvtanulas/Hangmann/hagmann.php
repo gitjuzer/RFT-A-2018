@@ -1,31 +1,57 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
 <head>
+    <style type="text/css">
+        #branding h1 {
+            color: white;
+        }
+        .legyfeher{
+            color: white;
+        }
+    </style>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Akasztófa játék</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/hagmannStyle.css" />
 
-    <script src="../js/hagmann.js"></script>
+    <script src="hagmann.js"></script>
 </head>
 <body onload="startUp()">
-    <header>
-        <div class="headerStyle">
-            <div id="branding">
-                <h1><span class="highlight">Játékos</span> nyelvtanulás</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Kezdőlap</a></li>
-                    <li><a href="../html/gallery.html">Galéria</a></li>
-                    <li><a href="about.html">Letöltés</a></li>
-                    <li><a href="about.html">Regisztráció</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="container">
+        <div id="branding">
+            <h1><span class="highlight">Játékos</span> nyelvtanulás</h1>
         </div>
-    </header>
+        <nav>
+            <ul>
+                <li class="current"><a href="../kezdolap.php">Kezdőlap</a></li>
+                <li><a href="../html/gallery.html">Galéria</a></li>
+                <li><a href="../DowloadPage/index.php">Letöltés</a></li>
+                <li><a href="../reg.php">Regisztráció</a></li>
+                <li class="legyfeher">
+                    <?php
+                    if($_SESSION['logged']==true)
+                    {
+                        echo "Szia ";
+                        echo $_SESSION["username"];
+                        echo "! ";
+                        echo '<a href="../logout.php"><span>Kilépés</span></a></li>';
+                    }
+                    elseif($_SESSION['logged']==false)
+                    {
+
+                        echo '<a href="../login.php"><span>Belépés</span></a></li>';
+                    }
+                    ?></li>
+            </ul>
+        </nav>
+    </div>
+</header>
     <section class="container">
         <h1>Akasztófa</h1>
         <h3>Találd ki a megfelelő szót! De vigyázz csak 10 életed van!</h3>
