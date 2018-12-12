@@ -6,6 +6,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: f3c4b4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="akasztofa.AkasztofaController">
@@ -50,11 +53,6 @@
             <Font name="Lucida Bright" size="27.0" />
          </font>
       </Label>
-      <Label fx:id="wordLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="337.0" layoutY="207.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="525.0" textFill="#55160d">
-         <font>
-            <Font name="Lucida Bright" size="27.0" />
-         </font>
-      </Label>
       <Label fx:id="letterLabel1" alignment="CENTER" contentDisplay="CENTER" layoutX="489.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
          <font>
             <Font name="Lucida Bright" size="27.0" />
@@ -76,6 +74,61 @@
          </font>
       </Label>
       <Label fx:id="letterLabel5" alignment="CENTER" contentDisplay="CENTER" layoutX="622.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="44.0" textFill="#55160d">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <HBox layoutX="401.0" layoutY="229.0" prefHeight="50.0" prefWidth="400.0">
+         <children>
+            <Label fx:id="wordLabel1" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="wordLabel2" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="wordLabel3" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="wordLabel4" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="wordLabel5" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="wordLabel6" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="wordLabel7" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="wordLabel8" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="_">
+               <font>
+                  <Font name="Lucida Sans Regular" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Circle fx:id="head" fill="#030303" layoutX="169.0" layoutY="304.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Line fx:id="body" endX="100.0" layoutX="69.0" layoutY="329.0" startX="100.0" startY="120.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="rightarm" endX="-12.0" endY="29.0" layoutX="241.0" layoutY="345.0" startX="-67.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="leftarm" endX="-3.07110595703125" layoutX="170.0" layoutY="344.0" startX="-48.0" startY="31.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="rightleg" endX="-12.0" endY="29.0" layoutX="240.0" layoutY="452.0" startX="-67.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="leftleg" endX="2.0" endY="4.0" layoutX="162.0" layoutY="450.0" startX="-48.0" startY="31.0" strokeWidth="10.0" visible="false" />
+      <Label fx:id="gameover" alignment="CENTER" layoutX="507.0" layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="185.0" text="GAME OVER" textFill="#55160d" visible="false">
          <font>
             <Font name="Lucida Bright" size="27.0" />
          </font>
