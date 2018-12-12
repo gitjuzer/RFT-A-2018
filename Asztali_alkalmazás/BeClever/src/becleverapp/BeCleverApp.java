@@ -13,6 +13,7 @@ import javafx.stage.Stage;
  */
 public class BeCleverApp extends Application {
     
+    
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
@@ -20,8 +21,11 @@ public class BeCleverApp extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
+        stage.setResizable(false);
+        stage.setTitle("BeClever! Be a genius in a funny way!");
         stage.show();
     }
+
 
     /**
      * @param args the command line arguments
@@ -29,5 +33,7 @@ public class BeCleverApp extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+
     
 }
