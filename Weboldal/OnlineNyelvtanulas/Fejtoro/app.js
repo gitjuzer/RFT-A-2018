@@ -315,3 +315,32 @@ const Counter = styled.h3`
   border-bottom: 0.2rem solid #252a37;
   background: #fff;
 `;
+
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            counter: 0,
+            correct: 0,
+            isHidden: true,
+            isCorrect: false,
+            isFinished: false
+        }
+        this.showAnswer = this.showAnswer.bind(this);
+        this.nextQuestion = this.nextQuestion.bind(this);
+    }
+
+    showAnswer(e) {
+        const {target} = e;
+        const answer = parseInt(target.getAttribute('choice'));
+        const correctanswer = this.props.data[this.state.counter].correctAnswer;
+        const isCorrect = (answer === correctanswer);
+        const correct = (isCorrect) ? this.state.correct + 1 : this.state.correct;
+
+        this.setState({
+            correct,
+            isCorrect,
+            isHidden: false
+        });
+    }
+}
