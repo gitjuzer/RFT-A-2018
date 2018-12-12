@@ -283,3 +283,25 @@ const Answers = styled.ol`
     }
   }
 `;
+
+const AppQuestion = (props) => {
+    const { question, answers } = props.data;
+    const { showAnswer } = props;
+
+    const choices = answers.map(answer =>
+        <li
+            key={ answer.answer }
+            choice={ answer.choice }
+            onClick={ showAnswer }>
+            { answer.value }
+        </li>
+    );
+    return (
+        <div className="AppQuestion">
+            <Question>{ question }</Question>
+            <Answers>
+                { choices }
+            </Answers>
+        </div>
+    );
+}
