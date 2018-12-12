@@ -74,7 +74,7 @@ session_start();
                 </div>
             </div>
         </section>
-        
+
         <footer>
             <p>Responsive Web Design, Copyright &copy; 2018</p>
         </footer>

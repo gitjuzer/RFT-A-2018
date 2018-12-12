@@ -60,8 +60,8 @@ require_once 'mydbms.php';
                     else
                     {
                         $_SESSION['logged']=false;
-                        header("Location: login.php");
-                        exit();
+                        $error="<div class=\"hiba\">Győződj meg róla, hogy jól írtad-e be a 
+                            felhasználó nevet és a jelszót és hogy aktiváltad a felhasználói fiókod</div>";
                     }
                 }
                 ?>
