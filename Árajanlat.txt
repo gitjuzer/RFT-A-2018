@@ -25,9 +25,37 @@ _________
 Egységára
 __________
 
-Nettó egységára:	50.000 Ft
-+ áfa értéke (27%):	13.500 Ft
-Bruttó ára:		63.500 Ft
+Nettó egységára:	10 880 000 Ft
++ áfa értéke (27%):	 2 937 600 Ft
+Bruttó ára:		13 817 600 Ft
+
+
+
+Díjak
+______
+
+1 hónapnál rövidebb projekt esetén
+Beosztás		Napidíj		Elvárások
+PHP programozó		24 000,00 Ft	2+ év tapasztalat webes fejlesztésben
+Junior tesztmérnök	32 000,00 Ft	3 évnél kevesebb projekt tapasztalat
+
+A táblázatban szereplõ árak NETTÓ árak.
+
+
+
+Költségek részletezése
+______________________
+
+18 fõ
+------
+ 4 fõ 	PHP programozó
+14 fõ 	Junior tesztmérnök
+
+munkanapok száma: 20
+
+20 nap x  4 fõ x 24 000 Ft = 	 1 920 000 Ft
+20 nap x 14 fõ x 32 000 Ft =	 8 960 000 Ft
+összesen a bérköltség=		10 880 000 Ft
 
 
 
@@ -41,15 +69,15 @@ _____________________
 Fizetési feltételek
 ____________________
 
-30% elõleg rendeléskor	19.050 Ft
-70% átvételkor		44.450 Ft
+30% elõleg rendeléskor	4 145 280 Ft
+70% átvételkor		9 672 320 Ft
 
 
 
 Az árajánlat érvényessége
 __________________________ 
 
-Az árajánlat 2018.12.03–ig érvényes.
+Az árajánlat 2018.12.15–ig érvényes.
 
 
-Az árajánlat kiadásának dátuma 2018.11.26.
+Az árajánlat kiadásának dátuma 2018.11.05.
