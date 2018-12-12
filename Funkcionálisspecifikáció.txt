@@ -11,19 +11,20 @@ A könnyebb felhasználás érdekében, egy letisztult egyszerû felhasználói felülete
 2. Követelménylista
 ID			NÉV			KIFEJTÉS
 Kov_001		Egyszerû, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
-Kov_002		Játékos megoldások		Fontos, hogy az oktatás játékos formában történjen, hogy a kisiskolások számára minél élvezhetõbb legyen a tanulás folyamata
+Kov_002		Játékos megoldások		        Fontos, hogy az oktatás játékos formában történjen, hogy a 
+											kisiskolások számára minél élvezhetõbb legyen a tanulás folyamata
 Kov_003		Tantárgy független	 	Olyan programra van szükség, melyen az összes oktatott tantárgy elérhetõ, tanulható
-Kov_004		Felület				Legyen online felülete és android felülete
+Kov_004		Felület					Legyen online felülete és android felülete
 Kov_005		Egyéni játék			Olyan programot kell létrehozni, amit egy iskolás kezel
 Kov_006		Jutalomrendszer			Jutalomrendszer, amiben piros pontokat és matricákat lehet gyûjteni.
-Kov_007		Adatvédelem			Az adatokat a GDPR-nak megfelelõen kell kezeljék.
-Kov_008		Jogosultság			Olyan jogosultsági rendszert tartalmazzon, ami nem engedi a diákoknak a tanároknak szánt funkció alkalmazását.
+Kov_007		Adatvédelem				Az adatokat a GDPR-nak megfelelõen kell kezeljék.
+Kov_008		Jogosultság				Olyan jogosultsági rendszert tartalmazzon, ami nem engedi a diákoknak a 	tanároknak szánt funkció alkalmazását.
 Kov_009		Könnyû megfogalmazás		Lehetõleg kerüljék a szakmai kifejezéseket, egyszerû mindenki számára érthetõen fogalmazzanak.
 Kov_010		Vizualitás			Képek könnyítsék meg a megértést.
 Kov_011		Leckék				Otthoni feladatok kiosztására legyen képes a program.
-Kov_012		Web				Otthonról könnyen elérhetõnek kell lennie.
+Kov_012		Web					Otthonról könnyen elérhetõnek kell lennie.
 Kov_013		Lecke megtekintése		A tanárnak legyen lehetõsége megtekinteni otthonról a diákok leadott leckéit.
-Kov_014		Keresés				Keresõfelület biztosítása.
+Kov_014		Keresés					Keresõfelület biztosítása.
 
 3. Törvények
 
