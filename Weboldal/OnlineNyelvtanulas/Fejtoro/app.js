@@ -149,3 +149,19 @@ const Link = styled.a`
     fill: #fff;
   }
 `;
+
+const AppResult = (props) => {
+    const { correct, total } = props;
+    const tweet = `https://twitter.com/intent/tweet?text=Answered%20correctly%20to%20${correct}%20questions%20out%20of%20${total}.%20Your%20turn.`;
+
+    return (
+        <Result className="AppResult">
+            <Proclamation>You have answered correctly to</Proclamation>
+            <Score>{correct} questions out of {total}</Score>
+
+            <Link href={tweet}>
+                Ha tetszett oszd meg <SVGTwitter />
+            </Link>
+        </Result>
+    );
+};
