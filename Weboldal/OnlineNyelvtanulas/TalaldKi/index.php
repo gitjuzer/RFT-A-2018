@@ -1,17 +1,24 @@
+<?php
+session_start();
+?>
 <html>
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/indexStyle.css">
     <script src="script.js"></script>
     <style type="text/css">
+
         * {
 
         }
-
-        body {
+        body{
             background-image: url("https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
             background-size: 100%;
+        }
+        .jatek {
+
             position: absolute;
             top: 50%;
             left: 50%;
@@ -35,7 +42,37 @@
 </head>
 
 <body>
+<header>
+    <div class="container">
+        <div id="branding">
+            <h1><span class="highlight">Játékos</span> nyelvtanulás</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="current"><a href="../kezdolap.php">Kezdőlap</a></li>
+                <li><a href="../html/gallery.html">Galéria</a></li>
+                <li><a href="../DowloadPage/index.php">Letöltés</a></li>
+                <li><a href="../reg.php">Regisztráció</a></li>
+                <li>
+                    <?php
+                        if($_SESSION['logged']==true)
+                        {
+                            echo "Szia ";
+                            echo $_SESSION["username"];
+                            echo "! ";
+                            echo '<a href="../logout.php"><span>Kilépés</span></a></li>';
+                }
+                elseif($_SESSION['logged']==false)
+                {
 
+                echo '<a href="../login.php"><span>Belépés</span></a></li>';
+                }
+                ?></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="jatek">
 <img src="https://www.marbellaspanish.com/wp-content/uploads/2018/03/learn-english-at-marbella-international-spanish-school-marbella.jpg" class="image" >
 
 <div id="chooseDifficulty" style="display: block">
@@ -312,7 +349,7 @@
         dif = 0;
     }
 </script>
-
+</div>
 </body>
 
 </html>
