@@ -92,3 +92,5 @@ Az alkalmazáshoz a kezdõlap elkészült.
 ---Jegyzõkönyv vége 2018.12.06.---
 
 A csapat megbeszélést tartott 12.09.-én.
+A megbeszélés tárgya a projektmunka elõrehaladása volt. A játékok elkészültek minden csapatnál, 
+a kódok olvashatóságának javítása folyamatban van.
