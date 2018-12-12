@@ -68,7 +68,7 @@ public class SzintfelmeroeredmenyController implements Initializable {
     
     
     }
-    SzintfelmeroController.helyesvalaszokszama=0;
+    
     }
         
     @FXML
@@ -93,7 +93,7 @@ public class SzintfelmeroeredmenyController implements Initializable {
        
     stage.setScene(scene);
     }
-  
+    SzintfelmeroController.helyesvalaszokszama=0;
     }
     } 
     
