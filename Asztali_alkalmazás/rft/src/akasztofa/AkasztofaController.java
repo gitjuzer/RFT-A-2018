@@ -16,6 +16,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -159,42 +160,52 @@ public class AkasztofaController implements Initializable {
     }
  
     
-       
+    List<String> marvolt=new ArrayList(); 
     int count=0; 
     int draw=-1;
-    int jelenlegi=0;
     @FXML
     private void valasztbtn(ActionEvent event) throws IOException{
         
         if(life>1){
             
             String valasztott=kivalasztField.getText();
-            
-            letterLabel[count].setText(valasztott);
-            count++;
-            
-            if (word.contains(valasztott)){
-                for (int i=0;i<word.length();i++){
-                    char letter = word.charAt(i);
-                    if (Character.toString(letter).equals(valasztott)){
-                        wordLabel[i].setText(valasztott);
-                    }
-                }
+            if (!(marvolt.contains(valasztott))){
                 
-            }
-            else{
-                life--;
-                lifeLabel.setText(Integer.toString(life));
-                if (draw==-1){
-                    head.setVisible(true);
-                    draw++;
+            
+                letterLabel[count].setText(valasztott);
+                count++;
+            
+                if (word.contains(valasztott)){
+                    for (int i=0;i<word.length();i++){
+                        char letter = word.charAt(i);
+                        if (Character.toString(letter).equals(valasztott)){
+                            wordLabel[i].setText(valasztott);
+                        }
+                    }
+                
                 }
                 else{
-                drawing[draw].setVisible(true);
-                draw++;               
+                    life--;
+                    lifeLabel.setText(Integer.toString(life));
+                    if (draw==-1){
+                        head.setVisible(true);
+                        draw++;
+                    }
+                    else{
+                        drawing[draw].setVisible(true);
+                        draw++;               
+                    }
                 }
+                marvolt.add(valasztott);
+                kivalasztField.setText("");
             }
-            
+            else{
+                FXMLLoader load = new FXMLLoader (getClass().getResource("marvolt.fxml"));
+                Parent root1 = (Parent) load.load();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root1));
+                stage.show();
+            }
         }
         else {
             gameover.setVisible(true);
