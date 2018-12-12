@@ -21,6 +21,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 
 /**
@@ -71,6 +73,8 @@ public class AkasztofaController implements Initializable {
     @FXML
     private Label letterLabel14;
     @FXML
+    private Label gameover;
+    @FXML
     private Label wordLabel1;
     @FXML
     private Label wordLabel2;
@@ -86,6 +90,18 @@ public class AkasztofaController implements Initializable {
     private Label wordLabel7;
     @FXML
     private Label wordLabel8;
+    @FXML
+    private Circle head;
+    @FXML
+    private Line body;
+    @FXML
+    private Line rightarm;
+    @FXML
+    private Line leftarm;
+    @FXML
+    private Line rightleg;
+    @FXML
+    private Line leftleg;
     
     /**
      * Initializes the controller class.
@@ -105,6 +121,7 @@ public class AkasztofaController implements Initializable {
     int life = 6;
     Label[] letterLabel = new Label[14];
     Label[] wordLabel= new Label[8];
+    Line[] drawing=new Line[5];
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -125,6 +142,11 @@ public class AkasztofaController implements Initializable {
         letterLabel[12]=letterLabel13;
         letterLabel[13]=letterLabel14;
         
+        drawing[0]=body;
+        drawing[1]=leftarm;
+        drawing[2]=rightarm;
+        drawing[3]=leftleg;
+        drawing[4]=rightleg;
         
         wordLabel[0]=wordLabel1;
         wordLabel[1]=wordLabel2;
@@ -138,12 +160,13 @@ public class AkasztofaController implements Initializable {
  
     
        
-    int count=0;    
+    int count=0; 
+    int draw=-1;
+    int jelenlegi=0;
     @FXML
     private void valasztbtn(ActionEvent event) throws IOException{
         
-        //while(Integer.parseInt((String)lifeLabel.toString())>0){
-        if(life>0){
+        if(life>1){
             
             String valasztott=kivalasztField.getText();
             
@@ -153,7 +176,7 @@ public class AkasztofaController implements Initializable {
             if (word.contains(valasztott)){
                 for (int i=0;i<word.length();i++){
                     char letter = word.charAt(i);
-                    if (Character.toString(letter)==valasztott){
+                    if (Character.toString(letter).equals(valasztott)){
                         wordLabel[i].setText(valasztott);
                     }
                 }
@@ -162,135 +185,22 @@ public class AkasztofaController implements Initializable {
             else{
                 life--;
                 lifeLabel.setText(Integer.toString(life));
-                
-            }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            /*if(l.contains(kivalasztField)){
-                System.out.println("Ezt a betűt már egyszer beírtad!"); //letterLabel bővül a beírt betűvel
-                continue;
-            }*/
-            
-            //letterLabel.add(kivalasztott);
-            //letterLabel.setText("" + kivalasztField);
-            
-            /*if(word.contains(kivalasztott+"")){
-                for(int y=0; y<word.length(); y++){
-                    if(word.charAt(y)==kivalasztott){
-                        hossz[y]=kivalasztott;
-                    }
+                if (draw==-1){
+                    head.setVisible(true);
+                    draw++;
+                }
+                else{
+                drawing[draw].setVisible(true);
+                draw++;               
                 }
             }
-            else{
-                 life--;
-            }
-            
-            if(word.equals(String.valueOf(hossz))){
-                wordLabel.setText(String.valueOf(hossz));
-                wordLabel.setText("Ügyes vagy, nyertél!" + String.valueOf(hossz));
-                //System.out.println("Ügyes vagy, nyertél!");
-                break;
-            }
-            wordLabel.setText(String.valueOf(hossz));
-            lifeLabel.setText(Integer.toString(life));
-            //System.out.print(wordLabel);
-            //System.out.print(lifeLabel);
-            
-            letterLabel[b].setText(String.valueOf(kivalasztott));
-            b++;
             
         }
-        
-        
-        if(life==0){
-            wordLabel.setText("Sajnos vesztettél, majd legközelebb!" + String.valueOf(hossz));
-            //System.out.println("Sajnos vesztettél, majd legközelebb!");
-        } /*
-    }
-   /* @FXML
-    private void valasztbtn(ActionEvent event) throws IOException{
-        
-        List<String> words = Arrays.asList("welcome", "banana", "computer", "cow", "rain", "water");
-	String word = words.get((int) (Math.random() * words.size()));
-        
-        int life = 5;
-        lifeLabel.setText(Integer.toString(life));
-        
-        char[] hossz = new char[word.length()];
-        int i = 0;
-        while(i < word.length()){
-            hossz[i]='-';
-            if(word.charAt(i) == ' '){
-                hossz[i]= ' ';
-            }
-            i++;
-        }
-        wordLabel.setText(String.valueOf(hossz));
-        lifeLabel.setText(Integer.toString(life));
-        
-        Scanner s = new Scanner(System.in); //to read character
-        
-        Label[] letterLabel = new Label[5];
-        letterLabel[0]=letterLabel1;
-        letterLabel[1]=letterLabel2;
-        letterLabel[2]=letterLabel3;
-        letterLabel[3]=letterLabel4;
-        letterLabel[4]=letterLabel5;
-        
-        int b=0;
-        //while(Integer.parseInt((String)lifeLabel.toString())>0){
-        while(life>0){
-            
-            char kivalasztott = s.next(kivalasztField.getText()).charAt(0);
-            
-            /*if(l.contains(kivalasztField)){
-                System.out.println("Ezt a betűt már egyszer beírtad!"); //letterLabel bővül a beírt betűvel
-                continue;
-            }
-            
-            //letterLabel.add(kivalasztott);
-            //letterLabel.setText("" + kivalasztField);
-            
-            if(word.contains(kivalasztott+"")){
-                for(int y=0; y<word.length(); y++){
-                    if(word.charAt(y)==kivalasztott){
-                        hossz[y]=kivalasztott;
-                    }
-                }
-            }
-            else{
-                 life--;
-            }
-            
-            if(word.equals(String.valueOf(hossz))){
-                wordLabel.setText(String.valueOf(hossz));
-                wordLabel.setText("Ügyes vagy, nyertél!" + String.valueOf(hossz));
-                //System.out.println("Ügyes vagy, nyertél!");
-                break;
-            }
-            wordLabel.setText(String.valueOf(hossz));
-            lifeLabel.setText(Integer.toString(life));
-            //System.out.print(wordLabel);
-            //System.out.print(lifeLabel);
-            
-            letterLabel[b].setText(String.valueOf(kivalasztott));
-            b++;
-            
-        }
-        
-        
-        if(life==0){
-            wordLabel.setText("Sajnos vesztettél, majd legközelebb!" + String.valueOf(hossz));
-            //System.out.println("Sajnos vesztettél, majd legközelebb!");
-        }*/
+        else {
+            gameover.setVisible(true);
+            lifeLabel.setText("0");
+            drawing[draw].setVisible(true);
+        }    
     } 
-    }    
+        
 }
