@@ -325,7 +325,7 @@ class App extends Component {
             isHidden: true,
             isCorrect: false,
             isFinished: false
-        }
+        };
         this.showAnswer = this.showAnswer.bind(this);
         this.nextQuestion = this.nextQuestion.bind(this);
     }
@@ -361,4 +361,22 @@ class App extends Component {
             })
         }
     }
+
+render() {
+    return (
+        <div className="App">
+            {
+                !this.state.isFinished
+                    ?
+                    <React.Fragment>
+                        <Counter>{this.state.counter + 1 }/{this.props.data.length}</Counter>
+                        <AppQuestion showAnswer={this.showAnswer} data={this.props.data[this.state.counter]}/>
+                        <AppAnswer isHidden={this.state.isHidden} isLast={this.state.counter !== this.props.data.length - 1} isCorrect={this.state.isCorrect} nextQuestion={this.nextQuestion} data={this.props.data[this.state.counter]}/>
+                    </React.Fragment>
+                    :
+                    <AppResult correct={this.state.correct} total={this.props.data.length}/>
+            }
+        </div>
+    );
+}
 }
