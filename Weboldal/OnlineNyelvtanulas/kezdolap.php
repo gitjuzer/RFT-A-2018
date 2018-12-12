@@ -67,10 +67,10 @@ session_start();
                     <a href="TalaldKi/index.php">Játék</a>
                 </div>
                 <div class="box">
-                    <img src="pic/london.png" alt="">
-                    <h3>Graphic Design</h3>
-                    <p>Teszteld le eddigi tudásodat és válj a kitalálás mesterévé</p>
-                    <a href="">Játék</a>
+                    <img src="pic/fejtoro.JPG" alt="">
+                    <h3>Fejtörő</h3>
+                    <p>Teszteld le eddigi tudásodat és válj a fejtörők mesterévé</p>
+                    <a href="Fejtoro/index.php">Játék</a>
                 </div>
             </div>
             <

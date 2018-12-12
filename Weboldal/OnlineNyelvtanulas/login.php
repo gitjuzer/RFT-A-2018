@@ -13,7 +13,7 @@ require_once 'mydbms.php';
     <title>Login form using HTML5 and CSS3</title>
     <link rel="stylesheet" href="css/indexStyle.css">
     <link rel="stylesheet" href="css/loginstyle.css">
-
+    <title>Játékos nyelvtanulás | Belépés</title>
 
 </head>
 <body>
