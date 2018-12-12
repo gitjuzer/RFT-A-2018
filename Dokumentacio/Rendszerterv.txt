@@ -1,4 +1,4 @@
-Játékos Nyelvtanulás Rendszerterv
+﻿Játékos Nyelvtanulás Rendszerterv
 ---------------------------------
 
 Nagyvonalú Rendszerterv kidolgozása a Rendszerjavaslat alapján
@@ -8,6 +8,7 @@ Az iskola által jóváhagyott Rendszerjavaslat alapján készült el az alábbi
 
 A rendszer céljai és nem céljai:
 -------------------------------
+
 
 A rendszer célja:
 	1. A rendszer célja, hogy általános iskola alsó tagozatos diákok számára megkönnyítse az angol nyelv tanulását.
