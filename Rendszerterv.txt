@@ -1,0 +1,295 @@
+Játékos Nyelvtanulás Rendszerterv
+---------------------------------
+
+Nagyvonalú Rendszerterv kidolgozása a Rendszerjavaslat alapján
+--------------------------------------------------------------
+
+Az iskola által jóváhagyott Rendszerjavaslat alapján készült el az alábbi rendszerterv.
+
+A rendszer céljai és nem céljai:
+-------------------------------
+
+A rendszer célja:
+	1. A rendszer célja, hogy általános iskola alsó tagozatos diákok számára megkönnyítse az angol nyelv tanulását.
+	2. A szoftver a diákok számára szöveges ábrázolás helyett, a vizuális ábrázolásra koncentráljon. Képek és egyéb
+		ábrák segítségével.
+	3. A rendszer a leadott tananyag otthoni gyakorlását, elsajátítását segíti.
+	4. A tanagyag játékos formában való átadása.
+	5. A szoftver egy gyerek számára átláható és egyszerű feladatokat tartalmazzon.
+	6. a szofver egyszerű navigálást tartalmazzon a felületeket tekintve.
+	7. A rendszer törekedjen arra, hogy használata közben a felhasználók jól érezzék magukat.
+	8. A rendszer ne tartalmazzon fölösleges szövegeket és felugró ablakokat.
+	9. A szofver átal tartalmazott játékos feladatokra a diákok kihívásként tekintsenek.
+	10. Kognitív problémamegoldásra törekedjen a rendszer a játékokon keresztül.
+	11. A feladatok ne legyenek túlbonyolítva, összetett játékszabályokat ne tartalmazzon.
+	
+	
+A rendszer nem céljai:
+	1. A tananyagok túlrészletezése. 
+	2. Elvonni a tanuló figyelmét a megoldandó feladatokról.
+	3. Megutáltatni a tantárgyat a felhasználóval.
+	4. Unalmas szofver létrehozása.
+	5. Felesleges ismeretek átadása.
+	6. A felhasználó esetleges felbosszantása.
+	
+Követelmények:
+-------------
+
+A rendszertervben megtalálható követelmények az iskola átal elfogadott Rendszerjavaslat alapján lettek kidolgozva. Ez azt jelenti, hogy a követelmények a Sikeres lefejlesztés követelményei alapján vannak felsorolva
+
+ID			NÉV								KIFEJTÉS			
+Kov_001		Egyszerű, letisztult felület	Olyan felületet szeretnénk, ami könnyen használható az iskolások számára
+Kov_002		Játékos megoldások		        Fontos, hogy az oktatás játékos formában történjen, hogy a 
+											kisiskolások számára minél élvezhetőbb legyen a tanulás folyamata.
+Kov_003		Felület							Legyen online felülete és önálló asztali felülete.
+Kov_004		Egyéni játék					Olyan programot kell létrehozni, amit egy iskolás kezel.
+Kov_005		Adatvédelem						Az adatokat a GDPR-nak megfelelően kell kezeljék.
+Kov_006		Jogosultság						Minden felhasználó számára szabad elérés biztosítása a szoftverhez.
+Kov_007		Könnyű megfogalmazás			Lehetőleg kerüljék a szakmai kifejezéseket, egyszerű mindenki 
+											számára érthetően fogalmazzanak.
+Kov_008		Vizualitás						Képek könnyítsék meg a megértést.
+Kov_009		Web								A szoftver felülete otthonról is legyen elérhető.
+
+
+Törvényi előírások, szabványok:
+	Az adattárolást illetően a következőknek kell megfeleljen a rendszer:
+	
+	GDPR: https://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=HU
+
+	Szellemi tulajdon:
+		A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona.
+		A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet.
+		(Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
+
+Funkcionális terv
+----------------
+Rendszer szereplők: diákok
+
+Rendszer használati esetek és lefutásaik
+	
+	Az asztali alkalmazásnál használati eset szempontjából nem teszünk különbséget, mivel nincsennek megkülönböztetett jogosultságok. A letölthető szofvert regisztráció ellenében bárki felhasználhatja.
+	Asztali alkalmazás felhasználása otthoni és iskolai környezetben is elérhető kell legyen. Kizárólagosan gyakorlati feladatokat megvalósító szoftver melyet a diákok szabadon letölthetnek és használhatnak.
+	
+	Webes alkalmazásnál bárki szabadon beregisztrálhat. Az online felületen ingyenesen kipróbálhatja a játékokat.
+	
+Menü-hierarchiák:
+
+	Webes Alkalmazás hierarchiája:
+		
+		Kezdőlap:
+			Az oldal webes címe: Játékos nyelvtanulás
+			A cím alatt meg megtalálható lesz egy navigátor sáv, ahol a Letöltés, Bejelentkezés, Regisztráció és a Galéria lesz elérhető.
+			A nivigációs sáv alatt egy grafikus elemen marketing szöveg lesz elhelyezve.
+			A marketing rész alatt következnek a játékok. Mindegyik játékhoz rövid leírás, kép és egy "Játék" gomb 
+			fog tartozni. A "Játék" gombra kattintva a gomb felett fémjelzett játék azonnal elindul, egy másik oldalon.
+			A kezdőlapon feltüntetett játékok alatt pedig a webal érvényessége, hitelesítése lesz feltüntetve.
+
+		Letöltési oldal:
+			Navigációs rész: 
+			Ügyanazok a funkciók elérhetők mint a kezdőlapon. Ugyanúgy van Regisztáció, Bejelentkezés, Galéria funkció. 
+			Plusz van egy link ami visszavisz a kezdőlapra.
+			Törzs:
+			Itt csak egy windows logó kap helyet meg egy gomb amivel a letöltést meg lehet kezdeni. Az elkészült  asztali
+			alkalmazást lehet majd letölteni ennek a linknek a segítésgével.
+
+		Regisztráció:
+			Regisztráció során egy űrlap kitöltését kérjük a leendő felhasználótól
+			Bekérendő adatok:
+				-Felhasználónév
+					Vizsgáljuk a felhasználónév helyességét, nem lehet csak az angol abc betűit használni és legalább 5 karakterből áll
+				-Jelszó
+				-Jelszó újra
+					Amennyiben nem egyezett meg a két jelszó az oldal hibát dob, amennyiben megegyezik md5 titkosítással látja el.
+				-Email cím 
+					Vizsgáljuk, hogy megfelelő formátumban adta meg az email címet amennyiben nem az oldal hibát dob.
+			A "Felhasználó létrehozása" gombra kattintást követően Aktiváló email-t küldünk melyben leírjuk a felhasználó belépéshez szükséges adatait és egy aktiváló linket is
+			közlünk.
+
+		Belépés:
+			Belépés során egy űrlap jelenik meg, mely segítségével a felhasználó beléphet, amennyiben nem aktiválta még a fiókját, vagy hibás adatokat ad meg
+			a bejelentkezés során hibát dob az oldal.
+	
+		Galéria:
+			A keződlapról nyíló weboldal, ami az asztali alkalmazásról tartalmaz képeket.
+
+Asztali alkalmazás:
+	
+		Kezdőlap:
+			A kezdőlapon rögtön lehet választani a könnyű és a nehezebb játékok menüi között. Lehetőség van rá, hogy egy szintfelmérő tesztet töltsünk ki, ami egy harmadik gombbal lehet elérni. A főoldalon két kép illusztrálja a könnyű és a nehéz feladatok szintjeit. Bármelyik gombra rákattintva új ablakba ugrik fel az új menü. Vissza gombokra kattintva az előző ablakot hozhatjuk vissza.
+			
+		Könnyű játékok:
+			Erről az oldalról a következő játékok nyílnak:
+				- Akasztófa
+				- Quiz
+				- Mi van a képen?
+		
+		Nehéz játékok:
+			Erről az oldalról a következő játékok nyílnak:
+				- Egészítsd ki
+				- Rakd ki
+				- Mondd meg
+		
+Projekt terv:
+------------
+Projekt: Online nyelvtanulás
+
+Erőforrások felsorolása:
+	Idő:
+		A projekt kezdete: 2018.11.15.
+		A szofver átadása: 2018.12.13.
+		A rendelkezésre álló munkanapok száma: 20
+		A rendelkezésre álló fejlesztési órák száma (napi 8 órával számolva): 160 óra
+	
+	Munkaerő:
+		17 fő
+		ebből négy fő junior webfejlesztő, ~2 év projekt tapasztalat
+			-2 fő Front End webfejlesztő
+			-1 fő Back End webfejlesztő
+			-1 fő FullStack webfejlesztő
+		ebből tizenhárom fő junior FullStack java fejlesztő, ~2 év projekt tapasztalat
+
+Az óradíjak kiszámolását a projekt mérete alapján végeztük, és ezt az árajánlat tartalmazza. 
+
+
+Mérföldkövek 
+------------
+
+Eger	
+EKE C 108 terem.
+2018.11.22.
+Projekt: Online nyelvtanulás
+
+	Szerepkörök és felelősségek kialakítása:
+	---------------------------------------
+	
+		A közös scram meeting után megalakulnak a csapatok 08:30-kor. Négy csapat alakul meg, melyeknek tagjai 17
+		fő összesen. Minden csapat színekkel van ellátva.
+		
+				Csapatok:
+			- Rózsaszín csapat: Mátyássi Fanni, Rusai Dóra, Molnár Dóra, Jónás Réka, Gonda Alexandra, Dobos Evelin
+			- Zöld csapat: Hódosi Tamás, Nagy Tamás, Baráth Levente, Pintér Balázs
+			- Lila csapat: Hevesi Dániel, Fehér István, Mészáros Marcell, Mezei Attila
+			- Kék csapat: Bornemissza Gergely, Bata Balázs, Angyal Dominik, Bory Márton
+		
+		
+		Rózsaszín csapat:
+		
+		Feladata az asztali alkalmazás egyharmadának lefejlesztése. Kettő darab játék és a kezdőlap
+		lefejlesztése.
+			- Projekt felelős: Gonda Alexandra
+			- Design felelős: Gonda Alexandra
+			- Képernyőterv felelős: Gonda Alexandra
+			- BackEnd felelős: Dobos Evelin, Molnár Dóra, Mátyássi Fanni, Rusai Dóra
+			- Integrációs teszt felelős: Jónás Réka
+			- FunkSpec - Forgatókönyvek, Ütemterv, FunkSpec - Követelmény megfeleltetés, FunkSpec - Képernyőtervek,
+				FunkSpec - jelenlegi üzleti folyamatok modellje, Igényelt üzleti folyamatok modellje, FunkSpec - 
+				Fogalom szótár, KövSpec - Vágyálom rendszer leírása, FunkSpec - Vágyálom rendszer leírása, Árajánlat,
+				KövSpec - Igényelt és jelenlegi üzleti folyamatok.
+			
+		Zöld csapat: 
+		Feladata asztali alkalmazás egymarmadának a lefejlesztése. Három darab játék lefejlesztése 
+		java-ban (BeClever, MiVanAKépen, LexicalTest).
+			- Design felelős: Baráth Levente
+			- BackEnd felelősök: Hódosi Tamás, Nagy Tamás
+			- Képernyőterv felelős: Pintér Balázs, Baráth Levente
+			- FunkSpec- Rendszerfejlesztés célja és nem célja, FunkSpec képernyőtervek, KövSpec - Követelmény lista,
+				KövSpec - Fogalom szótár, KövSpec - Jelenlegi helyzet leírása, Asztali alkalmazások fejlesztése, 
+				Jegyzőkönyv megírása.
+			
+		Kék csapat feladata a komplett webfejlesztés lebonyolítása.
+			- Projekt felelős: Angyal Dominik
+			- Design felelős: Angyal Dominik
+			- BackEnd felelős: Bata Balázs
+			- Képernyőterv felelős: Bata Balázs
+			- FunkSpec - Forgatókönyvek, FunkSpec - Követelmény megfeleltetés, FunkSpec - Képernyőtervek, 
+				FunkSpec - rendszer céljai és nem céljai, FunkSpec - Fogalom szótár, FunkSpec - A rendszerre vonatkozó 		külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása, FunkSpec - Használati esetek.
+			
+		
+		Lila csapat:
+		Feladata az asztali alkalmazás egyharmadának lefejlesztése. Három darab játék készítése java-ban (Mondat 
+		kitalálós, Nyelvtani quiz, Mond meg a helyes Választ)
+			- Projekt felelős: Mezei Attila
+			- Design felelős: Hevesi Dániel, Fehér István
+			- BackEnd felelős: Hevesi Dániel, Mészáros Marcell
+			- Képernyőterv felelős: Hevesi Dániel
+			- FunkSpec - Igényelt üzleti folyamatok modellje, FunkSpec - Jelenlegi üzleti folyamatok modellje,
+				KövSpec - Igényelt üzleti folyamatok modellje, KövSpec - Jelenlegi üzleti folyamatok modellje,
+				KövSpec - Jelenlegi helyzet leírása, FunkSpec - Jelenlegi helyzet leírása
+	
+	Keretrendszer meghatározása, fejlesztői eszközök meghatározása.
+			
+Eger,	
+2018.11.26
+Skype Meeting
+Projekt: Online nyelvtanulás
+
+	A csapatok megbeszélik az Implementáció megkezdését. Az implementáció kezdete 2018.11.28.
+	
+Eger,	
+2018.11.11 - 2018.11.12.
+
+	Projekt: Online nyelvtanulás
+		Az elkészült játékok integrálása.
+		Felelős: Jónás Réka
+	
+Eger,
+EKE C 108, 	
+2018.12.13 Szoftver átadása a megrendelőnek.
+		
+		
+Fizikai környezet:
+-----------------
+Környezetek leírása:
+
+	Futtató környezet szoftveres leírása:
+		Operációs rendszer: Microsoft Windows 7, 10 64 bit
+
+	Futtató környezet hardveres leírása:
+		- processzor: 5. generációs i5
+		- memória: 4-8GB DDR3-as memória
+		- integrált videókártya
+		- merevlemez: 320 GB 5400 rpm
+	
+	Hálózati topológia:
+		Csillag topológia
+		
+		
+Platform választása:
+	A csapat a környezet hardveres és szoftveres leírása alapján a platformot java-nak választotta meg.
+	Manapság ez az egyik legnépszerűbb nyelv a világon.
+			
+Keretrendszer meghatározása:
+	 A futtatható környezet hardveres és szofveres leírása alapján a  csapat az asztali alkalmazás fejlesztését illetően JavaFX FXML Application keretrendszer mellett döntött. Ez a keretrendszer egyszerű, mégis design-os GUI fejleszthető benne.
+	A futtató környezet hardveres és szoftveres  leírása alapján, a fejlesztés platformját az asztali alkalmazás részéről Java-nak választották meg. 
+	A webes alkalmazást illetően HTML5 CSS és JavaScript PHP és MySQL mellett döntöttek.
+	
+Fejlesztői eszközök
+	Az asztali alkalmazáshoz NetBeans keretrendszert használata mellett döntöttek.
+	Webes alkalmazás szempontjából a fejlesztői eszköz szabadon választható. Ilyenek például Visual Studio Code, WebStrom, Wix.
+	
+Vásárolt szoftver komponensek
+	 A lefejlesztendő szoftver, mint termék nem tartalmaz külső fizetett szoftver komponenseket. A létrejött szofver 100%-ban a munkavállaló terméke.
+
+Fizikai alrendszerek:
+		A szofver nem kapcsolódik az említetteken kívül más fizikai alrendszerekhez.
+
+	
+Adatbázis terv:
+---------------
+Az adatbáis típusa: MySQL.
+
+	Logikai adatmodell
+	
+	Az adatbázis csak egy táblából fog állni, melynek oszlopai e-mail cím, jelszó. A tábla 2. NF-ban van.
+	Minden sort egyértelműen azonosít a tblához tartozó kulcs, amely nem összetett kulcs.
+	
+	Tárolt eljárások kezelése PHP-s megoldásokat használ szerver oldalon.
+	
+	Fizikai adatmodellt legeneráló SQL script-et nem tartalmaz a szoftver.
+
+Implementációs terv
+-------------------
+
+	Minden csakapt önállóan lefejleszti a rá kiszabott feladatokat. Ha ezekkel készen vannak, a build-elés következik, melyet Jónás Réka vezetésével volósítanak meg az asztali alkalmazást illetően.
+	Webes felület implementálását a négy webfejlesztő önállóan kezdik el a rájuk kiosztott feladatok alapján.
+	Az egyesítés Bata Balázs vezetésével történik.
