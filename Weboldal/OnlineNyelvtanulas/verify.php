@@ -39,7 +39,7 @@ if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !
     <meta name="keywords" content="web design, affordable web design, professional web design">
     <meta name="Affordable and professional web design">
     <meta name="author" content="malac">
-    <title>Játékos nyelvtanulás | Regisztráció</title>
+    <title>Játékos nyelvtanulás | Aktiválás</title>
     <link rel="stylesheet" href="css/indexStyle.css">
     <link rel="stylesheet" href="css/loginstyle.css">
 </head>
