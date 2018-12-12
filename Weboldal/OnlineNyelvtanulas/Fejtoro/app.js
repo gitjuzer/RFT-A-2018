@@ -343,4 +343,22 @@ class App extends Component {
             isHidden: false
         });
     }
+
+    nextQuestion() {
+        const counter = this.state.counter;
+        const length = this.props.data.length;
+
+        if (counter === length - 1) {
+            this.setState({
+                isFinished: true
+            })
+        }
+
+        else {
+            this.setState({
+                counter: this.state.counter + 1,
+                isHidden: true
+            })
+        }
+    }
 }
