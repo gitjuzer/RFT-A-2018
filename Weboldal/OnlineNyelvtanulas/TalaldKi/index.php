@@ -50,7 +50,7 @@ session_start();
         <nav>
             <ul>
                 <li class="current"><a href="../kezdolap.php">Kezdőlap</a></li>
-                <li><a href="../html/gallery.html">Galéria</a></li>
+                <li><a href="../gallery.php">Galéria</a></li>
                 <li><a href="../DowloadPage/index.php">Letöltés</a></li>
                 <li><a href="../reg.php">Regisztráció</a></li>
                 <li>
