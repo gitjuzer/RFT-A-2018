@@ -105,7 +105,7 @@ session_start();
     </section>
     <footer>
         <div>   
-            <a href="">Új játék</a>
+            <a href="hangmann.php">Új játék</a>
         </div>
     </footer>
 
