@@ -35,7 +35,7 @@ session_start();
             <nav>
                 <ul>
                     <li class="current"><a href="../index.php">Kezdőlap</a></li>
-                    <li><a href="../gallery.html">Galéria</a></li>
+                    <li><a href="../gallery.php">Galéria</a></li>
                     <li><a href="index.php">Letöltés</a></li>
                     <li><a href="../reg.php">Regisztráció</a></li>
                     <li class="legyfeher">
@@ -65,7 +65,7 @@ session_start();
                 <div class="col-md-6"><img src="assets/img/iconfinder_microsoft_246000.png" style="/*margin: 0 atuo;*/display: block;margin-left: auto;margin-right: auto;width: 50%;"></div>
                 <div class="col-md-6">
                     <h1 class="text-center" style="margin-top: 15%;font-size: 95px;">Windows</h1>
-                    <div class="container kozepre"><a href="reg.php" class="btn btn-success">Letöltés</a>
+                    <div class="container kozepre"><a href="https://github.com/gitjuzer/RFT-A-2018/raw/master/rftbeadando.exe" class="btn btn-success">Letöltés</a>
                     </div>
                 </div>
             </div>
